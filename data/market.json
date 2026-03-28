@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-03-27T18:00:00+03:00",
-  "bist100": { "value": 12698.19, "change": -104.79, "changePercent": -0.82 },
-  "usdTry": { "value": 44.43, "change": 0.08, "changePercent": 0.18 },
-  "eurTry": { "value": 51.26, "change": -0.14, "changePercent": -0.27 }
+  "updatedAt": "2026-03-28T14:36:03.199318",
+  "bist100": {
+    "value": 12698.19,
+    "change": -28.87,
+    "changePercent": -0.23
+  },
+  "usdTry": {
+    "value": 0,
+    "change": 0,
+    "changePercent": 0
+  },
+  "eurTry": {
+    "value": 0,
+    "change": 0,
+    "changePercent": 0
+  }
 }

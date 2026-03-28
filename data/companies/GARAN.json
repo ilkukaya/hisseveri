@@ -3,21 +3,24 @@
   "name": "Türkiye Garanti Bankası A.Ş.",
   "sector": "Bankacılık",
   "subsector": "Mevduat Bankacılığı",
-  "indexes": ["BIST30", "BIST100"],
+  "indexes": [
+    "BIST30",
+    "BIST100"
+  ],
   "website": "https://www.garantibbva.com.tr",
   "capital": 4200000000,
   "freeFloat": 50.1,
   "ipoDate": "1990-06-01",
   "price": {
-    "last": 126.70,
-    "change": -3.70,
-    "changePercent": -2.84,
-    "open": 130.00,
-    "high": 130.80,
-    "low": 126.20,
-    "volume": 4850000000,
+    "last": 126.5,
+    "change": -0.2,
+    "changePercent": -0.16,
+    "open": 130.0,
+    "high": 130.8,
+    "low": 126.2,
+    "volume": 2647668956,
     "marketCap": 629160000000,
-    "updatedAt": "2026-03-27"
+    "updatedAt": "2026-03-28"
   },
   "ratios": {
     "pe": 5.04,

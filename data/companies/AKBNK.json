@@ -3,21 +3,24 @@
   "name": "Akbank T.A.Ş.",
   "sector": "Bankacılık",
   "subsector": "Mevduat Bankacılığı",
-  "indexes": ["BIST30", "BIST100"],
+  "indexes": [
+    "BIST30",
+    "BIST100"
+  ],
   "website": "https://www.akbank.com",
   "capital": 5200000000,
   "freeFloat": 51.2,
   "ipoDate": "1990-07-18",
   "price": {
-    "last": 67.25,
-    "change": -1.45,
-    "changePercent": -2.11,
-    "open": 68.50,
-    "high": 68.90,
-    "low": 66.80,
-    "volume": 3200000000,
+    "last": 66.9,
+    "change": -0.35,
+    "changePercent": -0.52,
+    "open": 68.5,
+    "high": 68.9,
+    "low": 66.8,
+    "volume": 5265930312,
     "marketCap": 368680000000,
-    "updatedAt": "2026-03-27"
+    "updatedAt": "2026-03-28"
   },
   "ratios": {
     "pe": 6.08,
