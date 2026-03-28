@@ -1,147 +1,118 @@
 """
-10 farklı hisse için UFRS mali tablo çekme testi.
-GitHub Actions'da çalıştırılmak üzere tasarlanmıştır.
+Mali tablo API debug testi.
+Her hisse için tüm financialGroup değerlerini dener ve ham API yanıtını gösterir.
 """
 
 import json
-import os
 import sys
+import requests
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+API_URL = "https://www.isyatirim.com.tr/_layouts/15/IsYatirim.Website/Common/Data.aspx/MaliTablo"
 
-from fetch_financials import fetch_financial_data
+TEST_TICKERS = ["FROTO", "THYAO", "AKBNK", "TUPRS", "BIMAS"]
 
-# Farklı sektörlerden 10 hisse
-TEST_TICKERS = [
-    "FROTO",   # Otomotiv
-    "THYAO",   # Havacılık
-    "AKBNK",   # Bankacılık
-    "TUPRS",   # Enerji / Petrol
-    "BIMAS",   # Perakende
-    "ASELS",   # Savunma / Teknoloji
-    "EREGL",   # Demir Çelik
-    "TCELL",   # Telekomünikasyon
-    "SISE",    # Cam / Holding
-    "KCHOL",   # Holding
-]
+FINANCIAL_GROUPS = ["XI_29", "UFRS", "UFRS_K"]
 
 
-def test_ticker(ticker):
-    """Tek hisse için mali tablo testini çalıştır."""
-    print(f"\n{'='*60}")
-    print(f"  {ticker}")
-    print(f"{'='*60}")
+def test_api_call(ticker, group, year):
+    """Tek bir API çağrısı yap ve sonucu göster."""
+    params = {
+        "companyCode": ticker,
+        "exchange": "TRY",
+        "financialGroup": group,
+        "year1": year, "period1": 3,
+        "year2": year, "period2": 6,
+        "year3": year, "period3": 9,
+        "year4": year, "period4": 12,
+    }
+    try:
+        resp = requests.get(API_URL, params=params, timeout=15)
+        print(f"    HTTP {resp.status_code}", end="")
 
-    # DEBUG modunu aç - ilk hisse için tüm item kodlarını göster
-    if ticker == TEST_TICKERS[0]:
-        os.environ["DEBUG_FINANCIALS"] = ticker
+        if resp.status_code != 200:
+            print(f" - {resp.text[:200]}")
+            return None
 
-    data = fetch_financial_data(ticker)
+        data = resp.json()
+        rows = data.get("value", [])
+        print(f" - {len(rows)} satır", end="")
 
-    if not data:
-        print(f"  HATA: Veri çekilemedi!")
-        return False
+        if not rows:
+            print()
+            return None
 
-    print(f"  Dönemler: {data['periods']}")
-    print(f"  Dönem sayısı: {len(data['periods'])}")
+        # İlk satırın yapısını göster
+        first = rows[0]
+        keys = list(first.keys())
+        print(f" - Sütunlar: {keys}")
 
-    all_ok = True
+        return rows
 
-    # Bilanço kontrolü
-    print(f"\n  BILANÇO:")
-    for key, label in [
-        ("currentAssets", "Dönen Varlıklar"),
-        ("nonCurrentAssets", "Duran Varlıklar"),
-        ("totalAssets", "Toplam Varlıklar"),
-        ("currentLiabilities", "Kısa Vadeli Yük."),
-        ("nonCurrentLiabilities", "Uzun Vadeli Yük."),
-        ("totalLiabilities", "Toplam Yükümlülükler"),
-        ("equity", "Özkaynaklar"),
-    ]:
-        vals = data["balanceSheet"][key]
-        non_zero = sum(1 for v in vals if v != 0)
-        last_val = vals[-1] if vals else 0
-        status = "✓" if non_zero > 0 else "✗"
-        if non_zero == 0:
-            all_ok = False
-        # Milyon TL formatında göster
-        last_m = f"{last_val/1_000_000:,.0f}M" if last_val != 0 else "0"
-        print(f"    {status} {label:25s} {non_zero}/{len(vals)} dönem  Son: {last_m}")
+    except Exception as e:
+        print(f" - HATA: {e}")
+        return None
 
-    # Gelir Tablosu kontrolü
-    print(f"\n  GELİR TABLOSU:")
-    for key, label in [
-        ("revenue", "Hasılat"),
-        ("costOfRevenue", "Satışların Maliyeti"),
-        ("grossProfit", "Brüt Kar"),
-        ("operatingIncome", "Faaliyet Karı"),
-        ("netIncome", "Net Kar"),
-        ("ebitda", "FAVÖK"),
-    ]:
-        vals = data["incomeStatement"][key]
-        non_zero = sum(1 for v in vals if v != 0)
-        last_val = vals[-1] if vals else 0
-        status = "✓" if non_zero > 0 else "✗"
-        if key in ("revenue", "netIncome") and non_zero == 0:
-            all_ok = False
-        last_m = f"{last_val/1_000_000:,.0f}M" if last_val != 0 else "0"
-        print(f"    {status} {label:25s} {non_zero}/{len(vals)} dönem  Son: {last_m}")
 
-    # Nakit Akış kontrolü
-    print(f"\n  NAKİT AKIŞ:")
-    for key, label in [
-        ("operating", "İşletme Faaliyetleri"),
-        ("investing", "Yatırım Faaliyetleri"),
-        ("financing", "Finansman Faaliyetleri"),
-    ]:
-        vals = data["cashFlow"][key]
-        non_zero = sum(1 for v in vals if v != 0)
-        last_val = vals[-1] if vals else 0
-        status = "✓" if non_zero > 0 else "✗"
-        last_m = f"{last_val/1_000_000:,.0f}M" if last_val != 0 else "0"
-        print(f"    {status} {label:25s} {non_zero}/{len(vals)} dönem  Son: {last_m}")
+def show_items(rows):
+    """API'den gelen kalemleri listele."""
+    if not rows:
+        return
 
-    # Genel sonuç
-    print(f"\n  Sonuç: {'BAŞARILI ✓' if all_ok else 'EKSİK VERİ ✗'}")
+    keys = list(rows[0].keys())
+    # İlk 3 sütun meta, sonraki 4 sütun değerler
+    meta_keys = keys[:3]
+    val_keys = keys[3:7]
 
-    # JSON dosyasına kaydet (test çıktısı olarak)
-    out_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "financials")
-    os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, f"{ticker}.json")
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"  Kaydedildi: data/financials/{ticker}.json")
+    for row in rows:
+        code = str(row.get(meta_keys[0], "")).strip()
+        desc_tr = str(row.get(meta_keys[1], "")).strip()
+        # Son dönem değeri
+        last_val = row.get(val_keys[-1], 0) if val_keys else 0
+        try:
+            last_val = float(last_val) if last_val else 0
+        except (ValueError, TypeError):
+            last_val = 0
 
-    return all_ok
+        val_str = f"{last_val/1_000_000:>12,.0f}M" if last_val != 0 else f"{'0':>13s}"
+        print(f"      {code:20s} {desc_tr:45s} {val_str}")
 
 
 def main():
-    print("=" * 60)
-    print("  UFRS MALİ TABLO ÇEKME TESTİ")
-    print(f"  10 farklı sektörden hisse test ediliyor")
-    print("=" * 60)
+    print("=" * 100)
+    print("  İŞ YATIRIM API - MALİ TABLO DEBUG TESTİ")
+    print("=" * 100)
 
-    results = {}
     for ticker in TEST_TICKERS:
-        try:
-            results[ticker] = test_ticker(ticker)
-        except Exception as e:
-            print(f"\n  {ticker}: EXCEPTION - {e}")
-            results[ticker] = False
+        print(f"\n{'='*100}")
+        print(f"  {ticker}")
+        print(f"{'='*100}")
 
-    # Özet
-    print(f"\n\n{'='*60}")
-    print(f"  ÖZET")
-    print(f"{'='*60}")
-    success = sum(1 for v in results.values() if v)
-    fail = sum(1 for v in results.values() if not v)
-    for ticker, ok in results.items():
-        print(f"  {'✓' if ok else '✗'} {ticker}")
-    print(f"\n  Başarılı: {success}/{len(results)}")
-    print(f"  Başarısız: {fail}/{len(results)}")
+        for group in FINANCIAL_GROUPS:
+            print(f"\n  >> financialGroup = {group}")
 
-    if fail > 0:
-        sys.exit(1)
+            # 2024 ve 2025 dene
+            for year in [2024, 2025]:
+                print(f"    {year}: ", end="")
+                rows = test_api_call(ticker, group, year)
+
+            # İlk veri bulunan grup için kalemleri göster
+            rows = test_api_call(ticker, group, 2024)
+            if rows:
+                print(f"\n    Kalemler ({group}, 2024):")
+                show_items(rows)
+                break  # İlk çalışan grubu bulduk
+        else:
+            print(f"\n  UYARI: Hiçbir financialGroup {ticker} için veri döndürmedi!")
+
+    # Özel test: FROTO için tüm olası grup değerlerini dene
+    print(f"\n\n{'='*100}")
+    print(f"  FROTO - TÜM GRUP DEĞERLERİ TESTİ")
+    print(f"{'='*100}")
+    extra_groups = ["XI_29", "XI_30", "UFRS", "UFRS_K",
+                    "SOLO", "KONSOL", "1", "2", "3"]
+    for group in extra_groups:
+        print(f"\n  financialGroup={group}: ", end="")
+        test_api_call("FROTO", group, 2024)
 
 
 if __name__ == "__main__":
