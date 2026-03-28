@@ -1,118 +1,108 @@
 """
-Mali tablo API debug testi.
-Her hisse için tüm financialGroup değerlerini dener ve ham API yanıtını gösterir.
+Mali tablo çekme testi - 10 hisse (bankalar dahil).
 """
 
 import json
+import os
 import sys
-import requests
 
-API_URL = "https://www.isyatirim.com.tr/_layouts/15/IsYatirim.Website/Common/Data.aspx/MaliTablo"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-TEST_TICKERS = ["FROTO", "THYAO", "AKBNK", "TUPRS", "BIMAS"]
+from fetch_financials import fetch_financial_data
 
-FINANCIAL_GROUPS = ["XI_29", "UFRS", "UFRS_K"]
-
-
-def test_api_call(ticker, group, year):
-    """Tek bir API çağrısı yap ve sonucu göster."""
-    params = {
-        "companyCode": ticker,
-        "exchange": "TRY",
-        "financialGroup": group,
-        "year1": year, "period1": 3,
-        "year2": year, "period2": 6,
-        "year3": year, "period3": 9,
-        "year4": year, "period4": 12,
-    }
-    try:
-        resp = requests.get(API_URL, params=params, timeout=15)
-        print(f"    HTTP {resp.status_code}", end="")
-
-        if resp.status_code != 200:
-            print(f" - {resp.text[:200]}")
-            return None
-
-        data = resp.json()
-        rows = data.get("value", [])
-        print(f" - {len(rows)} satır", end="")
-
-        if not rows:
-            print()
-            return None
-
-        # İlk satırın yapısını göster
-        first = rows[0]
-        keys = list(first.keys())
-        print(f" - Sütunlar: {keys}")
-
-        return rows
-
-    except Exception as e:
-        print(f" - HATA: {e}")
-        return None
+TEST_TICKERS = [
+    "FROTO",   # Otomotiv (XI_29)
+    "THYAO",   # Havacılık (XI_29)
+    "AKBNK",   # Banka (UFRS)
+    "TUPRS",   # Enerji (XI_29)
+    "BIMAS",   # Perakende (XI_29)
+    "ASELS",   # Savunma (XI_29)
+    "EREGL",   # Demir Çelik (XI_29)
+    "TCELL",   # Telekom (XI_29)
+    "SISE",    # Holding (XI_29)
+    "KCHOL",   # Holding (XI_29)
+]
 
 
-def show_items(rows):
-    """API'den gelen kalemleri listele."""
-    if not rows:
-        return
+def test_ticker(ticker):
+    """Tek hisse için test."""
+    print(f"\n{'='*70}")
+    print(f"  {ticker}")
+    print(f"{'='*70}")
 
-    keys = list(rows[0].keys())
-    # İlk 3 sütun meta, sonraki 4 sütun değerler
-    meta_keys = keys[:3]
-    val_keys = keys[3:7]
+    data = fetch_financial_data(ticker)
 
-    for row in rows:
-        code = str(row.get(meta_keys[0], "")).strip()
-        desc_tr = str(row.get(meta_keys[1], "")).strip()
-        # Son dönem değeri
-        last_val = row.get(val_keys[-1], 0) if val_keys else 0
-        try:
-            last_val = float(last_val) if last_val else 0
-        except (ValueError, TypeError):
-            last_val = 0
+    if not data:
+        print(f"  HATA: Veri çekilemedi!")
+        return False
 
-        val_str = f"{last_val/1_000_000:>12,.0f}M" if last_val != 0 else f"{'0':>13s}"
-        print(f"      {code:20s} {desc_tr:45s} {val_str}")
+    print(f"  Dönemler: {data['periods']}")
+    all_ok = True
+
+    for section_name, section_label, fields in [
+        ("balanceSheet", "BİLANÇO", [
+            ("currentAssets", "Dönen Varlıklar"),
+            ("nonCurrentAssets", "Duran Varlıklar"),
+            ("totalAssets", "Toplam Varlıklar"),
+            ("currentLiabilities", "Kısa Vadeli Yük."),
+            ("nonCurrentLiabilities", "Uzun Vadeli Yük."),
+            ("totalLiabilities", "Toplam Yükümlülükler"),
+            ("equity", "Özkaynaklar"),
+        ]),
+        ("incomeStatement", "GELİR TABLOSU", [
+            ("revenue", "Hasılat/Satış Gelirleri"),
+            ("costOfRevenue", "Satışların Maliyeti"),
+            ("grossProfit", "Brüt Kar"),
+            ("operatingIncome", "Faaliyet Karı"),
+            ("netIncome", "Net Kar"),
+            ("ebitda", "FAVÖK"),
+        ]),
+        ("cashFlow", "NAKİT AKIŞ", [
+            ("operating", "İşletme Faaliyetleri"),
+            ("investing", "Yatırım Faaliyetleri"),
+            ("financing", "Finansman Faaliyetleri"),
+        ]),
+    ]:
+        print(f"\n  {section_label}:")
+        for key, label in fields:
+            vals = data[section_name][key]
+            non_zero = sum(1 for v in vals if v != 0)
+            last_val = vals[-1] if vals else 0
+            status = "✓" if non_zero > 0 else "✗"
+            if key in ("totalAssets", "equity", "revenue", "netIncome") and non_zero == 0:
+                all_ok = False
+            val_str = f"{last_val/1_000_000:>12,.0f}M" if last_val != 0 else f"{'0':>13s}"
+            print(f"    {status} {label:25s} {non_zero}/{len(vals)} dönem  Son: {val_str}")
+
+    print(f"\n  => {'BAŞARILI ✓' if all_ok else 'EKSİK VERİ ✗'}")
+    return all_ok
 
 
 def main():
-    print("=" * 100)
-    print("  İŞ YATIRIM API - MALİ TABLO DEBUG TESTİ")
-    print("=" * 100)
+    print("=" * 70)
+    print("  MALİ TABLO ÇEKME TESTİ (XI_29 + UFRS)")
+    print("=" * 70)
 
+    results = {}
     for ticker in TEST_TICKERS:
-        print(f"\n{'='*100}")
-        print(f"  {ticker}")
-        print(f"{'='*100}")
+        try:
+            results[ticker] = test_ticker(ticker)
+        except Exception as e:
+            print(f"\n  {ticker}: EXCEPTION - {e}")
+            import traceback
+            traceback.print_exc()
+            results[ticker] = False
 
-        for group in FINANCIAL_GROUPS:
-            print(f"\n  >> financialGroup = {group}")
+    print(f"\n\n{'='*70}")
+    print(f"  ÖZET")
+    print(f"{'='*70}")
+    for ticker, ok in results.items():
+        print(f"  {'✓' if ok else '✗'} {ticker}")
+    success = sum(1 for v in results.values() if v)
+    print(f"\n  Başarılı: {success}/{len(results)}")
 
-            # 2024 ve 2025 dene
-            for year in [2024, 2025]:
-                print(f"    {year}: ", end="")
-                rows = test_api_call(ticker, group, year)
-
-            # İlk veri bulunan grup için kalemleri göster
-            rows = test_api_call(ticker, group, 2024)
-            if rows:
-                print(f"\n    Kalemler ({group}, 2024):")
-                show_items(rows)
-                break  # İlk çalışan grubu bulduk
-        else:
-            print(f"\n  UYARI: Hiçbir financialGroup {ticker} için veri döndürmedi!")
-
-    # Özel test: FROTO için tüm olası grup değerlerini dene
-    print(f"\n\n{'='*100}")
-    print(f"  FROTO - TÜM GRUP DEĞERLERİ TESTİ")
-    print(f"{'='*100}")
-    extra_groups = ["XI_29", "XI_30", "UFRS", "UFRS_K",
-                    "SOLO", "KONSOL", "1", "2", "3"]
-    for group in extra_groups:
-        print(f"\n  financialGroup={group}: ", end="")
-        test_api_call("FROTO", group, 2024)
+    if success < len(results):
+        sys.exit(1)
 
 
 if __name__ == "__main__":
