@@ -1,0 +1,40 @@
+{
+  "ticker": "KRDMD",
+  "name": "Kardemir Karabük Demir Çelik Sanayi ve Ticaret A.Ş.",
+  "sector": "Demir Çelik",
+  "subsector": "Uzun Çelik",
+  "indexes": ["BIST100", "BISTTUM"],
+  "website": "https://www.kardemir.com",
+  "capital": 985000000,
+  "freeFloat": 38.6,
+  "ipoDate": "1996-04-22",
+  "price": {
+    "last": 27.94,
+    "change": -0.56,
+    "changePercent": -1.96,
+    "open": 28.40,
+    "high": 28.65,
+    "low": 27.80,
+    "volume": 28700000,
+    "marketCap": 27500000000,
+    "updatedAt": "2026-03-28"
+  },
+  "ratios": {
+    "pe": 7.8,
+    "pb": 0.9,
+    "ps": 0.6,
+    "evEbitda": 5.2,
+    "roe": 11.2,
+    "roa": 5.8,
+    "netMargin": 6.8,
+    "grossMargin": 18.2,
+    "ebitdaMargin": 14.6,
+    "currentRatio": 1.35,
+    "quickRatio": 0.95,
+    "debtEquity": 0.72,
+    "netDebtEbitda": 1.5,
+    "revenueGrowthYoy": 28.4,
+    "netIncomeGrowthYoy": -15.2,
+    "equityGrowthYoy": 9.8
+  }
+}

@@ -1,0 +1,32 @@
+---
+import { formatNumber, formatPercent } from '../../utils/format';
+import { getChangeColorClasses, getChangeBg, getChangeArrow } from '../../utils/colors';
+
+interface Props {
+  ticker: string;
+  name: string;
+  price: number;
+  changePercent: number;
+}
+
+const { ticker, name, price, changePercent } = Astro.props;
+const colorClass = getChangeColorClasses(changePercent);
+const bgClass = getChangeBg(changePercent);
+const arrow = getChangeArrow(changePercent);
+---
+
+<a
+  href={`/hisse/${ticker}`}
+  class={`flex items-center justify-between rounded-lg border border-gray-200 p-3 transition hover:shadow-md dark:border-gray-800 ${bgClass}`}
+>
+  <div>
+    <span class="font-mono text-sm font-bold text-gray-900 dark:text-white">{ticker}</span>
+    <p class="mt-0.5 text-xs text-gray-500 dark:text-gray-400 truncate max-w-[140px]">{name}</p>
+  </div>
+  <div class="text-right">
+    <p class="font-mono text-sm font-semibold text-gray-900 dark:text-white">₺{formatNumber(price)}</p>
+    <p class={`font-mono text-xs font-medium ${colorClass}`}>
+      {arrow} {formatPercent(changePercent)}
+    </p>
+  </div>
+</a>

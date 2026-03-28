@@ -1,0 +1,19 @@
+---
+interface Props {
+  slot: string;
+  format?: 'leaderboard' | 'rectangle' | 'mobile';
+  class?: string;
+}
+
+const { slot, format = 'leaderboard', class: className = '' } = Astro.props;
+
+const sizeClasses = {
+  leaderboard: 'h-[90px] max-w-[728px]',
+  rectangle: 'h-[250px] max-w-[300px]',
+  mobile: 'h-[50px] max-w-[320px] sm:hidden',
+};
+---
+
+<div class={`mx-auto my-4 flex items-center justify-center rounded border border-dashed border-gray-300 bg-gray-50 dark:border-gray-700 dark:bg-gray-800/50 ${sizeClasses[format]} ${className}`} data-ad-slot={slot}>
+  <span class="text-xs text-gray-400 dark:text-gray-500">Reklam Alanı</span>
+</div>

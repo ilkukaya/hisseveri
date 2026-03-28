@@ -1,0 +1,150 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import RatioCard from '../../components/astro/RatioCard.astro';
+import AdPlaceholder from '../../components/astro/AdPlaceholder.astro';
+import PriceChart from '../../components/react/PriceChart.tsx';
+import StockDetailTabs from '../../components/react/StockDetailTabs.tsx';
+import { formatNumber, formatPercent, formatLargeNumber, formatCurrency } from '../../utils/format';
+import { getChangeColorClasses, getChangeArrow } from '../../utils/colors';
+import fs from 'node:fs';
+import path from 'node:path';
+
+import stocksData from '../../../data/stocks.json';
+
+export function getStaticPaths() {
+  return stocksData.stocks.map((s: any) => ({
+    params: { ticker: s.ticker },
+    props: { stock: s },
+  }));
+}
+
+const { stock } = Astro.props;
+const { ticker } = stock;
+
+// Load company detail
+const companyPath = path.join(process.cwd(), `data/companies/${ticker}.json`);
+const company = JSON.parse(fs.readFileSync(companyPath, 'utf-8'));
+
+// Load financials
+const financialsPath = path.join(process.cwd(), `data/financials/${ticker}.json`);
+const financials = JSON.parse(fs.readFileSync(financialsPath, 'utf-8'));
+
+// Load prices
+const pricesPath = path.join(process.cwd(), `data/prices/${ticker}.json`);
+const prices = JSON.parse(fs.readFileSync(pricesPath, 'utf-8'));
+
+const ratios = company.ratios;
+const changeColor = getChangeColorClasses(company.price.changePercent);
+const arrow = getChangeArrow(company.price.changePercent);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FinancialProduct',
+  name: `${ticker} - ${company.name} Hisse Senedi`,
+  description: `${company.name} hisse senedi analiz sayfası. Bilanço, gelir tablosu, nakit akış tablosu ve finansal rasyolar.`,
+  provider: {
+    '@type': 'Organization',
+    name: 'HisseVeri',
+  },
+};
+---
+
+<BaseLayout
+  title={`${ticker} Hisse Analizi | ${company.name}`}
+  description={`${ticker} (${company.name}) hisse senedi analizi. Bilanço, gelir tablosu, nakit akım tablosu, F/K, PD/DD, ROE rasyoları ve fiyat grafikleri. Ücretsiz temel analiz.`}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-7xl px-4 py-6">
+    <!-- Breadcrumb -->
+    <nav class="mb-4 text-sm text-gray-500 dark:text-gray-400">
+      <a href="/" class="hover:text-accent">Ana Sayfa</a>
+      <span class="mx-1">/</span>
+      <a href="/hisseler" class="hover:text-accent">Hisseler</a>
+      <span class="mx-1">/</span>
+      <span class="text-gray-700 dark:text-gray-200">{ticker}</span>
+    </nav>
+
+    <!-- Stock Header -->
+    <div class="mb-8 rounded-xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+      <div class="flex flex-wrap items-start justify-between gap-4">
+        <div>
+          <div class="flex items-center gap-3">
+            <h1 class="text-2xl font-bold text-gray-900 dark:text-white">{company.name}</h1>
+            <span class="rounded-md bg-navy-900 px-2.5 py-1 font-mono text-sm font-bold text-white dark:bg-navy-700">
+              {ticker}
+            </span>
+          </div>
+          <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+            {company.sector} · {company.indexes.join(', ')}
+          </p>
+        </div>
+        <div class="text-right">
+          <p class="font-mono text-3xl font-bold text-gray-900 dark:text-white">
+            {formatCurrency(company.price.last)}
+          </p>
+          <p class={`font-mono text-lg font-semibold ${changeColor}`}>
+            {arrow} {formatPercent(company.price.changePercent)} ({formatNumber(company.price.change)})
+          </p>
+          <p class="mt-1 text-xs text-gray-400 dark:text-gray-500">
+            Hacim: {formatLargeNumber(company.price.volume)} · Piy.Değ: {formatLargeNumber(company.price.marketCap)}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Price Chart -->
+    <div class="mb-8 rounded-xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+      <h2 class="mb-4 text-lg font-bold text-gray-900 dark:text-white">Fiyat Grafiği</h2>
+      <PriceChart client:visible prices={prices} ticker={ticker} />
+    </div>
+
+    <AdPlaceholder slot={`${ticker}-mid`} format="leaderboard" />
+
+    <!-- Ratio Cards -->
+    <div class="mb-8">
+      <h2 class="mb-4 text-lg font-bold text-gray-900 dark:text-white">Temel Rasyolar</h2>
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">
+        <RatioCard label="F/K" value={ratios.pe} />
+        <RatioCard label="PD/DD" value={ratios.pb} />
+        <RatioCard label="ROE" value={ratios.roe} isPercent />
+        <RatioCard label="ROA" value={ratios.roa} isPercent />
+        <RatioCard label="Cari Oran" value={ratios.currentRatio} />
+        <RatioCard label="Net Marj" value={ratios.netMargin} isPercent />
+        <RatioCard label="Brüt Marj" value={ratios.grossMargin} isPercent />
+        <RatioCard label="Borç/Öz" value={ratios.debtEquity} />
+      </div>
+    </div>
+
+    <!-- Financial Tables + Charts -->
+    <div class="mb-8 rounded-xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+      <StockDetailTabs client:visible financials={financials} />
+    </div>
+
+    <AdPlaceholder slot={`${ticker}-bottom`} format="leaderboard" />
+
+    <!-- Company Info -->
+    <div class="mb-8 rounded-xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+      <h2 class="mb-4 text-lg font-bold text-gray-900 dark:text-white">Şirket Bilgileri</h2>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <p class="text-xs text-gray-500 dark:text-gray-400">Sektör</p>
+          <p class="font-medium text-gray-900 dark:text-white">{company.sector}</p>
+        </div>
+        <div>
+          <p class="text-xs text-gray-500 dark:text-gray-400">Sermaye</p>
+          <p class="font-mono font-medium text-gray-900 dark:text-white">{formatLargeNumber(company.capital)} TL</p>
+        </div>
+        <div>
+          <p class="text-xs text-gray-500 dark:text-gray-400">Halka Açıklık</p>
+          <p class="font-mono font-medium text-gray-900 dark:text-white">%{formatNumber(company.freeFloat)}</p>
+        </div>
+        <div>
+          <p class="text-xs text-gray-500 dark:text-gray-400">Web Sitesi</p>
+          <a href={company.website} target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">
+            {company.website.replace('https://', '').replace('www.', '')}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

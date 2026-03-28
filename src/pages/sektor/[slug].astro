@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StockCard from '../../components/astro/StockCard.astro';
+import { formatNumber } from '../../utils/format';
+import stocksData from '../../../data/stocks.json';
+import sectorsData from '../../../data/sectors.json';
+
+export function getStaticPaths() {
+  return sectorsData.map((s) => ({
+    params: { slug: s.slug },
+    props: { sector: s },
+  }));
+}
+
+const { sector } = Astro.props;
+const sectorStocks = stocksData.stocks.filter((s) => s.sector === sector.name);
+---
+
+<BaseLayout
+  title={`${sector.name} Sektörü Hisseleri`}
+  description={`${sector.name} sektöründeki BIST hisseleri. ${sector.stockCount} hissenin fiyatları ve rasyoları.`}
+>
+  <div class="mx-auto max-w-7xl px-4 py-8">
+    <nav class="mb-4 text-sm text-gray-500 dark:text-gray-400">
+      <a href="/" class="hover:text-accent">Ana Sayfa</a>
+      <span class="mx-1">/</span>
+      <a href="/sektorler" class="hover:text-accent">Sektörler</a>
+      <span class="mx-1">/</span>
+      <span class="text-gray-700 dark:text-gray-200">{sector.name}</span>
+    </nav>
+
+    <h1 class="mb-2 text-2xl font-bold text-gray-900 dark:text-white">{sector.name} Sektörü</h1>
+    <p class="mb-6 text-gray-500 dark:text-gray-400">{sector.stockCount} hisse</p>
+
+    <!-- Sector Averages -->
+    <div class="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <div class="rounded-lg border border-gray-200 bg-white p-3 text-center dark:border-gray-800 dark:bg-gray-900">
+        <p class="text-xs text-gray-500 dark:text-gray-400">Ort. F/K</p>
+        <p class="mt-1 font-mono text-lg font-bold text-gray-900 dark:text-white">{formatNumber(sector.avgPE)}</p>
+      </div>
+      <div class="rounded-lg border border-gray-200 bg-white p-3 text-center dark:border-gray-800 dark:bg-gray-900">
+        <p class="text-xs text-gray-500 dark:text-gray-400">Ort. PD/DD</p>
+        <p class="mt-1 font-mono text-lg font-bold text-gray-900 dark:text-white">{formatNumber(sector.avgPB)}</p>
+      </div>
+      <div class="rounded-lg border border-gray-200 bg-white p-3 text-center dark:border-gray-800 dark:bg-gray-900">
+        <p class="text-xs text-gray-500 dark:text-gray-400">Ort. ROE</p>
+        <p class="mt-1 font-mono text-lg font-bold text-gray-900 dark:text-white">{formatNumber(sector.avgROE)}%</p>
+      </div>
+      <div class="rounded-lg border border-gray-200 bg-white p-3 text-center dark:border-gray-800 dark:bg-gray-900">
+        <p class="text-xs text-gray-500 dark:text-gray-400">Performans</p>
+        <p class="mt-1 font-mono text-lg font-bold text-gray-900 dark:text-white">{formatNumber(sector.performance)}%</p>
+      </div>
+    </div>
+
+    <!-- Stocks in sector -->
+    <div class="space-y-2">
+      {sectorStocks.map((stock) => (
+        <StockCard
+          ticker={stock.ticker}
+          name={stock.name}
+          price={stock.price}
+          changePercent={stock.changePercent}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>

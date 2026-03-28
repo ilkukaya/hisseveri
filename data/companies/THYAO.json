@@ -1,0 +1,40 @@
+{
+  "ticker": "THYAO",
+  "name": "Türk Hava Yolları A.O.",
+  "sector": "Havacılık",
+  "subsector": "Havayolları",
+  "indexes": ["BIST30", "BIST100"],
+  "website": "https://www.turkishairlines.com",
+  "capital": 1380000000,
+  "freeFloat": 50.3,
+  "ipoDate": "1990-11-12",
+  "price": {
+    "last": 318.40,
+    "change": 5.80,
+    "changePercent": 1.85,
+    "open": 314.00,
+    "high": 320.50,
+    "low": 312.80,
+    "volume": 45200000,
+    "marketCap": 439600000000,
+    "updatedAt": "2026-03-28"
+  },
+  "ratios": {
+    "pe": 5.8,
+    "pb": 2.1,
+    "ps": 0.9,
+    "evEbitda": 4.2,
+    "roe": 42.3,
+    "roa": 12.8,
+    "netMargin": 14.2,
+    "grossMargin": 28.5,
+    "ebitdaMargin": 22.4,
+    "currentRatio": 0.85,
+    "quickRatio": 0.72,
+    "debtEquity": 2.45,
+    "netDebtEbitda": 1.8,
+    "revenueGrowthYoy": 32.6,
+    "netIncomeGrowthYoy": 48.2,
+    "equityGrowthYoy": 35.4
+  }
+}

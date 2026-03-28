@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SectorCard from '../components/astro/SectorCard.astro';
+import sectorsData from '../../data/sectors.json';
+---
+
+<BaseLayout
+  title="BIST Sektörleri"
+  description="Borsa İstanbul sektörleri. Her sektörün ortalama F/K, PD/DD rasyoları ve performans karşılaştırması."
+>
+  <div class="mx-auto max-w-7xl px-4 py-8">
+    <h1 class="mb-2 text-2xl font-bold text-gray-900 dark:text-white">Sektörler</h1>
+    <p class="mb-6 text-gray-500 dark:text-gray-400">
+      Borsa İstanbul sektörlerini karşılaştırın.
+    </p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {sectorsData.map((sector) => (
+        <SectorCard
+          slug={sector.slug}
+          name={sector.name}
+          stockCount={sector.stockCount}
+          avgPE={sector.avgPE}
+          performance={sector.performance}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>

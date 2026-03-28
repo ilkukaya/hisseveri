@@ -1,0 +1,65 @@
+---
+import SearchBar from '../react/SearchBar.tsx';
+import DarkModeToggle from '../react/DarkModeToggle.tsx';
+---
+
+<header class="sticky top-0 z-50 border-b border-navy-800 bg-navy-900 text-white shadow-lg">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-2 text-xl font-bold tracking-tight">
+      <svg class="h-8 w-8 text-accent" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="8" fill="currentColor" />
+        <path d="M8 22L12 12L16 18L20 10L24 22" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <span>Hisse<span class="text-accent">Veri</span></span>
+    </a>
+
+    <!-- Desktop Nav -->
+    <nav class="hidden items-center gap-6 md:flex">
+      <a href="/hisseler" class="text-sm font-medium text-gray-300 transition hover:text-white">Hisseler</a>
+      <a href="/sektorler" class="text-sm font-medium text-gray-300 transition hover:text-white">Sektörler</a>
+      <a href="/hakkimizda" class="text-sm font-medium text-gray-300 transition hover:text-white">Hakkımızda</a>
+    </nav>
+
+    <!-- Search + Dark Mode -->
+    <div class="flex items-center gap-3">
+      <div class="hidden sm:block">
+        <SearchBar client:load />
+      </div>
+      <DarkModeToggle client:load />
+
+      <!-- Mobile Menu Button -->
+      <button
+        id="mobile-menu-btn"
+        class="rounded p-1.5 text-gray-300 hover:bg-navy-800 hover:text-white md:hidden"
+        aria-label="Menü"
+      >
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden border-t border-navy-800 md:hidden">
+    <div class="px-4 py-3">
+      <div class="mb-3 sm:hidden">
+        <SearchBar client:load />
+      </div>
+      <nav class="flex flex-col gap-2">
+        <a href="/hisseler" class="rounded px-3 py-2 text-sm text-gray-300 hover:bg-navy-800 hover:text-white">Hisseler</a>
+        <a href="/sektorler" class="rounded px-3 py-2 text-sm text-gray-300 hover:bg-navy-800 hover:text-white">Sektörler</a>
+        <a href="/hakkimizda" class="rounded px-3 py-2 text-sm text-gray-300 hover:bg-navy-800 hover:text-white">Hakkımızda</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+</script>

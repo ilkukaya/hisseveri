@@ -1,0 +1,32 @@
+---
+import { formatNumber } from '../../utils/format';
+import { getChangeColorClasses, getChangeArrow } from '../../utils/colors';
+
+interface Props {
+  slug: string;
+  name: string;
+  stockCount: number;
+  avgPE: number | null;
+  performance: number;
+}
+
+const { slug, name, stockCount, avgPE, performance } = Astro.props;
+const colorClass = getChangeColorClasses(performance);
+const arrow = getChangeArrow(performance);
+---
+
+<a
+  href={`/sektor/${slug}`}
+  class="group rounded-xl border border-gray-200 bg-white p-4 transition hover:border-accent hover:shadow-md dark:border-gray-800 dark:bg-gray-900"
+>
+  <h3 class="font-semibold text-gray-900 group-hover:text-accent dark:text-white">{name}</h3>
+  <div class="mt-2 flex items-center justify-between text-sm">
+    <span class="text-gray-500 dark:text-gray-400">{stockCount} hisse</span>
+    {avgPE != null && (
+      <span class="text-gray-500 dark:text-gray-400">F/K: {formatNumber(avgPE)}</span>
+    )}
+  </div>
+  <p class={`mt-1 font-mono text-sm font-medium ${colorClass}`}>
+    {arrow} {formatNumber(performance)}%
+  </p>
+</a>

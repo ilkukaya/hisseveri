@@ -1,0 +1,18 @@
+---
+import { formatNumber, formatPercent } from '../../utils/format';
+
+interface Props {
+  label: string;
+  value: number | null;
+  isPercent?: boolean;
+  decimals?: number;
+}
+
+const { label, value, isPercent = false, decimals = 2 } = Astro.props;
+const displayValue = value == null ? '-' : isPercent ? formatPercent(value) : formatNumber(value, decimals);
+---
+
+<div class="rounded-lg border border-gray-200 bg-white p-3 text-center dark:border-gray-800 dark:bg-gray-900">
+  <p class="text-xs font-medium text-gray-500 dark:text-gray-400">{label}</p>
+  <p class="mt-1 font-mono text-lg font-bold text-gray-900 dark:text-white">{displayValue}</p>
+</div>

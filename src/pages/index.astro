@@ -1,0 +1,134 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MarketCard from '../components/astro/MarketCard.astro';
+import StockCard from '../components/astro/StockCard.astro';
+import SectorCard from '../components/astro/SectorCard.astro';
+import AdPlaceholder from '../components/astro/AdPlaceholder.astro';
+
+import marketData from '../../data/market.json';
+import stocksData from '../../data/stocks.json';
+import sectorsData from '../../data/sectors.json';
+
+const stocks = stocksData.stocks;
+const topGainers = [...stocks].sort((a, b) => b.changePercent - a.changePercent).slice(0, 5);
+const topLosers = [...stocks].sort((a, b) => a.changePercent - b.changePercent).slice(0, 5);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'HisseVeri',
+  url: 'https://hisseveri.netlify.app',
+  description: 'Borsa İstanbul verilerine ücretsiz erişim. BIST hisselerinin finansal tablolarını, rasyolarını ve grafiklerini inceleyin.',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: 'https://hisseveri.netlify.app/hisse/{ticker}',
+    'query-input': 'required name=ticker',
+  },
+};
+---
+
+<BaseLayout
+  title="Borsa İstanbul Verilerine Ücretsiz Erişim"
+  description="500+ BIST hissesinin finansal tablolarını, rasyolarını ve grafiklerini ücretsiz inceleyin. Temel analiz için ihtiyacınız olan tüm veriler."
+  jsonLd={jsonLd}
+>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-navy-900 to-navy-800 py-16 text-white">
+    <div class="mx-auto max-w-7xl px-4 text-center">
+      <h1 class="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
+        Borsa İstanbul Verilerine<br />
+        <span class="text-accent">Ücretsiz Erişim</span>
+      </h1>
+      <p class="mx-auto mt-4 max-w-2xl text-lg text-gray-300">
+        500+ hissenin finansal tablolarını, rasyolarını ve grafiklerini inceleyin.
+        Temel analiz için ihtiyacınız olan tüm veriler, tamamen ücretsiz.
+      </p>
+      <a
+        href="/hisseler"
+        class="mt-8 inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 font-semibold text-white transition hover:bg-accent-hover"
+      >
+        Hisseleri İncele
+        <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Market Overview -->
+  <section class="mx-auto max-w-7xl px-4 py-8">
+    <div class="grid gap-4 sm:grid-cols-3">
+      <MarketCard label="BIST 100" value={marketData.bist100.value} change={marketData.bist100.change} changePercent={marketData.bist100.changePercent} />
+      <MarketCard label="USD/TRY" value={marketData.usdTry.value} change={marketData.usdTry.change} changePercent={marketData.usdTry.changePercent} prefix="₺" />
+      <MarketCard label="EUR/TRY" value={marketData.eurTry.value} change={marketData.eurTry.change} changePercent={marketData.eurTry.changePercent} prefix="₺" />
+    </div>
+  </section>
+
+  <AdPlaceholder slot="home-leaderboard-1" format="leaderboard" />
+
+  <!-- Top Movers -->
+  <section class="mx-auto max-w-7xl px-4 py-8">
+    <div class="grid gap-8 lg:grid-cols-2">
+      <!-- Gainers -->
+      <div>
+        <h2 class="mb-4 flex items-center gap-2 text-xl font-bold text-gray-900 dark:text-white">
+          <span class="inline-block h-3 w-3 rounded-full bg-emerald-500"></span>
+          En Çok Yükselenler
+        </h2>
+        <div class="space-y-2">
+          {topGainers.map((stock) => (
+            <StockCard
+              ticker={stock.ticker}
+              name={stock.name}
+              price={stock.price}
+              changePercent={stock.changePercent}
+            />
+          ))}
+        </div>
+      </div>
+
+      <!-- Losers -->
+      <div>
+        <h2 class="mb-4 flex items-center gap-2 text-xl font-bold text-gray-900 dark:text-white">
+          <span class="inline-block h-3 w-3 rounded-full bg-red-500"></span>
+          En Çok Düşenler
+        </h2>
+        <div class="space-y-2">
+          {topLosers.map((stock) => (
+            <StockCard
+              ticker={stock.ticker}
+              name={stock.name}
+              price={stock.price}
+              changePercent={stock.changePercent}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sectors -->
+  <section class="mx-auto max-w-7xl px-4 py-8">
+    <h2 class="mb-6 text-xl font-bold text-gray-900 dark:text-white">Sektörler</h2>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {sectorsData.map((sector) => (
+        <SectorCard
+          slug={sector.slug}
+          name={sector.name}
+          stockCount={sector.stockCount}
+          avgPE={sector.avgPE}
+          performance={sector.performance}
+        />
+      ))}
+    </div>
+  </section>
+
+  <AdPlaceholder slot="home-leaderboard-2" format="leaderboard" />
+
+  <!-- Last Updated -->
+  <section class="mx-auto max-w-7xl px-4 pb-8">
+    <p class="text-center text-xs text-gray-400 dark:text-gray-500">
+      Son güncelleme: {new Date(stocksData.updatedAt).toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
+    </p>
+  </section>
+</BaseLayout>

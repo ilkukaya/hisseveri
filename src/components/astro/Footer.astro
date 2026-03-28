@@ -1,0 +1,58 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-gray-200 bg-gray-50 dark:border-gray-800 dark:bg-navy-900">
+  <div class="mx-auto max-w-7xl px-4 py-8">
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <!-- Brand -->
+      <div>
+        <a href="/" class="text-lg font-bold text-navy-900 dark:text-white">
+          Hisse<span class="text-accent">Veri</span>
+        </a>
+        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+          Borsa İstanbul verilerine ücretsiz erişim. 500+ hissenin finansal tablolarını, rasyolarını ve grafiklerini inceleyin.
+        </p>
+      </div>
+
+      <!-- Sayfalar -->
+      <div>
+        <h3 class="mb-3 text-sm font-semibold text-gray-900 dark:text-white">Sayfalar</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/hisseler" class="text-gray-500 hover:text-accent dark:text-gray-400">Hisseler</a></li>
+          <li><a href="/sektorler" class="text-gray-500 hover:text-accent dark:text-gray-400">Sektörler</a></li>
+          <li><a href="/hakkimizda" class="text-gray-500 hover:text-accent dark:text-gray-400">Hakkımızda</a></li>
+        </ul>
+      </div>
+
+      <!-- Yasal -->
+      <div>
+        <h3 class="mb-3 text-sm font-semibold text-gray-900 dark:text-white">Yasal</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/yasal-uyari" class="text-gray-500 hover:text-accent dark:text-gray-400">Yasal Uyarı</a></li>
+          <li><a href="/gizlilik" class="text-gray-500 hover:text-accent dark:text-gray-400">Gizlilik Politikası</a></li>
+        </ul>
+      </div>
+
+      <!-- İletişim -->
+      <div>
+        <h3 class="mb-3 text-sm font-semibold text-gray-900 dark:text-white">Veri Kaynakları</h3>
+        <p class="text-sm text-gray-500 dark:text-gray-400">
+          Veriler İş Yatırım Menkul Değerler A.Ş. ve KAP kaynaklarından elde edilmektedir.
+        </p>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-800">
+      <p class="text-xs text-gray-400 dark:text-gray-500">
+        <strong>Yasal Uyarı:</strong> Bu sitede yer alan bilgiler yatırım danışmanlığı kapsamında değildir.
+        Burada yer alan veriler ve analizler genel bilgilendirme amaçlıdır. Yatırım kararlarınızı bu verilere dayanarak almayınız.
+        BİST verileri gün sonu verileridir. BİST isim ve logosu "Koruma Marka Belgesi" altında korunmaktadır.
+      </p>
+      <p class="mt-4 text-xs text-gray-400 dark:text-gray-500">
+        &copy; {year} HisseVeri. Tüm hakları saklıdır.
+      </p>
+    </div>
+  </div>
+</footer>

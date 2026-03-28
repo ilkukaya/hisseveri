@@ -1,0 +1,40 @@
+{
+  "ticker": "BIMAS",
+  "name": "BİM Birleşik Mağazalar A.Ş.",
+  "sector": "Perakende",
+  "subsector": "Gıda Perakende",
+  "indexes": ["BIST30", "BIST100"],
+  "website": "https://www.bim.com.tr",
+  "capital": 607200000,
+  "freeFloat": 67.4,
+  "ipoDate": "2005-07-15",
+  "price": {
+    "last": 480.20,
+    "change": 8.70,
+    "changePercent": 1.84,
+    "open": 473.00,
+    "high": 482.50,
+    "low": 471.50,
+    "volume": 8200000,
+    "marketCap": 291500000000,
+    "updatedAt": "2026-03-28"
+  },
+  "ratios": {
+    "pe": 22.4,
+    "pb": 12.8,
+    "ps": 0.9,
+    "evEbitda": 14.2,
+    "roe": 58.2,
+    "roa": 14.8,
+    "netMargin": 3.8,
+    "grossMargin": 22.4,
+    "ebitdaMargin": 6.2,
+    "currentRatio": 0.78,
+    "quickRatio": 0.42,
+    "debtEquity": 2.85,
+    "netDebtEbitda": 1.8,
+    "revenueGrowthYoy": 52.8,
+    "netIncomeGrowthYoy": 62.4,
+    "equityGrowthYoy": 42.1
+  }
+}

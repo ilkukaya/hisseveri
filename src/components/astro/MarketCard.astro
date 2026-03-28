@@ -1,0 +1,26 @@
+---
+import { formatNumber, formatPercent } from '../../utils/format';
+import { getChangeColorClasses, getChangeArrow } from '../../utils/colors';
+
+interface Props {
+  label: string;
+  value: number;
+  change: number;
+  changePercent: number;
+  prefix?: string;
+}
+
+const { label, value, change, changePercent, prefix = '' } = Astro.props;
+const colorClass = getChangeColorClasses(changePercent);
+const arrow = getChangeArrow(changePercent);
+---
+
+<div class="rounded-xl border border-gray-200 bg-white p-4 shadow-sm transition hover:shadow-md dark:border-gray-800 dark:bg-gray-900">
+  <p class="text-sm font-medium text-gray-500 dark:text-gray-400">{label}</p>
+  <p class="mt-1 font-mono text-2xl font-bold text-gray-900 dark:text-white">
+    {prefix}{formatNumber(value)}
+  </p>
+  <p class={`mt-1 font-mono text-sm font-medium ${colorClass}`}>
+    {arrow} {formatPercent(changePercent)}
+  </p>
+</div>

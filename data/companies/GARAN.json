@@ -1,0 +1,40 @@
+{
+  "ticker": "GARAN",
+  "name": "Türkiye Garanti Bankası A.Ş.",
+  "sector": "Bankacılık",
+  "subsector": "Özel Bankalar",
+  "indexes": ["BIST30", "BIST100"],
+  "website": "https://www.garantibbva.com.tr",
+  "capital": 4200000000,
+  "freeFloat": 50.1,
+  "ipoDate": "1990-06-01",
+  "price": {
+    "last": 155.20,
+    "change": 3.40,
+    "changePercent": 2.24,
+    "open": 152.50,
+    "high": 156.00,
+    "low": 151.80,
+    "volume": 68400000,
+    "marketCap": 651800000000,
+    "updatedAt": "2026-03-28"
+  },
+  "ratios": {
+    "pe": 4.6,
+    "pb": 1.5,
+    "ps": 1.8,
+    "evEbitda": null,
+    "roe": 35.2,
+    "roa": 2.8,
+    "netMargin": 38.4,
+    "grossMargin": null,
+    "ebitdaMargin": null,
+    "currentRatio": null,
+    "quickRatio": null,
+    "debtEquity": 6.2,
+    "netDebtEbitda": null,
+    "revenueGrowthYoy": 52.4,
+    "netIncomeGrowthYoy": 42.8,
+    "equityGrowthYoy": 30.2
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "ticker": "TUPRS",
+  "name": "Tüpraş Türkiye Petrol Rafinerileri A.Ş.",
+  "sector": "Enerji",
+  "subsector": "Petrol Rafineri",
+  "indexes": ["BIST30", "BIST100"],
+  "website": "https://www.tupras.com.tr",
+  "capital": 1000000000,
+  "freeFloat": 48.9,
+  "ipoDate": "1991-02-18",
+  "price": {
+    "last": 185.40,
+    "change": 2.60,
+    "changePercent": 1.42,
+    "open": 183.50,
+    "high": 186.20,
+    "low": 182.80,
+    "volume": 18900000,
+    "marketCap": 185400000000,
+    "updatedAt": "2026-03-28"
+  },
+  "ratios": {
+    "pe": 6.8,
+    "pb": 2.4,
+    "ps": 0.4,
+    "evEbitda": 4.8,
+    "roe": 38.6,
+    "roa": 12.4,
+    "netMargin": 5.2,
+    "grossMargin": 9.8,
+    "ebitdaMargin": 7.6,
+    "currentRatio": 1.15,
+    "quickRatio": 0.82,
+    "debtEquity": 1.12,
+    "netDebtEbitda": 1.4,
+    "revenueGrowthYoy": 38.2,
+    "netIncomeGrowthYoy": 28.4,
+    "equityGrowthYoy": 18.6
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "updatedAt": "2026-03-28T23:00:00+03:00",
+  "bist100": { "value": 13396.42, "change": 288.15, "changePercent": 2.20 },
+  "usdTry": { "value": 43.42, "change": 0.02, "changePercent": 0.04 },
+  "eurTry": { "value": 52.01, "change": -0.24, "changePercent": -0.45 }
+}

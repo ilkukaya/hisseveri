@@ -1,0 +1,40 @@
+{
+  "ticker": "SASA",
+  "name": "SASA Polyester Sanayi A.Ş.",
+  "sector": "Kimya",
+  "subsector": "Petrokimya",
+  "indexes": ["BIST100", "BISTTUM"],
+  "website": "https://www.sasa.com.tr",
+  "capital": 1057000000,
+  "freeFloat": 42.8,
+  "ipoDate": "2000-07-18",
+  "price": {
+    "last": 41.82,
+    "change": -1.38,
+    "changePercent": -3.19,
+    "open": 43.10,
+    "high": 43.40,
+    "low": 41.50,
+    "volume": 32100000,
+    "marketCap": 44200000000,
+    "updatedAt": "2026-03-28"
+  },
+  "ratios": {
+    "pe": 18.5,
+    "pb": 1.4,
+    "ps": 0.7,
+    "evEbitda": 12.8,
+    "roe": 7.8,
+    "roa": 2.6,
+    "netMargin": 4.1,
+    "grossMargin": 15.4,
+    "ebitdaMargin": 11.2,
+    "currentRatio": 0.92,
+    "quickRatio": 0.58,
+    "debtEquity": 1.85,
+    "netDebtEbitda": 4.2,
+    "revenueGrowthYoy": 18.4,
+    "netIncomeGrowthYoy": -12.6,
+    "equityGrowthYoy": 8.2
+  }
+}

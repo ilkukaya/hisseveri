@@ -1,0 +1,40 @@
+{
+  "ticker": "AKBNK",
+  "name": "Akbank T.A.Ş.",
+  "sector": "Bankacılık",
+  "subsector": "Özel Bankalar",
+  "indexes": ["BIST30", "BIST100"],
+  "website": "https://www.akbank.com",
+  "capital": 5200000000,
+  "freeFloat": 51.2,
+  "ipoDate": "1990-07-18",
+  "price": {
+    "last": 72.30,
+    "change": 1.45,
+    "changePercent": 2.05,
+    "open": 71.20,
+    "high": 72.80,
+    "low": 70.90,
+    "volume": 95200000,
+    "marketCap": 375960000000,
+    "updatedAt": "2026-03-28"
+  },
+  "ratios": {
+    "pe": 4.2,
+    "pb": 1.3,
+    "ps": 1.5,
+    "evEbitda": null,
+    "roe": 32.8,
+    "roa": 2.5,
+    "netMargin": 36.1,
+    "grossMargin": null,
+    "ebitdaMargin": null,
+    "currentRatio": null,
+    "quickRatio": null,
+    "debtEquity": 5.8,
+    "netDebtEbitda": null,
+    "revenueGrowthYoy": 48.6,
+    "netIncomeGrowthYoy": 38.2,
+    "equityGrowthYoy": 26.8
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "ticker": "ASELS",
+  "name": "Aselsan Elektronik Sanayi ve Ticaret A.Ş.",
+  "sector": "Savunma",
+  "subsector": "Savunma Elektroniği",
+  "indexes": ["BIST30", "BIST100"],
+  "website": "https://www.aselsan.com.tr",
+  "capital": 2008000000,
+  "freeFloat": 14.5,
+  "ipoDate": "1986-12-15",
+  "price": {
+    "last": 94.75,
+    "change": 1.25,
+    "changePercent": 1.34,
+    "open": 93.80,
+    "high": 95.20,
+    "low": 93.50,
+    "volume": 78500000,
+    "marketCap": 190200000000,
+    "updatedAt": "2026-03-28"
+  },
+  "ratios": {
+    "pe": 28.6,
+    "pb": 5.8,
+    "ps": 3.4,
+    "evEbitda": 22.1,
+    "roe": 22.1,
+    "roa": 9.4,
+    "netMargin": 12.8,
+    "grossMargin": 32.5,
+    "ebitdaMargin": 18.6,
+    "currentRatio": 1.62,
+    "quickRatio": 1.28,
+    "debtEquity": 0.85,
+    "netDebtEbitda": 0.4,
+    "revenueGrowthYoy": 62.8,
+    "netIncomeGrowthYoy": 55.3,
+    "equityGrowthYoy": 28.6
+  }
+}
