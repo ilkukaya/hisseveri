@@ -136,9 +136,13 @@ def fetch_financial_data(ticker):
         if not has_data:
             continue  # Bu grup çalışmadı, sonraki grubu dene
 
-        # Veri olan dönemleri bul
+        # Veri olan dönemleri bul (kronolojik sırala: yıl, çeyrek)
+        def period_sort_key(p):
+            parts = p.split("/")
+            return (int(parts[0]), int(parts[1]))
+
         valid_periods = []
-        for p in sorted(set(all_periods)):
+        for p in sorted(set(all_periods), key=period_sort_key):
             if any(row["values"].get(p, 0) != 0 for row in all_rows.values()):
                 valid_periods.append(p)
         periods = valid_periods[-8:] if len(valid_periods) > 8 else valid_periods

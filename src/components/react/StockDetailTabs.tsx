@@ -1,7 +1,19 @@
+import { Component, type ReactNode } from 'react';
 import TabPanel from './TabPanel';
 import FinancialTable from './FinancialTable';
 import RevenueChart from './RevenueChart';
 import RatioChart from './RatioChart';
+
+class ChartErrorBoundary extends Component<{ children: ReactNode }, { hasError: boolean }> {
+  state = { hasError: false };
+  static getDerivedStateFromError() { return { hasError: true }; }
+  render() {
+    if (this.state.hasError) {
+      return <div className="flex h-[200px] items-center justify-center text-sm text-gray-400">Grafik yüklenemedi</div>;
+    }
+    return this.props.children;
+  }
+}
 
 interface FinancialData {
   periods: string[];
@@ -109,30 +121,32 @@ export default function StockDetailTabs({ financials }: Props) {
         {
           label: 'Grafikler',
           content: (
-            <div className="space-y-8">
-              <div>
-                <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-white">
-                  Gelir ve Kâr Trendi
-                </h3>
-                <RevenueChart
-                  periods={periods}
-                  revenue={financials.incomeStatement.revenue}
-                  netIncome={financials.incomeStatement.netIncome}
-                />
+            <ChartErrorBoundary>
+              <div className="space-y-8">
+                <div>
+                  <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-white">
+                    Gelir ve Kâr Trendi
+                  </h3>
+                  <RevenueChart
+                    periods={periods}
+                    revenue={financials.incomeStatement.revenue}
+                    netIncome={financials.incomeStatement.netIncome}
+                  />
+                </div>
+                <div>
+                  <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-white">
+                    Karlılık Rasyoları Trendi
+                  </h3>
+                  <RatioChart
+                    periods={periods}
+                    series={[
+                      { label: 'Brüt Kâr Marjı %', values: grossMarginSeries, color: '#3B82F6' },
+                      { label: 'Net Kâr Marjı %', values: netMarginSeries, color: '#10B981' },
+                    ]}
+                  />
+                </div>
               </div>
-              <div>
-                <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-white">
-                  Karlılık Rasyoları Trendi
-                </h3>
-                <RatioChart
-                  periods={periods}
-                  series={[
-                    { label: 'Brüt Kâr Marjı %', values: grossMarginSeries, color: '#3B82F6' },
-                    { label: 'Net Kâr Marjı %', values: netMarginSeries, color: '#10B981' },
-                  ]}
-                />
-              </div>
-            </div>
+            </ChartErrorBoundary>
           ),
         },
       ]}

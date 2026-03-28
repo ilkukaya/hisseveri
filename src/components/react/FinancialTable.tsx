@@ -34,19 +34,19 @@ export default function FinancialTable({ periods, rows, title }: Props) {
             {rows.map((row, i) => (
               <tr
                 key={row.label}
-                className={`border-t border-gray-100 dark:border-gray-800 ${
-                  i % 2 === 0 ? 'bg-white dark:bg-gray-900' : 'bg-gray-50/50 dark:bg-gray-900/50'
-                }`}
+                className="border-t border-gray-100 dark:border-gray-800"
               >
-                <td className="sticky left-0 z-10 bg-inherit px-4 py-2 font-medium text-gray-800 dark:text-gray-200">
+                <td className={`sticky left-0 z-10 whitespace-nowrap px-4 py-2 font-medium text-gray-800 dark:text-gray-200 ${
+                  i % 2 === 0 ? 'bg-white dark:bg-gray-900' : 'bg-gray-50 dark:bg-gray-800'
+                }`}>
                   {row.label}
                 </td>
                 {row.values.map((val, j) => (
                   <td
                     key={j}
                     className={`px-4 py-2 text-right font-mono text-sm ${
-                      val < 0 ? 'text-red-600 dark:text-red-400' : 'text-gray-700 dark:text-gray-300'
-                    }`}
+                      i % 2 === 0 ? 'bg-white dark:bg-gray-900' : 'bg-gray-50 dark:bg-gray-800'
+                    } ${val < 0 ? 'text-red-600 dark:text-red-400' : 'text-gray-700 dark:text-gray-300'}`}
                   >
                     {formatValue(val)}
                   </td>
