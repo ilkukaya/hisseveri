@@ -26,6 +26,8 @@ jobs:
 
       - name: Fetch all BIST stock data
         run: python scripts/build_all_data.py
+        env:
+          DEBUG_FINANCIALS: "1"
 
       - name: Commit and push changes
         run: |

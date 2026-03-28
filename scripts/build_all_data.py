@@ -11,6 +11,9 @@ import time
 import urllib.request
 from datetime import datetime, timedelta
 
+# Scripts dizinini Python path'e ekle
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 COMPANIES_DIR = os.path.join(DATA_DIR, "companies")
 FINANCIALS_DIR = os.path.join(DATA_DIR, "financials")
@@ -18,6 +21,8 @@ PRICES_DIR = os.path.join(DATA_DIR, "prices")
 PUBLIC_DATA_DIR = os.path.join(os.path.dirname(DATA_DIR), "public", "data")
 
 GITHUB_STOCK_LIST_URL = "https://raw.githubusercontent.com/yasinkurhan/Hisse-Radar-main/main/backend/app/data/bist_stocks.json"
+
+CURRENT_YEAR = datetime.now().year
 
 # isyatirimhisse erişimi varsa True
 API_AVAILABLE = False
@@ -37,6 +42,25 @@ def check_api():
             return True
     except Exception as e:
         print(f"  [!] İş Yatırım API erişimi yok: {str(e)[:100]}")
+
+    # Direct API test as fallback
+    if not API_AVAILABLE:
+        try:
+            import requests
+            resp = requests.get(
+                "https://www.isyatirim.com.tr/_layouts/15/IsYatirim.Website/Common/Data.aspx/MaliTablo",
+                params={"companyCode": "THYAO", "exchange": "TRY", "financialGroup": "UFRS",
+                        "year1": CURRENT_YEAR, "period1": 3, "year2": CURRENT_YEAR, "period2": 6,
+                        "year3": CURRENT_YEAR, "period3": 9, "year4": CURRENT_YEAR, "period4": 12},
+                timeout=10
+            )
+            if resp.status_code == 200 and resp.json().get("value"):
+                API_AVAILABLE = True
+                print("  [OK] İş Yatırım API (direct) erişimi mevcut.")
+                return True
+        except Exception as e:
+            print(f"  [!] Direct API erişimi de yok: {str(e)[:100]}")
+
     return False
 
 
@@ -99,99 +123,19 @@ def fetch_price_history(ticker, days=365):
 
 
 def fetch_financial_data(ticker):
-    """Hisse için mali tablo verisi çek ve JSON formatına dönüştür."""
+    """Hisse için mali tablo verisi çek ve JSON formatına dönüştür.
+    Doğrudan İş Yatırım API'sini kullanarak UFRS formatında tüm tabloları çeker."""
     if not API_AVAILABLE:
         return None
     try:
-        from isyatirimhisse import fetch_financials
-        year = datetime.now().year
-        df = fetch_financials(
-            symbols=ticker, start_year=year - 2, end_year=year,
-            exchange="TRY", financial_group="1"
-        )
-        if df is None or df.empty:
-            return None
-
-        cols = list(df.columns)
-        # Dönem sütunlarını bul (YYYY/Q formatında)
-        period_cols = [c for c in cols if "/" in str(c)]
-        if not period_cols:
-            return None
-        periods = [str(p) for p in period_cols[:8]]
-
-        # Kalem adı sütununu bul
-        name_col = next((c for c in ["itemDescTr", "FINANCIAL_ITEM_NAME_TR", "Kalem"] if c in cols), cols[0])
-
-        # Mali kalem eşleştirme
-        mapping = {
-            "Dönen Varlıklar": "currentAssets",
-            "Duran Varlıklar": "nonCurrentAssets",
-            "Toplam Varlıklar": "totalAssets",
-            "TOPLAM VARLIKLAR": "totalAssets",
-            "Kısa Vadeli Yükümlülükler": "currentLiabilities",
-            "Uzun Vadeli Yükümlülükler": "nonCurrentLiabilities",
-            "Toplam Yükümlülükler": "totalLiabilities",
-            "Özkaynaklar": "equity",
-            "Ana Ortaklık Payları": "equity",
-            "Hasılat": "revenue",
-            "Satışların Maliyeti": "costOfRevenue",
-            "Brüt Kar": "grossProfit",
-            "Brüt Kar (Zarar)": "grossProfit",
-            "Esas Faaliyet Karı": "operatingIncome",
-            "Esas Faaliyet Karı (Zararı)": "operatingIncome",
-            "Dönem Net Karı": "netIncome",
-            "Dönem Net Karı (Zararı)": "netIncome",
-            "İşletme Faaliyetlerinden Nakit Akışları": "cfOperating",
-            "Yatırım Faaliyetlerinden Nakit Akışları": "cfInvesting",
-            "Finansman Faaliyetlerinden Nakit Akışları": "cfFinancing",
-        }
-
-        found = {}
-        for _, row in df.iterrows():
-            item_name = str(row.get(name_col, "")).strip()
-            for pattern, key in mapping.items():
-                if pattern.lower() in item_name.lower() and key not in found:
-                    vals = []
-                    for p in periods:
-                        v = row.get(p, 0)
-                        try:
-                            vals.append(float(v) if v and str(v) not in ("nan", "None", "") else 0)
-                        except (ValueError, TypeError):
-                            vals.append(0)
-                    found[key] = vals
-                    break
-
-        zeros = [0] * len(periods)
-        return {
-            "ticker": ticker,
-            "currency": "TRY",
-            "periods": periods,
-            "balanceSheet": {
-                "currentAssets": found.get("currentAssets", zeros),
-                "nonCurrentAssets": found.get("nonCurrentAssets", zeros),
-                "totalAssets": found.get("totalAssets", zeros),
-                "currentLiabilities": found.get("currentLiabilities", zeros),
-                "nonCurrentLiabilities": found.get("nonCurrentLiabilities", zeros),
-                "totalLiabilities": found.get("totalLiabilities", zeros),
-                "equity": found.get("equity", zeros),
-            },
-            "incomeStatement": {
-                "revenue": found.get("revenue", zeros),
-                "costOfRevenue": found.get("costOfRevenue", zeros),
-                "grossProfit": found.get("grossProfit", zeros),
-                "operatingIncome": found.get("operatingIncome", zeros),
-                "netIncome": found.get("netIncome", zeros),
-                "ebitda": found.get("ebitda", zeros),
-            },
-            "cashFlow": {
-                "operating": found.get("cfOperating", zeros),
-                "investing": found.get("cfInvesting", zeros),
-                "financing": found.get("cfFinancing", zeros),
-            },
-        }
+        from fetch_financials import fetch_financial_data as _fetch
+        return _fetch(ticker)
+    except ImportError:
+        # fetch_financials.py bulunamazsa inline fallback
+        pass
     except Exception as e:
         print(f"     Mali tablo hatası ({ticker}): {str(e)[:80]}")
-        return None
+    return None
 
 
 def calculate_ratios(financials, market_cap):
