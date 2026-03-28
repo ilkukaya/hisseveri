@@ -1,85 +1,149 @@
 """
-İş Yatırım API'sinden finansal tabloları (bilanço, gelir tablosu, nakit akış) çeker.
+Finansal tabloları isyatirimhisse kütüphanesi ile çeker.
 """
 
 import json
 import os
 import time
-import requests
 from datetime import datetime
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Accept": "application/json",
-    "Referer": "https://www.isyatirim.com.tr/",
-}
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 FINANCIALS_DIR = os.path.join(DATA_DIR, "financials")
 COMPANIES_DIR = os.path.join(DATA_DIR, "companies")
 
-# Mali tablo API endpoint'i
-MALI_TABLO_URL = "https://www.isyatirim.com.tr/_layouts/15/IsYatirim.Website/Common/Data.aspx/MaliTablo"
-
-# Son 2 yılın çeyreklik dönemleri
 CURRENT_YEAR = datetime.now().year
 
 
-def fetch_financial_table(ticker, exchange="TRY", financial_group="XI_29"):
+def fetch_financial_data(ticker):
     """Belirli bir hisse için mali tablo verilerini çeker."""
-    years = [CURRENT_YEAR, CURRENT_YEAR - 1]
-    periods = [12, 9, 6, 3]
-
-    params = {
-        "companyCode": ticker,
-        "exchange": exchange,
-        "financialGroup": financial_group,
-    }
-
-    # 4 dönem çekebiliyoruz her seferde
-    for i, (year, period) in enumerate(
-        [(y, p) for y in years for p in periods][:4]
-    ):
-        params[f"year{i + 1}"] = year
-        params[f"period{i + 1}"] = period
-
     try:
-        response = requests.get(MALI_TABLO_URL, params=params, headers=HEADERS, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-        return data.get("value", [])
-    except requests.RequestException as e:
+        from isyatirimhisse import fetch_financials
+
+        df = fetch_financials(
+            symbols=ticker,
+            start_year=CURRENT_YEAR - 2,
+            end_year=CURRENT_YEAR,
+            exchange="TRY",
+            financial_group="1",
+        )
+
+        if df is None or df.empty:
+            return None
+
+        return df
+
+    except ImportError:
+        print("isyatirimhisse kütüphanesi bulunamadı.")
+        return None
+    except Exception as e:
         print(f"  Hata ({ticker}): {e}")
         return None
 
 
-def parse_financial_data(raw_data, ticker):
-    """Ham API verisini yapılandırılmış JSON formatına dönüştürür."""
-    if not raw_data:
+def parse_to_json(df, ticker):
+    """DataFrame'i site yapısına uygun JSON formatına dönüştürür."""
+    if df is None or df.empty:
         return None
 
-    # Mali tablo kalemlerini kategorize et
-    balance_sheet = {}
-    income_statement = {}
-    cash_flow = {}
+    # DataFrame sütunlarını analiz et
+    columns = list(df.columns)
+    print(f"    Sütunlar: {columns[:5]}...")
 
-    for item in raw_data:
-        code = item.get("itemCode", "")
-        name_tr = item.get("itemDescTr", "")
+    # Dönemleri belirle (sütun adlarından)
+    period_cols = [c for c in columns if "/" in str(c) or any(str(y) in str(c) for y in range(2020, 2030))]
 
-        # Bilanço kalemleri
-        if code.startswith("1"):
-            balance_sheet[code] = item
-        elif code.startswith("2"):
-            income_statement[code] = item
-        elif code.startswith("3"):
-            cash_flow[code] = item
+    if not period_cols:
+        print(f"    {ticker}: Dönem sütunları bulunamadı")
+        return None
 
-    return {
+    # Son 8 dönemi al
+    periods = period_cols[:8] if len(period_cols) >= 8 else period_cols
+
+    # Mali kalemleri parse et
+    result = {
         "ticker": ticker,
         "currency": "TRY",
-        "raw": raw_data,
+        "periods": [str(p) for p in periods],
+        "balanceSheet": {
+            "currentAssets": [],
+            "nonCurrentAssets": [],
+            "totalAssets": [],
+            "currentLiabilities": [],
+            "nonCurrentLiabilities": [],
+            "totalLiabilities": [],
+            "equity": [],
+        },
+        "incomeStatement": {
+            "revenue": [],
+            "costOfRevenue": [],
+            "grossProfit": [],
+            "operatingIncome": [],
+            "netIncome": [],
+            "ebitda": [],
+        },
+        "cashFlow": {
+            "operating": [],
+            "investing": [],
+            "financing": [],
+        },
     }
+
+    # Kalem eşleştirme
+    item_map = {
+        "Dönen Varlıklar": ("balanceSheet", "currentAssets"),
+        "Duran Varlıklar": ("balanceSheet", "nonCurrentAssets"),
+        "Toplam Varlıklar": ("balanceSheet", "totalAssets"),
+        "Kısa Vadeli Yükümlülükler": ("balanceSheet", "currentLiabilities"),
+        "Uzun Vadeli Yükümlülükler": ("balanceSheet", "nonCurrentLiabilities"),
+        "Toplam Yükümlülükler": ("balanceSheet", "totalLiabilities"),
+        "Özkaynaklar": ("balanceSheet", "equity"),
+        "Ana Ortaklık Payları": ("balanceSheet", "equity"),
+        "Hasılat": ("incomeStatement", "revenue"),
+        "Satışların Maliyeti": ("incomeStatement", "costOfRevenue"),
+        "Brüt Kar (Zarar)": ("incomeStatement", "grossProfit"),
+        "Esas Faaliyet Karı (Zararı)": ("incomeStatement", "operatingIncome"),
+        "Dönem Net Karı (Zararı)": ("incomeStatement", "netIncome"),
+        "İşletme Faaliyetlerinden Nakit Akışları": ("cashFlow", "operating"),
+        "Yatırım Faaliyetlerinden Nakit Akışları": ("cashFlow", "investing"),
+        "Finansman Faaliyetlerinden Nakit Akışları": ("cashFlow", "financing"),
+    }
+
+    # DataFrame'den verileri çek
+    name_col = None
+    for col in ["itemDescTr", "FINANCIAL_ITEM_NAME_TR", "Kalem"]:
+        if col in df.columns:
+            name_col = col
+            break
+
+    if name_col is None:
+        # İlk sütunu kalem adı olarak kullan
+        name_col = columns[0]
+
+    for _, row in df.iterrows():
+        item_name = str(row.get(name_col, "")).strip()
+
+        for key, (section, field) in item_map.items():
+            if key.lower() in item_name.lower():
+                values = []
+                for p in periods:
+                    val = row.get(p, 0)
+                    try:
+                        values.append(float(val) if val and str(val) != "nan" else 0)
+                    except (ValueError, TypeError):
+                        values.append(0)
+
+                if not result[section][field]:  # İlk eşleşmeyi al
+                    result[section][field] = values
+                break
+
+    # Eksik alanları doldur
+    for section in result:
+        if isinstance(result[section], dict):
+            for field in result[section]:
+                if not result[section][field]:
+                    result[section][field] = [0] * len(periods)
+
+    return result
 
 
 def save_financial_data(ticker, data):
@@ -92,7 +156,6 @@ def save_financial_data(ticker, data):
 
 
 if __name__ == "__main__":
-    # Hisse listesini yükle
     stocks_path = os.path.join(DATA_DIR, "stocks.json")
     if not os.path.exists(stocks_path):
         print("stocks.json bulunamadı. Önce fetch_all_stocks.py çalıştırın.")
@@ -106,14 +169,14 @@ if __name__ == "__main__":
 
     for i, ticker in enumerate(tickers):
         print(f"  [{i + 1}/{len(tickers)}] {ticker}...")
-        raw = fetch_financial_table(ticker)
+        df = fetch_financial_data(ticker)
 
-        if raw:
-            parsed = parse_financial_data(raw, ticker)
+        if df is not None:
+            parsed = parse_to_json(df, ticker)
             if parsed:
                 save_financial_data(ticker, parsed)
+                print(f"    Mali tablo kaydedildi.")
 
-        # Rate limiting - API'ye saygılı olalım
         time.sleep(0.5)
 
     print("Finansal veriler tamamlandı.")

@@ -3,72 +3,72 @@
     "slug": "otomotiv",
     "name": "Otomotiv",
     "stockCount": 1,
-    "avgPE": 12.4,
-    "avgPB": 3.2,
-    "avgROE": 28.5,
-    "performance": 2.36
+    "avgPE": 10.76,
+    "avgPB": 2.34,
+    "avgROE": 21.7,
+    "performance": -1.24
   },
   {
     "slug": "havacilik",
     "name": "Havacılık",
     "stockCount": 1,
-    "avgPE": 5.8,
-    "avgPB": 2.1,
-    "avgROE": 42.3,
-    "performance": 1.85
+    "avgPE": 3.46,
+    "avgPB": 0.45,
+    "avgROE": 13.0,
+    "performance": 0.34
   },
   {
     "slug": "savunma",
     "name": "Savunma",
     "stockCount": 1,
-    "avgPE": 28.6,
-    "avgPB": 5.8,
-    "avgROE": 22.1,
-    "performance": 1.34
+    "avgPE": 51.73,
+    "avgPB": 3.99,
+    "avgROE": 7.7,
+    "performance": -1.92
   },
   {
     "slug": "kimya",
     "name": "Kimya",
     "stockCount": 1,
-    "avgPE": 18.5,
-    "avgPB": 1.4,
-    "avgROE": 7.8,
-    "performance": -3.19
+    "avgPE": null,
+    "avgPB": 0.67,
+    "avgROE": -5.7,
+    "performance": -2.5
   },
   {
     "slug": "demir-celik",
     "name": "Demir Çelik",
     "stockCount": 2,
-    "avgPE": 8.5,
-    "avgPB": 1.1,
-    "avgROE": 13.0,
-    "performance": -1.71
+    "avgPE": 381.59,
+    "avgPB": 0.55,
+    "avgROE": -2.05,
+    "performance": -2.74
   },
   {
     "slug": "bankacilik",
     "name": "Bankacılık",
     "stockCount": 2,
-    "avgPE": 4.4,
-    "avgPB": 1.4,
-    "avgROE": 34.0,
-    "performance": 2.15
+    "avgPE": 5.56,
+    "avgPB": 1.19,
+    "avgROE": 21.7,
+    "performance": -2.48
   },
   {
     "slug": "enerji",
     "name": "Enerji",
     "stockCount": 1,
-    "avgPE": 6.8,
-    "avgPB": 2.4,
-    "avgROE": 38.6,
-    "performance": 1.42
+    "avgPE": 16.53,
+    "avgPB": 1.34,
+    "avgROE": 8.1,
+    "performance": -0.54
   },
   {
     "slug": "perakende",
     "name": "Perakende",
     "stockCount": 1,
-    "avgPE": 22.4,
-    "avgPB": 12.8,
-    "avgROE": 58.2,
-    "performance": 1.84
+    "avgPE": 21.67,
+    "avgPB": 2.44,
+    "avgROE": 11.3,
+    "performance": -4.54
   }
 ]

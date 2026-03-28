@@ -1,2 +1,3 @@
+isyatirimhisse>=5.0.0
 requests>=2.31
 pandas>=2.1

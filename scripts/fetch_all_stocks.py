@@ -1,11 +1,14 @@
 """
-Tüm BIST hisselerinin günlük verilerini İş Yatırım API'sinden çeker.
+Tüm BIST hisselerinin günlük verilerini çeker.
+isyatirimhisse kütüphanesi kullanılarak İş Yatırım verilerine erişilir.
 """
 
 import json
 import os
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
+
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -13,27 +16,72 @@ HEADERS = {
     "Referer": "https://www.isyatirim.com.tr/",
 }
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
-
 
 def fetch_stock_list():
-    """Tüm BIST hisselerinin günlük özet verilerini çeker."""
-    url = "https://www.isyatirim.com.tr/api/StockData"
-
+    """BIST TÜM endeksindeki hisse listesini çeker."""
     try:
-        response = requests.get(url, headers=HEADERS, timeout=30)
-        response.raise_for_status()
-        return response.json()
-    except requests.RequestException as e:
-        print(f"Hata: Hisse listesi çekilemedi - {e}")
+        from isyatirimhisse import fetch_stock_data
+
+        # Son 5 iş günü verisini al - birden fazla hisse için
+        end_date = datetime.now().strftime("%d-%m-%Y")
+        start_date = (datetime.now() - timedelta(days=7)).strftime("%d-%m-%Y")
+
+        # Önce bilinen BIST30 + BIST100 hisselerini çek
+        bist30 = [
+            "AKBNK", "ARCLK", "ASELS", "BIMAS", "EKGYO", "EREGL",
+            "FROTO", "GARAN", "GUBRF", "HEKTS", "ISCTR", "KCHOL",
+            "KOZAA", "KOZAL", "KRDMD", "MGROS", "ODAS", "PETKM",
+            "PGSUS", "SAHOL", "SASA", "SISE", "TAVHL", "TCELL",
+            "THYAO", "TKFEN", "TOASO", "TTKOM", "TUPRS", "YKBNK",
+        ]
+
+        stocks = []
+        for ticker in bist30:
+            try:
+                df = fetch_stock_data(
+                    symbols=ticker,
+                    start_date=start_date,
+                    end_date=end_date,
+                )
+                if df is not None and not df.empty:
+                    last_row = df.iloc[-1]
+                    prev_row = df.iloc[-2] if len(df) > 1 else last_row
+                    close = float(last_row.get("KAPANIS", last_row.get("Kapanış", 0)))
+                    prev_close = float(prev_row.get("KAPANIS", prev_row.get("Kapanış", 0)))
+                    change = close - prev_close
+                    change_pct = (change / prev_close * 100) if prev_close > 0 else 0
+
+                    stock = {
+                        "ticker": ticker,
+                        "name": "",
+                        "sector": "",
+                        "subsector": "",
+                        "indexes": ["BIST30", "BIST100", "BISTTUM"],
+                        "price": round(close, 2),
+                        "change": round(change, 2),
+                        "changePercent": round(change_pct, 2),
+                        "volume": int(last_row.get("HACIM", last_row.get("Hacim", 0))),
+                        "marketCap": 0,
+                        "pe": None,
+                        "pb": None,
+                        "roe": None,
+                        "netMargin": None,
+                        "dividendYield": None,
+                    }
+                    stocks.append(stock)
+                    print(f"  {ticker}: {close} TL")
+            except Exception as e:
+                print(f"  {ticker} hatası: {e}")
+                continue
+
+        return stocks
+
+    except ImportError:
+        print("isyatirimhisse kütüphanesi bulunamadı. pip install isyatirimhisse")
         return None
-
-
-def fetch_bist_endeks():
-    """BIST endekslerini ve hisse-endeks eşleştirmelerini çeker."""
-    # Endeks verileri şirket kartı sayfasından elde edilebilir
-    # Basit bir başlangıç için BIST30/100 listelerini sabit tutabiliriz
-    pass
+    except Exception as e:
+        print(f"Hata: {e}")
+        return None
 
 
 def save_stocks_json(data):
@@ -54,41 +102,20 @@ def save_stocks_json(data):
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
+    # Ayrıca public/data/ altına kopyala (SearchBar için)
+    public_data_dir = os.path.join(DATA_DIR, "..", "public", "data")
+    os.makedirs(public_data_dir, exist_ok=True)
+    public_path = os.path.join(public_data_dir, "stocks.json")
+    with open(public_path, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
     print(f"{len(data)} hisse kaydedildi: {output_path}")
 
 
 if __name__ == "__main__":
     print("BIST hisse listesi çekiliyor...")
-    raw_data = fetch_stock_list()
-
-    if raw_data:
-        # API yanıtını parse et ve normalize et
-        stocks = []
-        for item in raw_data:
-            try:
-                stock = {
-                    "ticker": item.get("HESSION", item.get("hisse", "")),
-                    "name": item.get("AD", item.get("ad", "")),
-                    "sector": item.get("SEESSION", item.get("sektor", "")),
-                    "subsector": item.get("ALTSEESSION", ""),
-                    "indexes": [],
-                    "price": float(item.get("KAESSION", item.get("kapanis", 0))),
-                    "change": float(item.get("FARK", item.get("fark", 0))),
-                    "changePercent": float(item.get("YUZDE", item.get("yuzde", 0))),
-                    "volume": int(item.get("HACIM", item.get("hacim", 0))),
-                    "marketCap": float(item.get("PIYASADEGERI", item.get("piyasaDegeri", 0))),
-                    "pe": None,
-                    "pb": None,
-                    "roe": None,
-                    "netMargin": None,
-                    "dividendYield": None,
-                }
-                if stock["ticker"]:
-                    stocks.append(stock)
-            except (ValueError, TypeError) as e:
-                print(f"Parse hatası: {e}")
-                continue
-
+    stocks = fetch_stock_list()
+    if stocks:
         save_stocks_json(stocks)
     else:
-        print("API'den veri alınamadı. Mevcut veriler korunuyor.")
+        print("Veri alınamadı. Mevcut veriler korunuyor.")
