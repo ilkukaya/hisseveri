@@ -34,6 +34,24 @@ interface Props {
 }
 
 export default function StockDetailTabs({ financials }: Props) {
+  if (!financials || !financials.periods || financials.periods.length === 0) {
+    return (
+      <div className="flex h-[200px] items-center justify-center rounded-lg border border-dashed border-gray-300 dark:border-gray-700">
+        <p className="text-sm text-gray-400 dark:text-gray-500">Finansal veriler henüz mevcut değil</p>
+      </div>
+    );
+  }
+
+  // Check if all financial data is zeros
+  const hasData = financials.incomeStatement.revenue.some((v) => v !== 0);
+  if (!hasData) {
+    return (
+      <div className="flex h-[200px] items-center justify-center rounded-lg border border-dashed border-gray-300 dark:border-gray-700">
+        <p className="text-sm text-gray-400 dark:text-gray-500">Finansal veriler henüz mevcut değil</p>
+      </div>
+    );
+  }
+
   const { periods } = financials;
 
   const balanceSheetRows = [

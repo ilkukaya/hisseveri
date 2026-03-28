@@ -1,74 +1,506 @@
 [
   {
-    "slug": "otomotiv",
-    "name": "Otomotiv",
-    "stockCount": 1,
-    "avgPE": 10.76,
-    "avgPB": 2.34,
-    "avgROE": 21.7,
-    "performance": -1.24
-  },
-  {
-    "slug": "havacilik",
-    "name": "Havacılık",
-    "stockCount": 1,
-    "avgPE": 3.46,
-    "avgPB": 0.45,
-    "avgROE": 13.0,
-    "performance": 0.34
-  },
-  {
-    "slug": "savunma",
-    "name": "Savunma",
-    "stockCount": 1,
-    "avgPE": 51.73,
-    "avgPB": 3.99,
-    "avgROE": 7.7,
-    "performance": -1.92
-  },
-  {
-    "slug": "kimya",
-    "name": "Kimya",
-    "stockCount": 1,
+    "slug": "diger",
+    "name": "Diğer",
+    "stockCount": 79,
     "avgPE": null,
-    "avgPB": 0.67,
-    "avgROE": -5.7,
-    "performance": -2.5
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
   },
   {
-    "slug": "demir-celik",
-    "name": "Demir Çelik",
-    "stockCount": 2,
-    "avgPE": 381.59,
-    "avgPB": 0.55,
-    "avgROE": -2.05,
-    "performance": -2.74
-  },
-  {
-    "slug": "bankacilik",
-    "name": "Bankacılık",
-    "stockCount": 2,
-    "avgPE": 5.56,
-    "avgPB": 1.19,
-    "avgROE": 21.7,
-    "performance": -2.48
+    "slug": "gyo",
+    "name": "GYO",
+    "stockCount": 49,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
   },
   {
     "slug": "enerji",
     "name": "Enerji",
-    "stockCount": 1,
+    "stockCount": 46,
     "avgPE": 16.53,
     "avgPB": 1.34,
     "avgROE": 8.1,
     "performance": -0.54
   },
   {
-    "slug": "perakende",
-    "name": "Perakende",
-    "stockCount": 1,
+    "slug": "holding",
+    "name": "Holding",
+    "stockCount": 41,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "gida-ve-i̇cecek",
+    "name": "Gıda ve İçecek",
+    "stockCount": 33,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "teknoloji",
+    "name": "Teknoloji",
+    "stockCount": 33,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "tekstil",
+    "name": "Tekstil",
+    "stockCount": 28,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "kimya",
+    "name": "Kimya",
+    "stockCount": 23,
+    "avgPE": null,
+    "avgPB": 0.67,
+    "avgROE": -5.7,
+    "performance": -2.5
+  },
+  {
+    "slug": "metal-ana",
+    "name": "Metal Ana",
+    "stockCount": 17,
+    "avgPE": 381.59,
+    "avgPB": 0.55,
+    "avgROE": -2.05,
+    "performance": -2.74
+  },
+  {
+    "slug": "yatirim",
+    "name": "Yatirim",
+    "stockCount": 17,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "otomotiv",
+    "name": "Otomotiv",
+    "stockCount": 15,
+    "avgPE": 10.76,
+    "avgPB": 2.34,
+    "avgROE": 21.7,
+    "performance": -1.24
+  },
+  {
+    "slug": "gida",
+    "name": "Gida",
+    "stockCount": 13,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "cimento",
+    "name": "Çimento",
+    "stockCount": 12,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "bankacilik",
+    "name": "Bankacılık",
+    "stockCount": 11,
+    "avgPE": 5.56,
+    "avgPB": 1.19,
+    "avgROE": 21.7,
+    "performance": -2.47
+  },
+  {
+    "slug": "makine",
+    "name": "Makine",
+    "stockCount": 11,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "turizm",
+    "name": "Turizm",
+    "stockCount": 11,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "metal-urunleri",
+    "name": "Metal Urunleri",
+    "stockCount": 11,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "ulastirma",
+    "name": "Ulaştırma",
+    "stockCount": 9,
+    "avgPE": 3.46,
+    "avgPB": 0.45,
+    "avgROE": 13.0,
+    "performance": 0.34
+  },
+  {
+    "slug": "kagit-ve-kagit-urunleri",
+    "name": "Kağıt ve Kağıt Ürünleri",
+    "stockCount": 8,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "dayanikli-tuketim",
+    "name": "Dayanıklı Tüketim",
+    "stockCount": 8,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "ambalaj",
+    "name": "Ambalaj",
+    "stockCount": 8,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "madencilik",
+    "name": "Madencilik",
+    "stockCount": 8,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "insaat",
+    "name": "Insaat",
+    "stockCount": 7,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "plastik",
+    "name": "Plastik",
+    "stockCount": 7,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "araci-kurumlar",
+    "name": "Aracı Kurumlar",
+    "stockCount": 6,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "perakende-ticaret",
+    "name": "Perakende Ticaret",
+    "stockCount": 6,
     "avgPE": 21.67,
     "avgPB": 2.44,
     "avgROE": 11.3,
     "performance": -4.54
+  },
+  {
+    "slug": "sigorta",
+    "name": "Sigorta",
+    "stockCount": 6,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "i̇lac",
+    "name": "İlaç",
+    "stockCount": 6,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "finans",
+    "name": "Finans",
+    "stockCount": 6,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "mobilya",
+    "name": "Mobilya",
+    "stockCount": 6,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "finansal-kiralama",
+    "name": "Finansal Kiralama",
+    "stockCount": 6,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "saglik",
+    "name": "Saglik",
+    "stockCount": 5,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "savunma",
+    "name": "Savunma",
+    "stockCount": 5,
+    "avgPE": 51.73,
+    "avgPB": 3.99,
+    "avgROE": 7.7,
+    "performance": -1.92
+  },
+  {
+    "slug": "medya",
+    "name": "Medya",
+    "stockCount": 5,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "tas-ve-topraga-dayali",
+    "name": "Taş ve Toprağa Dayalı",
+    "stockCount": 5,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "elektrik-malzemeleri",
+    "name": "Elektrik Malzemeleri",
+    "stockCount": 5,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "metal-esya",
+    "name": "Metal Eşya",
+    "stockCount": 4,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "i̇nsaat",
+    "name": "İnşaat",
+    "stockCount": 4,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "ulastirma",
+    "name": "Ulastirma",
+    "stockCount": 4,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "saglik",
+    "name": "Sağlık",
+    "stockCount": 4,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "cimento",
+    "name": "Cimento",
+    "stockCount": 3,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "perakende",
+    "name": "Perakende",
+    "stockCount": 3,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "spor",
+    "name": "Spor",
+    "stockCount": 3,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "yatirim-ortakligi",
+    "name": "Yatırım Ortaklığı",
+    "stockCount": 2,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "sanayi",
+    "name": "Sanayi",
+    "stockCount": 2,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "telekomunikasyon",
+    "name": "Telekomünikasyon",
+    "stockCount": 2,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "kirtasiye",
+    "name": "Kırtasiye",
+    "stockCount": 1,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "tarim",
+    "name": "Tarım",
+    "stockCount": 1,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "ilac",
+    "name": "Ilac",
+    "stockCount": 1,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "demir-celik",
+    "name": "Demir-Celik",
+    "stockCount": 1,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "lojistik",
+    "name": "Lojistik",
+    "stockCount": 1,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "banka",
+    "name": "Banka",
+    "stockCount": 1,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "hizmetler",
+    "name": "Hizmetler",
+    "stockCount": 1,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "elektrik",
+    "name": "Elektrik",
+    "stockCount": 1,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "makina",
+    "name": "Makina",
+    "stockCount": 1,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
+  },
+  {
+    "slug": "cam",
+    "name": "Cam",
+    "stockCount": 1,
+    "avgPE": null,
+    "avgPB": null,
+    "avgROE": null,
+    "performance": 0
   }
 ]

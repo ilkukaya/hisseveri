@@ -79,12 +79,18 @@ const jsonLd = {
           </p>
         </div>
         <div class="text-right">
-          <p class="font-mono text-3xl font-bold text-gray-900 dark:text-white">
-            {formatCurrency(company.price.last)}
-          </p>
-          <p class={`font-mono text-lg font-semibold ${changeColor}`}>
-            {arrow} {formatPercent(company.price.changePercent)} ({formatNumber(company.price.change)})
-          </p>
+          {company.price.last > 0 ? (
+            <>
+              <p class="font-mono text-3xl font-bold text-gray-900 dark:text-white">
+                {formatCurrency(company.price.last)}
+              </p>
+              <p class={`font-mono text-lg font-semibold ${changeColor}`}>
+                {arrow} {formatPercent(company.price.changePercent)} ({formatNumber(company.price.change)})
+              </p>
+            </>
+          ) : (
+            <p class="text-sm text-gray-400 dark:text-gray-500">Fiyat verisi bekleniyor</p>
+          )}
           <p class="mt-1 text-xs text-gray-400 dark:text-gray-500">
             Hacim: {formatLargeNumber(company.price.volume)} · Piy.Değ: {formatLargeNumber(company.price.marketCap)}
           </p>

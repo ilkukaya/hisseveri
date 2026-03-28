@@ -1,0 +1,40 @@
+{
+  "ticker": "NIBAS",
+  "name": "Niğbaş Niğde Beton",
+  "sector": "Çimento",
+  "subsector": "Çimento",
+  "indexes": [],
+  "website": "",
+  "capital": 0,
+  "freeFloat": 0,
+  "ipoDate": "",
+  "price": {
+    "last": 0,
+    "change": 0,
+    "changePercent": 0,
+    "open": 0,
+    "high": 0,
+    "low": 0,
+    "volume": 0,
+    "marketCap": 0,
+    "updatedAt": "2026-03-28"
+  },
+  "ratios": {
+    "pe": null,
+    "pb": null,
+    "ps": null,
+    "evEbitda": null,
+    "roe": null,
+    "roa": null,
+    "netMargin": null,
+    "grossMargin": null,
+    "ebitdaMargin": null,
+    "currentRatio": null,
+    "quickRatio": null,
+    "debtEquity": null,
+    "netDebtEbitda": null,
+    "revenueGrowthYoy": null,
+    "netIncomeGrowthYoy": null,
+    "equityGrowthYoy": null
+  }
+}

@@ -37,6 +37,14 @@ const PERIODS: { label: Period; days: number }[] = [
 export default function PriceChart({ prices, ticker }: Props) {
   const [period, setPeriod] = useState<Period>('1Y');
 
+  if (!prices || prices.length === 0) {
+    return (
+      <div className="flex h-[300px] items-center justify-center rounded-lg border border-dashed border-gray-300 dark:border-gray-700">
+        <p className="text-sm text-gray-400 dark:text-gray-500">Fiyat verisi henüz mevcut değil</p>
+      </div>
+    );
+  }
+
   const filteredPrices = useMemo(() => {
     const days = PERIODS.find((p) => p.label === period)?.days || 9999;
     return prices.slice(-days);
