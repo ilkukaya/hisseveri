@@ -1,9 +1,11 @@
 name: Update Financial Data
 
 on:
+  # Mali tablo yayın dönemlerinde haftada bir çalışır (Pazar 18:00 UTC / 21:00 İstanbul)
+  # Q1 sonuçları: Nisan-Mayıs, Q2: Temmuz-Ağustos, Q3: Ekim-Kasım, Q4: Şubat-Mart
   schedule:
-    - cron: '0 18 * * 1-5'  # Hafta içi 18:00 UTC (21:00 İstanbul)
-  workflow_dispatch: {}      # Manuel tetikleme
+    - cron: '0 18 * 2-5,7-8,10-11 0'  # Bildirim aylarında haftada bir (Pazar)
+  workflow_dispatch: {}  # Manuel tetikleme (yeni bilanço yayınlandığında)
 
 jobs:
   update:
