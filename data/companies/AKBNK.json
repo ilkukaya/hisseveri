@@ -23,21 +23,21 @@
     "updatedAt": "2026-03-28"
   },
   "ratios": {
-    "pe": 9.47,
-    "pb": 1.33,
-    "ps": 2.5,
+    "pe": 6.44,
+    "pb": 1.19,
+    "ps": 1.76,
     "evEbitda": null,
-    "roe": 14.03,
-    "roa": 1.28,
-    "netMargin": 26.35,
+    "roe": 18.46,
+    "roa": 1.72,
+    "netMargin": 27.38,
     "grossMargin": 0.0,
     "ebitdaMargin": null,
     "currentRatio": null,
     "quickRatio": null,
     "debtEquity": 0.0,
     "netDebtEbitda": null,
-    "revenueGrowthYoy": 41.46,
-    "netIncomeGrowthYoy": 17.43,
-    "equityGrowthYoy": 20.1
+    "revenueGrowthYoy": 45.17,
+    "netIncomeGrowthYoy": 35.12,
+    "equityGrowthYoy": 29.05
   }
 }

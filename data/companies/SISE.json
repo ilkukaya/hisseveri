@@ -27,17 +27,17 @@
     "pb": null,
     "ps": null,
     "evEbitda": null,
-    "roe": 2.21,
-    "roa": 1.18,
-    "netMargin": 3.49,
-    "grossMargin": 27.79,
-    "ebitdaMargin": 10.22,
-    "currentRatio": 1.25,
+    "roe": 3.54,
+    "roa": 1.88,
+    "netMargin": 4.25,
+    "grossMargin": 27.61,
+    "ebitdaMargin": 9.55,
+    "currentRatio": 1.26,
     "quickRatio": null,
-    "debtEquity": 0.87,
+    "debtEquity": 0.88,
     "netDebtEbitda": null,
-    "revenueGrowthYoy": -10.69,
-    "netIncomeGrowthYoy": -34.46,
-    "equityGrowthYoy": 23.9
+    "revenueGrowthYoy": -7.57,
+    "netIncomeGrowthYoy": 39.08,
+    "equityGrowthYoy": -1.15
   }
 }
