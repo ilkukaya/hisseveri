@@ -38,6 +38,8 @@ XI29_CODE_MAP = {
     "4C": ("cashFlow", "operating"),                    # İşletme Faaliyetlerinden Kaynaklanan Net Nakit
     "4CAK": ("cashFlow", "investing"),                  # Yatırım Faaliyetlerinden Kaynaklanan Nakit
     "4CBE": ("cashFlow", "financing"),                  # Finansman Faaliyetlerden Kaynaklanan Nakit
+    # Ek kalemler (FAVÖK hesabı için)
+    "4B": ("_extra", "depreciation"),                   # Amortisman Giderleri
 }
 
 # UFRS item code mapping (bankalar)
@@ -164,6 +166,7 @@ def fetch_financial_data(ticker):
         }
 
         found = set()
+        extra = {}  # Ek kalemler (FAVÖK hesabı için amortisman vs.)
 
         for code, row_data in all_rows.items():
             mapping = code_map.get(code)
@@ -171,9 +174,6 @@ def fetch_financial_data(ticker):
                 continue
 
             section, field = mapping
-            field_key = f"{section}.{field}"
-            if field_key in found:
-                continue
 
             values = []
             for p in periods:
@@ -182,6 +182,15 @@ def fetch_financial_data(ticker):
                     values.append(float(val) if val is not None and str(val) not in ("nan", "None", "") else 0)
                 except (ValueError, TypeError):
                     values.append(0)
+
+            # _extra kalemleri ayrı tut
+            if section == "_extra":
+                extra[field] = values
+                continue
+
+            field_key = f"{section}.{field}"
+            if field_key in found:
+                continue
 
             found.add(field_key)
             result[section][field] = values
@@ -208,6 +217,15 @@ def fetch_financial_data(ticker):
             if any(v != 0 for v in ca) or any(v != 0 for v in nca):
                 result["balanceSheet"]["totalAssets"] = [
                     ca[i] + nca[i] for i in range(len(periods))
+                ]
+
+        # FAVÖK = Faaliyet Karı + Amortisman
+        if all(v == 0 for v in result["incomeStatement"]["ebitda"]):
+            op_inc = result["incomeStatement"]["operatingIncome"]
+            depreciation = extra.get("depreciation", [0] * len(periods))
+            if any(v != 0 for v in op_inc) and any(v != 0 for v in depreciation):
+                result["incomeStatement"]["ebitda"] = [
+                    op_inc[i] + depreciation[i] for i in range(len(periods))
                 ]
 
         # Veri kalitesi kontrolü - en az bilanço veya gelir tablosu olmalı
