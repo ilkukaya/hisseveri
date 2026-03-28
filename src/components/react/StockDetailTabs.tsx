@@ -1,8 +1,10 @@
 import { Component, type ReactNode } from 'react';
 import TabPanel from './TabPanel';
 import FinancialTable from './FinancialTable';
+import DetailedFinancialTable from './DetailedFinancialTable';
 import RevenueChart from './RevenueChart';
 import RatioChart from './RatioChart';
+import type { DetailedFinancialItem } from '../../utils/types';
 
 class ChartErrorBoundary extends Component<{ children: ReactNode }, { hasError: boolean }> {
   state = { hasError: false };
@@ -38,6 +40,11 @@ interface FinancialData {
     operating: number[];
     investing: number[];
     financing: number[];
+  };
+  detailed?: {
+    balanceSheet: DetailedFinancialItem[];
+    incomeStatement: DetailedFinancialItem[];
+    cashFlow: DetailedFinancialItem[];
   };
 }
 
@@ -103,20 +110,31 @@ export default function StockDetailTabs({ financials }: Props) {
       : null,
   );
 
+  const hasDetailed = financials.detailed &&
+    (financials.detailed.balanceSheet.length > 0 ||
+     financials.detailed.incomeStatement.length > 0 ||
+     financials.detailed.cashFlow.length > 0);
+
   return (
     <TabPanel
       tabs={[
         {
           label: 'Bilanço',
-          content: <FinancialTable periods={periods} rows={balanceSheetRows} title="Bilanço" />,
+          content: hasDetailed && financials.detailed!.balanceSheet.length > 0
+            ? <DetailedFinancialTable periods={periods} items={financials.detailed!.balanceSheet} title="Bilanço" />
+            : <FinancialTable periods={periods} rows={balanceSheetRows} title="Bilanço" />,
         },
         {
           label: 'Gelir Tablosu',
-          content: <FinancialTable periods={periods} rows={incomeRows} title="Gelir Tablosu" />,
+          content: hasDetailed && financials.detailed!.incomeStatement.length > 0
+            ? <DetailedFinancialTable periods={periods} items={financials.detailed!.incomeStatement} title="Gelir Tablosu" />
+            : <FinancialTable periods={periods} rows={incomeRows} title="Gelir Tablosu" />,
         },
         {
           label: 'Nakit Akış',
-          content: <FinancialTable periods={periods} rows={cashFlowRows} title="Nakit Akış Tablosu" />,
+          content: hasDetailed && financials.detailed!.cashFlow.length > 0
+            ? <DetailedFinancialTable periods={periods} items={financials.detailed!.cashFlow} title="Nakit Akış Tablosu" />
+            : <FinancialTable periods={periods} rows={cashFlowRows} title="Nakit Akış Tablosu" />,
         },
         {
           label: 'Grafikler',

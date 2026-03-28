@@ -232,6 +232,46 @@ def fetch_financial_data(ticker):
                     op_inc[i] + depreciation[i] for i in range(len(periods))
                 ]
 
+        # Detaylı tablo verileri - tüm API kalemlerini kaydet
+        detailed = {
+            "balanceSheet": [],
+            "incomeStatement": [],
+            "cashFlow": [],
+        }
+
+        for code, row_data in all_rows.items():
+            values_list = []
+            for p in periods:
+                val = row_data["values"].get(p, 0)
+                try:
+                    values_list.append(float(val) if val is not None and str(val) not in ("nan", "None", "") else 0)
+                except (ValueError, TypeError):
+                    values_list.append(0)
+
+            # Tüm değerler 0 olan satırları atla
+            if all(v == 0 for v in values_list):
+                continue
+
+            item = {
+                "code": code,
+                "name": row_data["descTr"],
+                "values": values_list,
+            }
+
+            # Kod prefixine göre kategorize et
+            if code.startswith("1") or code.startswith("2"):
+                detailed["balanceSheet"].append(item)
+            elif code.startswith("3"):
+                detailed["incomeStatement"].append(item)
+            elif code.startswith("4"):
+                detailed["cashFlow"].append(item)
+
+        # Kodlara göre sırala (API sırası korunur ama güvenlik için)
+        for section in detailed:
+            detailed[section].sort(key=lambda x: x["code"])
+
+        result["detailed"] = detailed
+
         # Veri kalitesi kontrolü - en az bilanço veya gelir tablosu olmalı
         has_balance = any(v != 0 for v in result["balanceSheet"]["totalAssets"])
         has_equity = any(v != 0 for v in result["balanceSheet"]["equity"])

@@ -82,6 +82,12 @@ export interface Ratios {
   equityGrowthYoy: number | null;
 }
 
+export interface DetailedFinancialItem {
+  code: string;
+  name: string;
+  values: number[];
+}
+
 export interface FinancialData {
   ticker: string;
   currency: string;
@@ -107,6 +113,11 @@ export interface FinancialData {
     operating: number[];
     investing: number[];
     financing: number[];
+  };
+  detailed?: {
+    balanceSheet: DetailedFinancialItem[];
+    incomeStatement: DetailedFinancialItem[];
+    cashFlow: DetailedFinancialItem[];
   };
 }
 
