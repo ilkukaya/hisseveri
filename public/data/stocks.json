@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T14:36:02.614707",
+  "updatedAt": "2026-03-29T19:30:26.448369",
   "count": 613,
   "stocks": [
     {
@@ -15,8 +15,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.77,
+      "netMargin": 0.86,
       "dividendYield": null
     },
     {
@@ -32,8 +32,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.92,
+      "netMargin": 217.66,
       "dividendYield": null
     },
     {
@@ -51,8 +51,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.94,
+      "netMargin": 5.79,
       "dividendYield": null
     },
     {
@@ -68,8 +68,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.75,
+      "netMargin": 13.18,
       "dividendYield": null
     },
     {
@@ -85,8 +85,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.56,
+      "netMargin": -26.7,
       "dividendYield": null
     },
     {
@@ -102,8 +102,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.58,
+      "netMargin": 503.57,
       "dividendYield": null
     },
     {
@@ -121,8 +121,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.85,
+      "netMargin": 11.81,
       "dividendYield": null
     },
     {
@@ -138,8 +138,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.2,
+      "netMargin": 1.19,
       "dividendYield": null
     },
     {
@@ -157,7 +157,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
+      "roe": 18.53,
       "netMargin": null,
       "dividendYield": null
     },
@@ -176,8 +176,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.39,
+      "netMargin": 6.18,
       "dividendYield": null
     },
     {
@@ -193,8 +193,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 25.19,
+      "netMargin": 109.52,
       "dividendYield": null
     },
     {
@@ -210,8 +210,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.23,
+      "netMargin": 11.74,
       "dividendYield": null
     },
     {
@@ -227,8 +227,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.11,
+      "netMargin": 20.4,
       "dividendYield": null
     },
     {
@@ -246,8 +246,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.51,
+      "netMargin": 538.3,
       "dividendYield": null
     },
     {
@@ -264,10 +264,10 @@
       "changePercent": -0.52,
       "volume": 5265930312,
       "marketCap": 368680000000,
-      "pe": 6.44,
-      "pb": 1.19,
-      "roe": 18.46,
-      "netMargin": 27.38,
+      "pe": 27.96,
+      "pb": 1.73,
+      "roe": 6.19,
+      "netMargin": 36.2,
       "dividendYield": 2.8
     },
     {
@@ -285,8 +285,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.01,
+      "netMargin": 0.04,
       "dividendYield": null
     },
     {
@@ -302,8 +302,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.48,
+      "netMargin": 3.39,
       "dividendYield": null
     },
     {
@@ -319,8 +319,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.97,
+      "netMargin": 142.77,
       "dividendYield": null
     },
     {
@@ -337,7 +337,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": -42.18,
       "dividendYield": null
     },
     {
@@ -355,8 +355,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 6.51,
+      "netMargin": 101.1,
       "dividendYield": null
     },
     {
@@ -374,7 +374,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
+      "roe": 7.56,
       "netMargin": null,
       "dividendYield": null
     },
@@ -394,7 +394,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 2.28,
       "dividendYield": null
     },
     {
@@ -410,8 +410,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.04,
+      "netMargin": 61.63,
       "dividendYield": null
     },
     {
@@ -430,8 +430,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.11,
+      "netMargin": 10.17,
       "dividendYield": null
     },
     {
@@ -450,8 +450,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.52,
+      "netMargin": 17.08,
       "dividendYield": null
     },
     {
@@ -467,8 +467,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.95,
+      "netMargin": 81.84,
       "dividendYield": null
     },
     {
@@ -484,8 +484,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.88,
+      "netMargin": -78.5,
       "dividendYield": null
     },
     {
@@ -503,8 +503,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -8.94,
+      "netMargin": -136.32,
       "dividendYield": null
     },
     {
@@ -522,8 +522,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -3.55,
+      "netMargin": -77.51,
       "dividendYield": null
     },
     {
@@ -541,7 +541,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
+      "roe": 4.4,
       "netMargin": null,
       "dividendYield": null
     },
@@ -558,8 +558,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -9.23,
+      "netMargin": -8.19,
       "dividendYield": null
     },
     {
@@ -577,8 +577,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.84,
+      "netMargin": 6.74,
       "dividendYield": null
     },
     {
@@ -594,8 +594,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -19.94,
+      "netMargin": -26.28,
       "dividendYield": null
     },
     {
@@ -611,8 +611,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.04,
+      "netMargin": 10.77,
       "dividendYield": null
     },
     {
@@ -630,8 +630,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.04,
+      "netMargin": -11.73,
       "dividendYield": null
     },
     {
@@ -649,8 +649,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.21,
+      "netMargin": -12.89,
       "dividendYield": null
     },
     {
@@ -668,8 +668,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.79,
+      "netMargin": 1.3,
       "dividendYield": null
     },
     {
@@ -687,8 +687,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -9.72,
+      "netMargin": -36.8,
       "dividendYield": null
     },
     {
@@ -706,8 +706,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 11.44,
+      "netMargin": 10.88,
       "dividendYield": null
     },
     {
@@ -723,8 +723,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -18.74,
+      "netMargin": -33.03,
       "dividendYield": null
     },
     {
@@ -742,8 +742,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.32,
+      "netMargin": -63.74,
       "dividendYield": null
     },
     {
@@ -761,7 +761,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
+      "roe": 15.47,
       "netMargin": null,
       "dividendYield": null
     },
@@ -780,7 +780,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
+      "roe": 16.62,
       "netMargin": null,
       "dividendYield": null
     },
@@ -799,8 +799,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.1,
+      "netMargin": -2.19,
       "dividendYield": null
     },
     {
@@ -819,8 +819,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.94,
+      "netMargin": 2.63,
       "dividendYield": null
     },
     {
@@ -838,8 +838,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.69,
+      "netMargin": -6.73,
       "dividendYield": null
     },
     {
@@ -855,8 +855,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -13.97,
+      "netMargin": -3.09,
       "dividendYield": null
     },
     {
@@ -875,7 +875,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": -11.37,
       "dividendYield": null
     },
     {
@@ -892,7 +892,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 4.05,
       "dividendYield": null
     },
     {
@@ -908,8 +908,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.45,
+      "netMargin": 537.7,
       "dividendYield": null
     },
     {
@@ -925,8 +925,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.14,
+      "netMargin": 0.79,
       "dividendYield": null
     },
     {
@@ -942,8 +942,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -15.45,
+      "netMargin": -5.29,
       "dividendYield": null
     },
     {
@@ -961,10 +961,10 @@
       "changePercent": -2.14,
       "volume": 4961107193,
       "marketCap": 999552000000,
-      "pe": 33.41,
-      "pb": 3.97,
-      "roe": 11.88,
-      "netMargin": 16.58,
+      "pe": 584.19,
+      "pb": 9.71,
+      "roe": 1.66,
+      "netMargin": 8.18,
       "dividendYield": 0.42
     },
     {
@@ -980,8 +980,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.93,
+      "netMargin": -1562.44,
       "dividendYield": null
     },
     {
@@ -999,8 +999,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.38,
+      "netMargin": 9.85,
       "dividendYield": null
     },
     {
@@ -1018,8 +1018,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.55,
+      "netMargin": 8.83,
       "dividendYield": null
     },
     {
@@ -1035,8 +1035,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.83,
+      "netMargin": -59.19,
       "dividendYield": null
     },
     {
@@ -1054,8 +1054,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.21,
+      "netMargin": 0.64,
       "dividendYield": null
     },
     {
@@ -1073,8 +1073,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 15.43,
+      "netMargin": 31.62,
       "dividendYield": null
     },
     {
@@ -1091,7 +1091,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 25.58,
       "dividendYield": null
     },
     {
@@ -1107,8 +1107,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.67,
+      "netMargin": 3.27,
       "dividendYield": null
     },
     {
@@ -1124,8 +1124,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.8,
+      "netMargin": 0.55,
       "dividendYield": null
     },
     {
@@ -1141,8 +1141,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 20.81,
+      "netMargin": 105.02,
       "dividendYield": null
     },
     {
@@ -1158,8 +1158,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.92,
+      "netMargin": 12.59,
       "dividendYield": null
     },
     {
@@ -1175,8 +1175,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 14.23,
+      "netMargin": 50.03,
       "dividendYield": null
     },
     {
@@ -1192,8 +1192,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -10.68,
+      "netMargin": -27.12,
       "dividendYield": null
     },
     {
@@ -1211,8 +1211,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 17.22,
+      "netMargin": 96.88,
       "dividendYield": null
     },
     {
@@ -1228,8 +1228,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -3.21,
+      "netMargin": -553.53,
       "dividendYield": null
     },
     {
@@ -1245,8 +1245,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.04,
+      "netMargin": -460.44,
       "dividendYield": null
     },
     {
@@ -1264,8 +1264,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.69,
+      "netMargin": 37.9,
       "dividendYield": null
     },
     {
@@ -1283,8 +1283,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.78,
+      "netMargin": 27.74,
       "dividendYield": null
     },
     {
@@ -1300,8 +1300,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.69,
+      "netMargin": -0.21,
       "dividendYield": null
     },
     {
@@ -1319,8 +1319,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.44,
+      "netMargin": -0.85,
       "dividendYield": null
     },
     {
@@ -1336,8 +1336,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.37,
+      "netMargin": 1.74,
       "dividendYield": null
     },
     {
@@ -1353,8 +1353,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -28.91,
+      "netMargin": -141.74,
       "dividendYield": null
     },
     {
@@ -1372,8 +1372,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.39,
+      "netMargin": 16.31,
       "dividendYield": null
     },
     {
@@ -1391,8 +1391,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.66,
+      "netMargin": 2.73,
       "dividendYield": null
     },
     {
@@ -1408,8 +1408,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 22.05,
+      "netMargin": 386.27,
       "dividendYield": null
     },
     {
@@ -1428,7 +1428,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 8.19,
       "dividendYield": null
     },
     {
@@ -1446,8 +1446,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 16.14,
+      "netMargin": 10.56,
       "dividendYield": null
     },
     {
@@ -1463,8 +1463,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.16,
+      "netMargin": 5.85,
       "dividendYield": null
     },
     {
@@ -1480,8 +1480,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -12.62,
+      "netMargin": -13.2,
       "dividendYield": null
     },
     {
@@ -1499,8 +1499,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.2,
+      "netMargin": 9.28,
       "dividendYield": null
     },
     {
@@ -1516,8 +1516,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -9.72,
+      "netMargin": -22.13,
       "dividendYield": null
     },
     {
@@ -1535,8 +1535,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.97,
+      "netMargin": 695.22,
       "dividendYield": null
     },
     {
@@ -1555,8 +1555,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 6.54,
+      "netMargin": 24.61,
       "dividendYield": null
     },
     {
@@ -1572,8 +1572,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.74,
+      "netMargin": 6.07,
       "dividendYield": null
     },
     {
@@ -1592,7 +1592,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 30.42,
       "dividendYield": null
     },
     {
@@ -1608,8 +1608,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -18.18,
+      "netMargin": -3.1,
       "dividendYield": null
     },
     {
@@ -1625,8 +1625,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 17.62,
+      "netMargin": 4.87,
       "dividendYield": null
     },
     {
@@ -1644,8 +1644,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -11.51,
+      "netMargin": -39.03,
       "dividendYield": null
     },
     {
@@ -1661,8 +1661,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.5,
+      "netMargin": 4.98,
       "dividendYield": null
     },
     {
@@ -1679,7 +1679,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 15.61,
       "dividendYield": null
     },
     {
@@ -1695,8 +1695,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -239.0,
+      "netMargin": -26.36,
       "dividendYield": null
     },
     {
@@ -1714,10 +1714,10 @@
       "changePercent": -0.37,
       "volume": 2443998823,
       "marketCap": 423300000000,
-      "pe": 22.59,
-      "pb": 2.53,
-      "roe": 11.21,
-      "netMargin": 2.6,
+      "pe": 79.03,
+      "pb": 5.03,
+      "roe": 6.36,
+      "netMargin": 3.74,
       "dividendYield": 1.8
     },
     {
@@ -1736,7 +1736,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 0.24,
       "dividendYield": null
     },
     {
@@ -1754,7 +1754,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": 0.01,
       "netMargin": null,
       "dividendYield": null
     },
@@ -1771,8 +1771,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 20.7,
+      "netMargin": 92.62,
       "dividendYield": null
     },
     {
@@ -1788,8 +1788,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -15.33,
+      "netMargin": -2.85,
       "dividendYield": null
     },
     {
@@ -1806,7 +1806,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": -13.49,
       "dividendYield": null
     },
     {
@@ -1822,8 +1822,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.95,
+      "netMargin": -131.26,
       "dividendYield": null
     },
     {
@@ -1839,8 +1839,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.51,
+      "netMargin": 2.24,
       "dividendYield": null
     },
     {
@@ -1856,8 +1856,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.11,
+      "netMargin": -6.59,
       "dividendYield": null
     },
     {
@@ -1875,8 +1875,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.76,
+      "netMargin": 1.65,
       "dividendYield": null
     },
     {
@@ -1894,8 +1894,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.18,
+      "netMargin": 17.61,
       "dividendYield": null
     },
     {
@@ -1911,8 +1911,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.61,
+      "netMargin": 4.54,
       "dividendYield": null
     },
     {
@@ -1928,8 +1928,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -16.4,
+      "netMargin": -38.28,
       "dividendYield": null
     },
     {
@@ -1947,8 +1947,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.65,
+      "netMargin": 9.7,
       "dividendYield": null
     },
     {
@@ -1966,8 +1966,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 6.33,
+      "netMargin": 20.16,
       "dividendYield": null
     },
     {
@@ -1986,8 +1986,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.96,
+      "netMargin": 7.84,
       "dividendYield": null
     },
     {
@@ -2003,8 +2003,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.01,
+      "netMargin": 89175.08,
       "dividendYield": null
     },
     {
@@ -2022,8 +2022,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 6.13,
+      "netMargin": 15.12,
       "dividendYield": null
     },
     {
@@ -2058,8 +2058,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.02,
+      "netMargin": 1.28,
       "dividendYield": null
     },
     {
@@ -2075,8 +2075,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -37.15,
+      "netMargin": -29.52,
       "dividendYield": null
     },
     {
@@ -2094,8 +2094,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.32,
+      "netMargin": 2.24,
       "dividendYield": null
     },
     {
@@ -2111,8 +2111,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.95,
+      "netMargin": 331.99,
       "dividendYield": null
     },
     {
@@ -2130,8 +2130,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.38,
+      "netMargin": 9.21,
       "dividendYield": null
     },
     {
@@ -2147,8 +2147,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.82,
+      "netMargin": 6.36,
       "dividendYield": null
     },
     {
@@ -2164,8 +2164,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.91,
+      "netMargin": 13.25,
       "dividendYield": null
     },
     {
@@ -2182,7 +2182,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 162.13,
       "dividendYield": null
     },
     {
@@ -2200,8 +2200,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.04,
+      "netMargin": -7.46,
       "dividendYield": null
     },
     {
@@ -2219,8 +2219,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.1,
+      "netMargin": 2.47,
       "dividendYield": null
     },
     {
@@ -2236,8 +2236,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.94,
+      "netMargin": 6.08,
       "dividendYield": null
     },
     {
@@ -2253,8 +2253,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.25,
+      "netMargin": 12.15,
       "dividendYield": null
     },
     {
@@ -2272,8 +2272,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -3.89,
+      "netMargin": -42.42,
       "dividendYield": null
     },
     {
@@ -2289,7 +2289,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": 2.45,
       "netMargin": null,
       "dividendYield": null
     },
@@ -2308,8 +2308,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.36,
+      "netMargin": 8.97,
       "dividendYield": null
     },
     {
@@ -2328,8 +2328,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.33,
+      "netMargin": 9.95,
       "dividendYield": null
     },
     {
@@ -2347,8 +2347,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.93,
+      "netMargin": -5.23,
       "dividendYield": null
     },
     {
@@ -2364,8 +2364,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -10.36,
+      "netMargin": -45.79,
       "dividendYield": null
     },
     {
@@ -2383,8 +2383,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.11,
+      "netMargin": 4.4,
       "dividendYield": null
     },
     {
@@ -2402,8 +2402,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.97,
+      "netMargin": 6.85,
       "dividendYield": null
     },
     {
@@ -2419,8 +2419,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.59,
+      "netMargin": -87.64,
       "dividendYield": null
     },
     {
@@ -2437,7 +2437,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 3.98,
       "dividendYield": null
     },
     {
@@ -2456,8 +2456,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.1,
+      "netMargin": 7.44,
       "dividendYield": null
     },
     {
@@ -2473,8 +2473,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 9.25,
+      "netMargin": 16.1,
       "dividendYield": null
     },
     {
@@ -2492,8 +2492,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -3.52,
+      "netMargin": -1.12,
       "dividendYield": null
     },
     {
@@ -2509,8 +2509,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.85,
+      "netMargin": -2.74,
       "dividendYield": null
     },
     {
@@ -2526,8 +2526,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.25,
+      "netMargin": 4.14,
       "dividendYield": null
     },
     {
@@ -2545,8 +2545,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.5,
+      "netMargin": -3.32,
       "dividendYield": null
     },
     {
@@ -2579,8 +2579,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.19,
+      "netMargin": -1.43,
       "dividendYield": null
     },
     {
@@ -2596,8 +2596,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -17.09,
+      "netMargin": -16.63,
       "dividendYield": null
     },
     {
@@ -2615,8 +2615,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.82,
+      "netMargin": 9.89,
       "dividendYield": null
     },
     {
@@ -2635,8 +2635,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.44,
+      "netMargin": 4.91,
       "dividendYield": null
     },
     {
@@ -2652,8 +2652,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.5,
+      "netMargin": -16.51,
       "dividendYield": null
     },
     {
@@ -2671,8 +2671,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.8,
+      "netMargin": 7.36,
       "dividendYield": null
     },
     {
@@ -2690,8 +2690,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.34,
+      "netMargin": -5.94,
       "dividendYield": null
     },
     {
@@ -2709,8 +2709,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.38,
+      "netMargin": 0.65,
       "dividendYield": null
     },
     {
@@ -2728,8 +2728,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -20.65,
+      "netMargin": -145.91,
       "dividendYield": null
     },
     {
@@ -2745,8 +2745,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.56,
+      "netMargin": 4.2,
       "dividendYield": null
     },
     {
@@ -2762,8 +2762,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.87,
+      "netMargin": 0.71,
       "dividendYield": null
     },
     {
@@ -2779,8 +2779,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.29,
+      "netMargin": 3.24,
       "dividendYield": null
     },
     {
@@ -2798,8 +2798,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -9.89,
+      "netMargin": -1.6,
       "dividendYield": null
     },
     {
@@ -2817,8 +2817,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -3.17,
+      "netMargin": -10.59,
       "dividendYield": null
     },
     {
@@ -2836,8 +2836,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -15.39,
+      "netMargin": -2.77,
       "dividendYield": null
     },
     {
@@ -2853,8 +2853,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.65,
+      "netMargin": 185.29,
       "dividendYield": null
     },
     {
@@ -2872,8 +2872,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.01,
+      "netMargin": -0.01,
       "dividendYield": null
     },
     {
@@ -2889,8 +2889,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.6,
+      "netMargin": -1649.96,
       "dividendYield": null
     },
     {
@@ -2906,8 +2906,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -13.34,
+      "netMargin": -9.98,
       "dividendYield": null
     },
     {
@@ -2923,8 +2923,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.43,
+      "netMargin": 10.89,
       "dividendYield": null
     },
     {
@@ -2942,8 +2942,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.33,
+      "netMargin": 4.99,
       "dividendYield": null
     },
     {
@@ -2959,8 +2959,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -3.36,
+      "netMargin": -22.08,
       "dividendYield": null
     },
     {
@@ -2978,8 +2978,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.89,
+      "netMargin": 8.78,
       "dividendYield": null
     },
     {
@@ -3016,8 +3016,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 6.04,
+      "netMargin": 5.78,
       "dividendYield": null
     },
     {
@@ -3036,7 +3036,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 0.12,
       "dividendYield": null
     },
     {
@@ -3054,8 +3054,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -13.82,
+      "netMargin": -73.74,
       "dividendYield": null
     },
     {
@@ -3073,8 +3073,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.11,
+      "netMargin": 6.63,
       "dividendYield": null
     },
     {
@@ -3090,8 +3090,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.17,
+      "netMargin": -0.25,
       "dividendYield": null
     },
     {
@@ -3127,8 +3127,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.28,
+      "netMargin": -41.78,
       "dividendYield": null
     },
     {
@@ -3144,8 +3144,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.49,
+      "netMargin": -14.75,
       "dividendYield": null
     },
     {
@@ -3162,7 +3162,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 7.28,
       "dividendYield": null
     },
     {
@@ -3180,8 +3180,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.56,
+      "netMargin": -1.95,
       "dividendYield": null
     },
     {
@@ -3197,8 +3197,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.6,
+      "netMargin": 39.7,
       "dividendYield": null
     },
     {
@@ -3216,8 +3216,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.48,
+      "netMargin": 1.5,
       "dividendYield": null
     },
     {
@@ -3235,8 +3235,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.53,
+      "netMargin": 21.72,
       "dividendYield": null
     },
     {
@@ -3253,7 +3253,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 47.55,
       "dividendYield": null
     },
     {
@@ -3271,7 +3271,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": 0.69,
       "netMargin": null,
       "dividendYield": null
     },
@@ -3290,8 +3290,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.11,
+      "netMargin": -12.33,
       "dividendYield": null
     },
     {
@@ -3309,8 +3309,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.61,
+      "netMargin": 167.86,
       "dividendYield": null
     },
     {
@@ -3328,8 +3328,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.19,
+      "netMargin": 6.52,
       "dividendYield": null
     },
     {
@@ -3347,8 +3347,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 6.26,
+      "netMargin": 21.37,
       "dividendYield": null
     },
     {
@@ -3365,7 +3365,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": -576.64,
       "dividendYield": null
     },
     {
@@ -3383,8 +3383,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.69,
+      "netMargin": -10.37,
       "dividendYield": null
     },
     {
@@ -3402,8 +3402,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -3.81,
+      "netMargin": -22.75,
       "dividendYield": null
     },
     {
@@ -3421,8 +3421,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.62,
+      "netMargin": 8.0,
       "dividendYield": null
     },
     {
@@ -3438,8 +3438,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -16.01,
+      "netMargin": -42.56,
       "dividendYield": null
     },
     {
@@ -3459,8 +3459,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.52,
+      "netMargin": 12.18,
       "dividendYield": null
     },
     {
@@ -3476,8 +3476,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 69.4,
+      "netMargin": 206.86,
       "dividendYield": null
     },
     {
@@ -3493,8 +3493,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.52,
+      "netMargin": -44.46,
       "dividendYield": null
     },
     {
@@ -3512,8 +3512,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -8.68,
+      "netMargin": -5.52,
       "dividendYield": null
     },
     {
@@ -3531,8 +3531,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.24,
+      "netMargin": 18.58,
       "dividendYield": null
     },
     {
@@ -3548,8 +3548,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.2,
+      "netMargin": -37.0,
       "dividendYield": null
     },
     {
@@ -3565,8 +3565,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 9.54,
+      "netMargin": 10.53,
       "dividendYield": null
     },
     {
@@ -3585,7 +3585,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 3.25,
       "dividendYield": null
     },
     {
@@ -3602,7 +3602,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": -11.67,
       "dividendYield": null
     },
     {
@@ -3618,8 +3618,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 9.31,
+      "netMargin": 22.1,
       "dividendYield": null
     },
     {
@@ -3639,8 +3639,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.98,
+      "netMargin": -7.99,
       "dividendYield": null
     },
     {
@@ -3659,8 +3659,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.01,
+      "netMargin": 26.58,
       "dividendYield": null
     },
     {
@@ -3676,8 +3676,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.61,
+      "netMargin": -80.02,
       "dividendYield": null
     },
     {
@@ -3693,8 +3693,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.24,
+      "netMargin": 47.2,
       "dividendYield": null
     },
     {
@@ -3710,8 +3710,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.6,
+      "netMargin": -18.93,
       "dividendYield": null
     },
     {
@@ -3727,8 +3727,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.22,
+      "netMargin": -6.93,
       "dividendYield": null
     },
     {
@@ -3744,8 +3744,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.92,
+      "netMargin": 1.76,
       "dividendYield": null
     },
     {
@@ -3763,10 +3763,10 @@
       "changePercent": 3.72,
       "volume": 2868545097,
       "marketCap": 195300000000,
-      "pe": 281.27,
-      "pb": 0.66,
-      "roe": 0.23,
-      "netMargin": 0.33,
+      "pe": 33.4,
+      "pb": 0.91,
+      "roe": 2.73,
+      "netMargin": 11.75,
       "dividendYield": 0.0
     },
     {
@@ -3782,8 +3782,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.89,
+      "netMargin": -37.8,
       "dividendYield": null
     },
     {
@@ -3799,8 +3799,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.13,
+      "netMargin": 64.91,
       "dividendYield": null
     },
     {
@@ -3818,8 +3818,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.85,
+      "netMargin": 12971.32,
       "dividendYield": null
     },
     {
@@ -3835,8 +3835,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 12.24,
+      "netMargin": 620.9,
       "dividendYield": null
     },
     {
@@ -3852,8 +3852,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.75,
+      "netMargin": -5.77,
       "dividendYield": null
     },
     {
@@ -3869,8 +3869,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.74,
+      "netMargin": -21.9,
       "dividendYield": null
     },
     {
@@ -3886,7 +3886,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -22.09,
       "netMargin": null,
       "dividendYield": null
     },
@@ -3903,8 +3903,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.56,
+      "netMargin": -23.41,
       "dividendYield": null
     },
     {
@@ -3922,8 +3922,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.63,
+      "netMargin": 4.39,
       "dividendYield": null
     },
     {
@@ -3939,8 +3939,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.54,
+      "netMargin": 27.54,
       "dividendYield": null
     },
     {
@@ -3956,8 +3956,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.37,
+      "netMargin": -18.22,
       "dividendYield": null
     },
     {
@@ -3975,8 +3975,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.31,
+      "netMargin": 17.3,
       "dividendYield": null
     },
     {
@@ -3994,8 +3994,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.44,
+      "netMargin": 18.63,
       "dividendYield": null
     },
     {
@@ -4012,7 +4012,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 47.48,
       "dividendYield": null
     },
     {
@@ -4028,8 +4028,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -10.85,
+      "netMargin": -200.98,
       "dividendYield": null
     },
     {
@@ -4045,8 +4045,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 10.93,
+      "netMargin": 19.52,
       "dividendYield": null
     },
     {
@@ -4064,8 +4064,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.23,
+      "netMargin": 6.93,
       "dividendYield": null
     },
     {
@@ -4083,8 +4083,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -13.66,
+      "netMargin": -59.98,
       "dividendYield": null
     },
     {
@@ -4102,8 +4102,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.52,
+      "netMargin": -18.22,
       "dividendYield": null
     },
     {
@@ -4119,8 +4119,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.43,
+      "netMargin": -5.81,
       "dividendYield": null
     },
     {
@@ -4139,7 +4139,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 3.4,
       "dividendYield": null
     },
     {
@@ -4156,10 +4156,10 @@
       "changePercent": 1.07,
       "volume": 596753704,
       "marketCap": 365648220000,
-      "pe": 10.76,
-      "pb": 2.34,
-      "roe": 21.78,
-      "netMargin": 4.09,
+      "pe": 29.51,
+      "pb": 4.07,
+      "roe": 13.78,
+      "netMargin": 7.23,
       "dividendYield": 2.5
     },
     {
@@ -4177,8 +4177,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.02,
+      "netMargin": 25.03,
       "dividendYield": null
     },
     {
@@ -4195,10 +4195,10 @@
       "changePercent": -0.16,
       "volume": 2647668956,
       "marketCap": 629160000000,
-      "pe": 5.04,
-      "pb": 1.26,
-      "roe": 25.0,
-      "netMargin": 38.5,
+      "pe": 28.19,
+      "pb": 2.46,
+      "roe": 8.74,
+      "netMargin": 40.13,
       "dividendYield": 3.2
     },
     {
@@ -4231,8 +4231,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.91,
+      "netMargin": 0.5,
       "dividendYield": null
     },
     {
@@ -4250,8 +4250,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.42,
+      "netMargin": 1.19,
       "dividendYield": null
     },
     {
@@ -4269,8 +4269,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.69,
+      "netMargin": 4.92,
       "dividendYield": null
     },
     {
@@ -4289,7 +4289,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 1.81,
       "dividendYield": null
     },
     {
@@ -4307,8 +4307,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.32,
+      "netMargin": 0.62,
       "dividendYield": null
     },
     {
@@ -4326,8 +4326,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 43.22,
+      "netMargin": 36.15,
       "dividendYield": null
     },
     {
@@ -4345,8 +4345,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.92,
+      "netMargin": 2.48,
       "dividendYield": null
     },
     {
@@ -4362,8 +4362,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.33,
+      "netMargin": -31.74,
       "dividendYield": null
     },
     {
@@ -4379,8 +4379,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.46,
+      "netMargin": -0.08,
       "dividendYield": null
     },
     {
@@ -4416,7 +4416,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 17.88,
       "dividendYield": null
     },
     {
@@ -4432,8 +4432,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.52,
+      "netMargin": 222.95,
       "dividendYield": null
     },
     {
@@ -4449,8 +4449,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.97,
+      "netMargin": 10.81,
       "dividendYield": null
     },
     {
@@ -4466,8 +4466,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.06,
+      "netMargin": 18.96,
       "dividendYield": null
     },
     {
@@ -4485,8 +4485,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 6.71,
+      "netMargin": 9.66,
       "dividendYield": null
     },
     {
@@ -4504,8 +4504,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 6.61,
+      "netMargin": 25.67,
       "dividendYield": null
     },
     {
@@ -4523,8 +4523,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.22,
+      "netMargin": -1.03,
       "dividendYield": null
     },
     {
@@ -4542,8 +4542,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.95,
+      "netMargin": -49.65,
       "dividendYield": null
     },
     {
@@ -4559,8 +4559,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -8.55,
+      "netMargin": -4.45,
       "dividendYield": null
     },
     {
@@ -4578,8 +4578,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 15.15,
+      "netMargin": 26.62,
       "dividendYield": null
     },
     {
@@ -4597,8 +4597,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.82,
+      "netMargin": 15.56,
       "dividendYield": null
     },
     {
@@ -4614,8 +4614,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.77,
+      "netMargin": -30.6,
       "dividendYield": null
     },
     {
@@ -4631,8 +4631,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.2,
+      "netMargin": -85.91,
       "dividendYield": null
     },
     {
@@ -4648,8 +4648,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 23.78,
+      "netMargin": 6.52,
       "dividendYield": null
     },
     {
@@ -4668,8 +4668,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -11.94,
+      "netMargin": -14.14,
       "dividendYield": null
     },
     {
@@ -4687,8 +4687,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 9.54,
+      "netMargin": 3.94,
       "dividendYield": null
     },
     {
@@ -4706,8 +4706,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.47,
+      "netMargin": 43.02,
       "dividendYield": null
     },
     {
@@ -4723,8 +4723,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -11.15,
+      "netMargin": -30.83,
       "dividendYield": null
     },
     {
@@ -4743,8 +4743,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
-      "netMargin": null,
+      "roe": 3.62,
+      "netMargin": 31.96,
       "dividendYield": null
     },
     {
@@ -4760,8 +4760,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -9.95,
+      "netMargin": -54.24,
       "dividendYield": null
     },
     {
@@ -4779,8 +4779,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -8.18,
+      "netMargin": -32.81,
       "dividendYield": null
     },
     {
@@ -4796,8 +4796,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -11.2,
+      "netMargin": -119.48,
       "dividendYield": null
     },
     {
@@ -4813,8 +4813,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -12.61,
+      "netMargin": -209.45,
       "dividendYield": null
     },
     {
@@ -4832,8 +4832,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.66,
+      "netMargin": -21.22,
       "dividendYield": null
     },
     {
@@ -4851,8 +4851,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.31,
+      "netMargin": -15.38,
       "dividendYield": null
     },
     {
@@ -4868,8 +4868,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.9,
+      "netMargin": -225.85,
       "dividendYield": null
     },
     {
@@ -4887,8 +4887,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.05,
+      "netMargin": 2.06,
       "dividendYield": null
     },
     {
@@ -4906,8 +4906,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.94,
+      "netMargin": -25.73,
       "dividendYield": null
     },
     {
@@ -4923,8 +4923,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.66,
+      "netMargin": 20.8,
       "dividendYield": null
     },
     {
@@ -4942,7 +4942,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -18.65,
       "netMargin": null,
       "dividendYield": null
     },
@@ -4959,8 +4959,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.85,
+      "netMargin": -57.05,
       "dividendYield": null
     },
     {
@@ -4976,8 +4976,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -9.12,
+      "netMargin": -79.41,
       "dividendYield": null
     },
     {
@@ -4993,8 +4993,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
-      "netMargin": null,
+      "roe": 2.37,
+      "netMargin": 16.25,
       "dividendYield": null
     },
     {
@@ -5010,7 +5010,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -3.49,
       "netMargin": null,
       "dividendYield": null
     },
@@ -5029,8 +5029,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -69.0,
+      "netMargin": -121.94,
       "dividendYield": null
     },
     {
@@ -5046,8 +5046,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -9.37,
+      "netMargin": -26.66,
       "dividendYield": null
     },
     {
@@ -5063,8 +5063,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -19.16,
+      "netMargin": -42.3,
       "dividendYield": null
     },
     {
@@ -5082,8 +5082,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.74,
+      "netMargin": -3.62,
       "dividendYield": null
     },
     {
@@ -5099,8 +5099,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.09,
+      "netMargin": -21.85,
       "dividendYield": null
     },
     {
@@ -5118,8 +5118,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.81,
+      "netMargin": -23.9,
       "dividendYield": null
     },
     {
@@ -5137,8 +5137,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 19.7,
+      "netMargin": 226.74,
       "dividendYield": null
     },
     {
@@ -5156,8 +5156,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -8.04,
+      "netMargin": -26.62,
       "dividendYield": null
     },
     {
@@ -5175,8 +5175,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.33,
+      "netMargin": 6.99,
       "dividendYield": null
     },
     {
@@ -5192,8 +5192,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.05,
+      "netMargin": 0.6,
       "dividendYield": null
     },
     {
@@ -5209,8 +5209,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.31,
+      "netMargin": -0.96,
       "dividendYield": null
     },
     {
@@ -5226,8 +5226,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.15,
+      "netMargin": 1.36,
       "dividendYield": null
     },
     {
@@ -5243,8 +5243,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 46.63,
+      "netMargin": 172.58,
       "dividendYield": null
     },
     {
@@ -5262,8 +5262,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.54,
+      "netMargin": 9.36,
       "dividendYield": null
     },
     {
@@ -5281,7 +5281,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -19.81,
       "netMargin": null,
       "dividendYield": null
     },
@@ -5298,8 +5298,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 22.58,
+      "netMargin": 89.03,
       "dividendYield": null
     },
     {
@@ -5334,8 +5334,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
-      "netMargin": null,
+      "roe": 5.11,
+      "netMargin": 39.0,
       "dividendYield": null
     },
     {
@@ -5351,8 +5351,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 6.99,
+      "netMargin": 9.91,
       "dividendYield": null
     },
     {
@@ -5368,8 +5368,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
-      "netMargin": null,
+      "roe": 5.11,
+      "netMargin": 38.98,
       "dividendYield": null
     },
     {
@@ -5388,8 +5388,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
-      "netMargin": null,
+      "roe": 5.11,
+      "netMargin": 38.98,
       "dividendYield": null
     },
     {
@@ -5407,8 +5407,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.44,
+      "netMargin": 16.84,
       "dividendYield": null
     },
     {
@@ -5442,7 +5442,7 @@
       "pe": null,
       "pb": null,
       "roe": 0.0,
-      "netMargin": null,
+      "netMargin": 0.2,
       "dividendYield": null
     },
     {
@@ -5460,8 +5460,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.46,
+      "netMargin": -32.79,
       "dividendYield": null
     },
     {
@@ -5477,8 +5477,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.05,
+      "netMargin": 6.83,
       "dividendYield": null
     },
     {
@@ -5511,8 +5511,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.28,
+      "netMargin": 0.08,
       "dividendYield": null
     },
     {
@@ -5530,8 +5530,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.21,
+      "netMargin": 7.45,
       "dividendYield": null
     },
     {
@@ -5547,8 +5547,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.7,
+      "netMargin": -8.91,
       "dividendYield": null
     },
     {
@@ -5564,8 +5564,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.85,
+      "netMargin": -26.43,
       "dividendYield": null
     },
     {
@@ -5583,8 +5583,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -8.73,
+      "netMargin": -10.56,
       "dividendYield": null
     },
     {
@@ -5602,8 +5602,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.79,
+      "netMargin": -47.37,
       "dividendYield": null
     },
     {
@@ -5619,8 +5619,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.93,
+      "netMargin": -12.95,
       "dividendYield": null
     },
     {
@@ -5638,8 +5638,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.57,
+      "netMargin": 1.32,
       "dividendYield": null
     },
     {
@@ -5655,8 +5655,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.53,
+      "netMargin": -8.92,
       "dividendYield": null
     },
     {
@@ -5674,8 +5674,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.36,
+      "netMargin": -2.88,
       "dividendYield": null
     },
     {
@@ -5694,8 +5694,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.25,
+      "netMargin": 0.62,
       "dividendYield": null
     },
     {
@@ -5711,8 +5711,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -17.75,
+      "netMargin": -32.44,
       "dividendYield": null
     },
     {
@@ -5730,8 +5730,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.77,
+      "netMargin": 45.39,
       "dividendYield": null
     },
     {
@@ -5747,8 +5747,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.71,
+      "netMargin": -23.49,
       "dividendYield": null
     },
     {
@@ -5766,8 +5766,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 10.66,
+      "netMargin": 16.68,
       "dividendYield": null
     },
     {
@@ -5785,8 +5785,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.6,
+      "netMargin": 2.48,
       "dividendYield": null
     },
     {
@@ -5805,8 +5805,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 3.17,
-      "netMargin": 1.88,
+      "roe": 0.05,
+      "netMargin": 0.08,
       "dividendYield": null
     },
     {
@@ -5822,8 +5822,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.52,
+      "netMargin": 1.62,
       "dividendYield": null
     },
     {
@@ -5839,8 +5839,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 32.59,
+      "netMargin": 21158.43,
       "dividendYield": null
     },
     {
@@ -5856,8 +5856,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.04,
+      "netMargin": 9.61,
       "dividendYield": null
     },
     {
@@ -5873,8 +5873,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -13.92,
+      "netMargin": -146.9,
       "dividendYield": null
     },
     {
@@ -5892,8 +5892,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.98,
+      "netMargin": 1.55,
       "dividendYield": null
     },
     {
@@ -5909,8 +5909,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.59,
+      "netMargin": 12.79,
       "dividendYield": null
     },
     {
@@ -5926,8 +5926,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.76,
+      "netMargin": 8.78,
       "dividendYield": null
     },
     {
@@ -5943,8 +5943,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.0,
+      "netMargin": -5.54,
       "dividendYield": null
     },
     {
@@ -5962,8 +5962,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
-      "netMargin": null,
+      "roe": 8.68,
+      "netMargin": 47.38,
       "dividendYield": null
     },
     {
@@ -5979,8 +5979,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.34,
+      "netMargin": 22.74,
       "dividendYield": null
     },
     {
@@ -5996,8 +5996,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -8.66,
+      "netMargin": -22.29,
       "dividendYield": null
     },
     {
@@ -6015,8 +6015,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.35,
+      "netMargin": 32.11,
       "dividendYield": null
     },
     {
@@ -6033,7 +6033,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 34.49,
       "dividendYield": null
     },
     {
@@ -6049,8 +6049,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.43,
+      "netMargin": 4.19,
       "dividendYield": null
     },
     {
@@ -6068,8 +6068,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.15,
+      "netMargin": -20.44,
       "dividendYield": null
     },
     {
@@ -6087,8 +6087,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.59,
+      "netMargin": 3.21,
       "dividendYield": null
     },
     {
@@ -6106,8 +6106,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.84,
+      "netMargin": 4.36,
       "dividendYield": null
     },
     {
@@ -6126,8 +6126,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 10.45,
+      "netMargin": 34.12,
       "dividendYield": null
     },
     {
@@ -6146,8 +6146,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -9.52,
+      "netMargin": -19.94,
       "dividendYield": null
     },
     {
@@ -6165,8 +6165,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.53,
+      "netMargin": 11.45,
       "dividendYield": null
     },
     {
@@ -6184,8 +6184,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.56,
+      "netMargin": 1.36,
       "dividendYield": null
     },
     {
@@ -6203,8 +6203,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.07,
+      "netMargin": 0.05,
       "dividendYield": null
     },
     {
@@ -6262,8 +6262,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.73,
+      "netMargin": -6.81,
       "dividendYield": null
     },
     {
@@ -6281,8 +6281,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.73,
+      "netMargin": -6.81,
       "dividendYield": null
     },
     {
@@ -6301,8 +6301,8 @@
       "marketCap": 23640847849,
       "pe": null,
       "pb": 0.82,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.73,
+      "netMargin": -6.81,
       "dividendYield": 0.0
     },
     {
@@ -6320,8 +6320,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.77,
+      "netMargin": -44.2,
       "dividendYield": null
     },
     {
@@ -6339,8 +6339,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -8.53,
+      "netMargin": -30.99,
       "dividendYield": null
     },
     {
@@ -6358,8 +6358,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.6,
+      "netMargin": -15.35,
       "dividendYield": null
     },
     {
@@ -6377,8 +6377,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.52,
+      "netMargin": 0.74,
       "dividendYield": null
     },
     {
@@ -6394,8 +6394,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -10.11,
+      "netMargin": -19.86,
       "dividendYield": null
     },
     {
@@ -6413,8 +6413,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.45,
+      "netMargin": 2.06,
       "dividendYield": null
     },
     {
@@ -6430,8 +6430,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.59,
+      "netMargin": -21.1,
       "dividendYield": null
     },
     {
@@ -6466,8 +6466,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.11,
+      "netMargin": 10.09,
       "dividendYield": null
     },
     {
@@ -6485,8 +6485,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.35,
+      "netMargin": 8.06,
       "dividendYield": null
     },
     {
@@ -6502,8 +6502,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.71,
+      "netMargin": 278.65,
       "dividendYield": null
     },
     {
@@ -6521,8 +6521,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.39,
+      "netMargin": 4.19,
       "dividendYield": null
     },
     {
@@ -6540,7 +6540,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": 6.4,
       "netMargin": null,
       "dividendYield": null
     },
@@ -6557,8 +6557,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.26,
+      "netMargin": 14.2,
       "dividendYield": null
     },
     {
@@ -6574,8 +6574,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.43,
+      "netMargin": 33.14,
       "dividendYield": null
     },
     {
@@ -6608,8 +6608,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.8,
+      "netMargin": 4.66,
       "dividendYield": null
     },
     {
@@ -6625,8 +6625,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.26,
+      "netMargin": -28.66,
       "dividendYield": null
     },
     {
@@ -6644,8 +6644,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.08,
+      "netMargin": 13.28,
       "dividendYield": null
     },
     {
@@ -6663,8 +6663,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 34.24,
+      "netMargin": 63.41,
       "dividendYield": null
     },
     {
@@ -6683,8 +6683,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.97,
+      "netMargin": -5.38,
       "dividendYield": null
     },
     {
@@ -6700,8 +6700,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.23,
+      "netMargin": 39.0,
       "dividendYield": null
     },
     {
@@ -6717,8 +6717,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.74,
+      "netMargin": 35.52,
       "dividendYield": null
     },
     {
@@ -6737,7 +6737,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": -12.37,
       "dividendYield": null
     },
     {
@@ -6753,8 +6753,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.8,
+      "netMargin": -346.14,
       "dividendYield": null
     },
     {
@@ -6770,8 +6770,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 45.25,
+      "netMargin": 3102.4,
       "dividendYield": null
     },
     {
@@ -6787,8 +6787,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.35,
+      "netMargin": -276.43,
       "dividendYield": null
     },
     {
@@ -6804,8 +6804,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 12.37,
+      "netMargin": 26.83,
       "dividendYield": null
     },
     {
@@ -6823,8 +6823,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 14.65,
+      "netMargin": 737.32,
       "dividendYield": null
     },
     {
@@ -6842,8 +6842,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.06,
+      "netMargin": 9.88,
       "dividendYield": null
     },
     {
@@ -6859,8 +6859,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 11.65,
+      "netMargin": 37.44,
       "dividendYield": null
     },
     {
@@ -6876,8 +6876,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.25,
+      "netMargin": -7.0,
       "dividendYield": null
     },
     {
@@ -6895,8 +6895,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.07,
+      "netMargin": 6.03,
       "dividendYield": null
     },
     {
@@ -6912,8 +6912,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.54,
+      "netMargin": -6.28,
       "dividendYield": null
     },
     {
@@ -6946,8 +6946,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.87,
+      "netMargin": 38.98,
       "dividendYield": null
     },
     {
@@ -6966,8 +6966,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 16.24,
+      "netMargin": 11.72,
       "dividendYield": null
     },
     {
@@ -6986,7 +6986,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 36.83,
       "dividendYield": null
     },
     {
@@ -7004,8 +7004,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.85,
+      "netMargin": 2.43,
       "dividendYield": null
     },
     {
@@ -7021,8 +7021,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.26,
+      "netMargin": -1.56,
       "dividendYield": null
     },
     {
@@ -7038,8 +7038,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.35,
+      "netMargin": 3.13,
       "dividendYield": null
     },
     {
@@ -7057,8 +7057,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.39,
+      "netMargin": -1.88,
       "dividendYield": null
     },
     {
@@ -7074,8 +7074,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -8.24,
+      "netMargin": -11.88,
       "dividendYield": null
     },
     {
@@ -7093,8 +7093,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.78,
+      "netMargin": 4.81,
       "dividendYield": null
     },
     {
@@ -7110,8 +7110,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.47,
+      "netMargin": 490.3,
       "dividendYield": null
     },
     {
@@ -7127,8 +7127,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.59,
+      "netMargin": 2.93,
       "dividendYield": null
     },
     {
@@ -7144,8 +7144,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.43,
+      "netMargin": 25852.18,
       "dividendYield": null
     },
     {
@@ -7164,7 +7164,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 3.88,
       "dividendYield": null
     },
     {
@@ -7183,8 +7183,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.08,
+      "netMargin": 2.42,
       "dividendYield": null
     },
     {
@@ -7200,8 +7200,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.03,
+      "netMargin": 2.57,
       "dividendYield": null
     },
     {
@@ -7217,8 +7217,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 34.24,
+      "netMargin": 70.85,
       "dividendYield": null
     },
     {
@@ -7234,8 +7234,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 40.24,
+      "netMargin": 43.56,
       "dividendYield": null
     },
     {
@@ -7253,8 +7253,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -10.29,
+      "netMargin": -38.44,
       "dividendYield": null
     },
     {
@@ -7272,8 +7272,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -11.31,
+      "netMargin": -13.17,
       "dividendYield": null
     },
     {
@@ -7291,8 +7291,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.2,
+      "netMargin": 0.4,
       "dividendYield": null
     },
     {
@@ -7308,8 +7308,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.81,
+      "netMargin": -59.87,
       "dividendYield": null
     },
     {
@@ -7326,7 +7326,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 3.89,
       "dividendYield": null
     },
     {
@@ -7345,8 +7345,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 6.85,
+      "netMargin": 9.45,
       "dividendYield": null
     },
     {
@@ -7362,8 +7362,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.01,
+      "netMargin": 2.2,
       "dividendYield": null
     },
     {
@@ -7379,8 +7379,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.47,
+      "netMargin": -1.27,
       "dividendYield": null
     },
     {
@@ -7396,8 +7396,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.07,
+      "netMargin": -12.98,
       "dividendYield": null
     },
     {
@@ -7413,8 +7413,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 11.86,
+      "netMargin": 13.57,
       "dividendYield": null
     },
     {
@@ -7430,8 +7430,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.9,
+      "netMargin": 0.59,
       "dividendYield": null
     },
     {
@@ -7447,8 +7447,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.78,
+      "netMargin": -20.85,
       "dividendYield": null
     },
     {
@@ -7464,8 +7464,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 13.28,
+      "netMargin": 105.84,
       "dividendYield": null
     },
     {
@@ -7483,8 +7483,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -47.89,
+      "netMargin": -4.87,
       "dividendYield": null
     },
     {
@@ -7501,7 +7501,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 46.37,
       "dividendYield": null
     },
     {
@@ -7517,8 +7517,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.05,
+      "netMargin": -25.66,
       "dividendYield": null
     },
     {
@@ -7537,8 +7537,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.09,
+      "netMargin": 4.5,
       "dividendYield": null
     },
     {
@@ -7554,8 +7554,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.33,
+      "netMargin": 12.62,
       "dividendYield": null
     },
     {
@@ -7571,8 +7571,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.11,
+      "netMargin": 19.78,
       "dividendYield": null
     },
     {
@@ -7590,8 +7590,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.03,
+      "netMargin": 3.04,
       "dividendYield": null
     },
     {
@@ -7609,8 +7609,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.25,
+      "netMargin": 7.77,
       "dividendYield": null
     },
     {
@@ -7628,8 +7628,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.21,
+      "netMargin": -4.02,
       "dividendYield": null
     },
     {
@@ -7647,8 +7647,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.86,
+      "netMargin": 8.24,
       "dividendYield": null
     },
     {
@@ -7664,8 +7664,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.93,
+      "netMargin": -82.61,
       "dividendYield": null
     },
     {
@@ -7683,8 +7683,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.99,
+      "netMargin": 0.45,
       "dividendYield": null
     },
     {
@@ -7702,8 +7702,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -21.77,
+      "netMargin": -51.31,
       "dividendYield": null
     },
     {
@@ -7719,8 +7719,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.31,
+      "netMargin": 1.45,
       "dividendYield": null
     },
     {
@@ -7736,8 +7736,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.47,
+      "netMargin": -9.67,
       "dividendYield": null
     },
     {
@@ -7755,8 +7755,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.61,
+      "netMargin": 16.97,
       "dividendYield": null
     },
     {
@@ -7772,8 +7772,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 13.83,
+      "netMargin": 35.67,
       "dividendYield": null
     },
     {
@@ -7789,7 +7789,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": 6.64,
       "netMargin": null,
       "dividendYield": null
     },
@@ -7808,8 +7808,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.43,
+      "netMargin": -28.64,
       "dividendYield": null
     },
     {
@@ -7827,8 +7827,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.8,
+      "netMargin": -8.52,
       "dividendYield": null
     },
     {
@@ -7844,8 +7844,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.33,
+      "netMargin": 20.92,
       "dividendYield": null
     },
     {
@@ -7863,8 +7863,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.54,
+      "netMargin": 9.88,
       "dividendYield": null
     },
     {
@@ -7880,8 +7880,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.17,
+      "netMargin": -2.69,
       "dividendYield": null
     },
     {
@@ -7897,8 +7897,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.95,
+      "netMargin": -14.26,
       "dividendYield": null
     },
     {
@@ -7914,8 +7914,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.02,
+      "netMargin": -7.75,
       "dividendYield": null
     },
     {
@@ -7931,8 +7931,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.05,
+      "netMargin": 27.46,
       "dividendYield": null
     },
     {
@@ -7948,8 +7948,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.23,
+      "netMargin": -60.62,
       "dividendYield": null
     },
     {
@@ -7967,8 +7967,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.91,
+      "netMargin": 269.96,
       "dividendYield": null
     },
     {
@@ -7986,8 +7986,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.1,
+      "netMargin": -9.66,
       "dividendYield": null
     },
     {
@@ -8003,8 +8003,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.92,
+      "netMargin": 1.41,
       "dividendYield": null
     },
     {
@@ -8022,8 +8022,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.34,
+      "netMargin": 2.4,
       "dividendYield": null
     },
     {
@@ -8041,8 +8041,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.37,
+      "netMargin": 107.12,
       "dividendYield": null
     },
     {
@@ -8059,7 +8059,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 52.19,
       "dividendYield": null
     },
     {
@@ -8075,8 +8075,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.94,
+      "netMargin": 163.17,
       "dividendYield": null
     },
     {
@@ -8092,8 +8092,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 9.42,
+      "netMargin": 66.33,
       "dividendYield": null
     },
     {
@@ -8111,8 +8111,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.08,
+      "netMargin": 7.7,
       "dividendYield": null
     },
     {
@@ -8130,8 +8130,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.62,
+      "netMargin": 3.57,
       "dividendYield": null
     },
     {
@@ -8147,8 +8147,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.14,
+      "netMargin": 5.59,
       "dividendYield": null
     },
     {
@@ -8164,8 +8164,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 10.24,
+      "netMargin": 6.03,
       "dividendYield": null
     },
     {
@@ -8181,8 +8181,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.99,
+      "netMargin": -426.74,
       "dividendYield": null
     },
     {
@@ -8200,8 +8200,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.27,
+      "netMargin": -10.3,
       "dividendYield": null
     },
     {
@@ -8219,8 +8219,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.2,
+      "netMargin": 1.04,
       "dividendYield": null
     },
     {
@@ -8240,8 +8240,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.0,
+      "netMargin": 5.03,
       "dividendYield": null
     },
     {
@@ -8259,8 +8259,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.14,
+      "netMargin": 0.35,
       "dividendYield": null
     },
     {
@@ -8279,8 +8279,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.34,
+      "netMargin": -20.13,
       "dividendYield": null
     },
     {
@@ -8296,8 +8296,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -3.68,
+      "netMargin": -11.39,
       "dividendYield": null
     },
     {
@@ -8315,8 +8315,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 12.19,
+      "netMargin": 5.2,
       "dividendYield": null
     },
     {
@@ -8332,8 +8332,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -11.64,
+      "netMargin": -704.28,
       "dividendYield": null
     },
     {
@@ -8351,8 +8351,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.71,
+      "netMargin": -7.02,
       "dividendYield": null
     },
     {
@@ -8370,8 +8370,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.95,
+      "netMargin": 4.02,
       "dividendYield": null
     },
     {
@@ -8389,8 +8389,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.03,
+      "netMargin": 0.06,
       "dividendYield": null
     },
     {
@@ -8409,8 +8409,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.97,
+      "netMargin": 15.1,
       "dividendYield": null
     },
     {
@@ -8426,8 +8426,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -12.58,
+      "netMargin": -13.86,
       "dividendYield": null
     },
     {
@@ -8443,7 +8443,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": 6.68,
       "netMargin": null,
       "dividendYield": null
     },
@@ -8460,8 +8460,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -10.45,
+      "netMargin": -2.71,
       "dividendYield": null
     },
     {
@@ -8477,8 +8477,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.57,
+      "netMargin": 11.77,
       "dividendYield": null
     },
     {
@@ -8494,8 +8494,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.54,
+      "netMargin": -726.58,
       "dividendYield": null
     },
     {
@@ -8511,8 +8511,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.15,
+      "netMargin": -9.82,
       "dividendYield": null
     },
     {
@@ -8528,8 +8528,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.33,
+      "netMargin": -141.18,
       "dividendYield": null
     },
     {
@@ -8562,8 +8562,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
-      "netMargin": null,
+      "roe": 10.62,
+      "netMargin": 55.31,
       "dividendYield": null
     },
     {
@@ -8581,8 +8581,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -10.83,
+      "netMargin": -35.94,
       "dividendYield": null
     },
     {
@@ -8598,8 +8598,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 17.34,
+      "netMargin": 58.87,
       "dividendYield": null
     },
     {
@@ -8617,7 +8617,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
+      "roe": 31.47,
       "netMargin": null,
       "dividendYield": null
     },
@@ -8634,8 +8634,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.59,
+      "netMargin": -44.47,
       "dividendYield": null
     },
     {
@@ -8653,8 +8653,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 6.64,
+      "netMargin": 216.41,
       "dividendYield": null
     },
     {
@@ -8672,8 +8672,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.62,
+      "netMargin": 1.52,
       "dividendYield": null
     },
     {
@@ -8691,8 +8691,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 16.79,
+      "netMargin": 54.82,
       "dividendYield": null
     },
     {
@@ -8708,8 +8708,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -131.06,
+      "netMargin": -74.0,
       "dividendYield": null
     },
     {
@@ -8725,8 +8725,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 12.31,
+      "netMargin": 413.54,
       "dividendYield": null
     },
     {
@@ -8744,8 +8744,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.26,
+      "netMargin": 20.46,
       "dividendYield": null
     },
     {
@@ -8761,8 +8761,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -3.77,
+      "netMargin": -51.22,
       "dividendYield": null
     },
     {
@@ -8778,8 +8778,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.37,
+      "netMargin": 121.92,
       "dividendYield": null
     },
     {
@@ -8795,8 +8795,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 46.29,
+      "netMargin": 58.49,
       "dividendYield": null
     },
     {
@@ -8814,8 +8814,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.26,
+      "netMargin": 5.12,
       "dividendYield": null
     },
     {
@@ -8834,8 +8834,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -3.53,
+      "netMargin": -27.35,
       "dividendYield": null
     },
     {
@@ -8853,8 +8853,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.11,
+      "netMargin": 21.78,
       "dividendYield": null
     },
     {
@@ -8872,8 +8872,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 50.23,
+      "netMargin": 16.35,
       "dividendYield": null
     },
     {
@@ -8889,8 +8889,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.35,
+      "netMargin": 8.43,
       "dividendYield": null
     },
     {
@@ -8908,8 +8908,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.09,
+      "netMargin": -2.49,
       "dividendYield": null
     },
     {
@@ -8928,8 +8928,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.81,
+      "netMargin": 1.73,
       "dividendYield": null
     },
     {
@@ -8946,10 +8946,10 @@
       "changePercent": -2.51,
       "volume": 3461405935,
       "marketCap": 103404852251,
-      "pe": null,
+      "pe": 6.98,
       "pb": 1.19,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 17.11,
+      "netMargin": 100.55,
       "dividendYield": 0.0
     },
     {
@@ -8967,8 +8967,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.35,
+      "netMargin": 8.97,
       "dividendYield": null
     },
     {
@@ -8984,8 +8984,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -9.23,
+      "netMargin": -40.03,
       "dividendYield": null
     },
     {
@@ -9001,8 +9001,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.06,
+      "netMargin": 2.89,
       "dividendYield": null
     },
     {
@@ -9018,8 +9018,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.07,
+      "netMargin": 84.82,
       "dividendYield": null
     },
     {
@@ -9054,8 +9054,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -10.56,
+      "netMargin": -12.15,
       "dividendYield": null
     },
     {
@@ -9074,8 +9074,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.95,
+      "netMargin": 0.89,
       "dividendYield": null
     },
     {
@@ -9093,8 +9093,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.28,
+      "netMargin": -16.48,
       "dividendYield": null
     },
     {
@@ -9111,7 +9111,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 69.69,
       "dividendYield": null
     },
     {
@@ -9127,8 +9127,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -16.24,
+      "netMargin": -67.37,
       "dividendYield": null
     },
     {
@@ -9146,8 +9146,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 9.34,
+      "netMargin": 7.11,
       "dividendYield": null
     },
     {
@@ -9166,8 +9166,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 3.54,
-      "netMargin": 4.25,
+      "roe": 1.79,
+      "netMargin": 5.86,
       "dividendYield": null
     },
     {
@@ -9185,8 +9185,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
-      "netMargin": null,
+      "roe": 6.16,
+      "netMargin": 22.4,
       "dividendYield": null
     },
     {
@@ -9202,8 +9202,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -3.83,
+      "netMargin": -13.39,
       "dividendYield": null
     },
     {
@@ -9219,8 +9219,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.44,
+      "netMargin": -20.41,
       "dividendYield": null
     },
     {
@@ -9236,8 +9236,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.62,
+      "netMargin": -0.38,
       "dividendYield": null
     },
     {
@@ -9255,8 +9255,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.67,
+      "netMargin": 24.64,
       "dividendYield": null
     },
     {
@@ -9274,8 +9274,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 14.75,
+      "netMargin": 12.88,
       "dividendYield": null
     },
     {
@@ -9310,8 +9310,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.28,
+      "netMargin": 36.18,
       "dividendYield": null
     },
     {
@@ -9329,8 +9329,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.0,
+      "netMargin": 26.07,
       "dividendYield": null
     },
     {
@@ -9363,8 +9363,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -8.0,
+      "netMargin": -48.34,
       "dividendYield": null
     },
     {
@@ -9380,8 +9380,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.73,
+      "netMargin": 0.78,
       "dividendYield": null
     },
     {
@@ -9399,8 +9399,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -5.55,
+      "netMargin": -8.34,
       "dividendYield": null
     },
     {
@@ -9419,8 +9419,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -0.06,
+      "netMargin": -0.03,
       "dividendYield": null
     },
     {
@@ -9436,8 +9436,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.89,
+      "netMargin": 759.99,
       "dividendYield": null
     },
     {
@@ -9455,8 +9455,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.54,
+      "netMargin": 32.1,
       "dividendYield": null
     },
     {
@@ -9472,8 +9472,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.8,
+      "netMargin": 3.51,
       "dividendYield": null
     },
     {
@@ -9491,8 +9491,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.66,
+      "netMargin": -1.76,
       "dividendYield": null
     },
     {
@@ -9510,7 +9510,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -5.18,
       "netMargin": null,
       "dividendYield": null
     },
@@ -9529,8 +9529,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.4,
+      "netMargin": 2.71,
       "dividendYield": null
     },
     {
@@ -9547,7 +9547,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": -155.59,
       "dividendYield": null
     },
     {
@@ -9565,8 +9565,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.64,
+      "netMargin": 2.35,
       "dividendYield": null
     },
     {
@@ -9584,8 +9584,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 19.32,
+      "netMargin": 70.04,
       "dividendYield": null
     },
     {
@@ -9601,8 +9601,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.64,
+      "netMargin": 29.69,
       "dividendYield": null
     },
     {
@@ -9618,8 +9618,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -6.28,
+      "netMargin": -7.86,
       "dividendYield": null
     },
     {
@@ -9638,8 +9638,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.72,
+      "netMargin": 3.38,
       "dividendYield": null
     },
     {
@@ -9655,8 +9655,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -8.19,
+      "netMargin": -19.5,
       "dividendYield": null
     },
     {
@@ -9675,8 +9675,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 6.79,
-      "netMargin": 7.69,
+      "roe": 2.53,
+      "netMargin": 8.92,
       "dividendYield": null
     },
     {
@@ -9692,8 +9692,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 13.99,
+      "netMargin": 20.65,
       "dividendYield": null
     },
     {
@@ -9711,8 +9711,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.78,
+      "netMargin": 30.46,
       "dividendYield": null
     },
     {
@@ -9728,8 +9728,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.39,
+      "netMargin": 421.6,
       "dividendYield": null
     },
     {
@@ -9745,8 +9745,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.99,
+      "netMargin": -5343.39,
       "dividendYield": null
     },
     {
@@ -9762,8 +9762,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.33,
+      "netMargin": 1.35,
       "dividendYield": null
     },
     {
@@ -9781,8 +9781,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.45,
+      "netMargin": 4.06,
       "dividendYield": null
     },
     {
@@ -9798,8 +9798,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 7.32,
+      "netMargin": 37.82,
       "dividendYield": null
     },
     {
@@ -9816,10 +9816,10 @@
       "changePercent": 0.17,
       "volume": 8832279044,
       "marketCap": 406410000000,
-      "pe": 3.44,
-      "pb": 0.45,
-      "roe": 12.96,
-      "netMargin": 12.36,
+      "pe": 58.75,
+      "pb": 0.79,
+      "roe": 1.34,
+      "netMargin": 4.7,
       "dividendYield": 2.34
     },
     {
@@ -9837,8 +9837,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.93,
+      "netMargin": -3.32,
       "dividendYield": null
     },
     {
@@ -9856,8 +9856,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.59,
+      "netMargin": -0.65,
       "dividendYield": null
     },
     {
@@ -9873,8 +9873,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.72,
+      "netMargin": 26.83,
       "dividendYield": null
     },
     {
@@ -9890,8 +9890,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.31,
+      "netMargin": 7.37,
       "dividendYield": null
     },
     {
@@ -9909,8 +9909,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.57,
+      "netMargin": 7.93,
       "dividendYield": null
     },
     {
@@ -9928,8 +9928,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.78,
+      "netMargin": 16.49,
       "dividendYield": null
     },
     {
@@ -9948,8 +9948,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 10.84,
+      "netMargin": 8.34,
       "dividendYield": null
     },
     {
@@ -9968,8 +9968,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.09,
+      "netMargin": -6.24,
       "dividendYield": null
     },
     {
@@ -9985,7 +9985,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -0.33,
       "netMargin": null,
       "dividendYield": null
     },
@@ -10004,8 +10004,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.34,
+      "netMargin": -15.0,
       "dividendYield": null
     },
     {
@@ -10023,8 +10023,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.7,
+      "netMargin": 75.38,
       "dividendYield": null
     },
     {
@@ -10040,8 +10040,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -12.06,
+      "netMargin": -2.57,
       "dividendYield": null
     },
     {
@@ -10057,8 +10057,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.73,
+      "netMargin": -7.9,
       "dividendYield": null
     },
     {
@@ -10076,8 +10076,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.18,
+      "netMargin": -14.07,
       "dividendYield": null
     },
     {
@@ -10093,8 +10093,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.29,
+      "netMargin": 25.32,
       "dividendYield": null
     },
     {
@@ -10112,8 +10112,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
-      "netMargin": null,
+      "roe": 8.32,
+      "netMargin": 60.05,
       "dividendYield": null
     },
     {
@@ -10129,8 +10129,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -256.17,
+      "netMargin": -51.81,
       "dividendYield": null
     },
     {
@@ -10149,8 +10149,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.11,
+      "netMargin": 9.17,
       "dividendYield": null
     },
     {
@@ -10168,8 +10168,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 18.35,
+      "netMargin": 10.53,
       "dividendYield": null
     },
     {
@@ -10187,8 +10187,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.95,
+      "netMargin": 21.27,
       "dividendYield": null
     },
     {
@@ -10207,8 +10207,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.28,
+      "netMargin": -4.86,
       "dividendYield": null
     },
     {
@@ -10226,10 +10226,10 @@
       "changePercent": 0.12,
       "volume": 19577056744,
       "marketCap": 59800000000,
-      "pe": 2.0,
-      "pb": 0.16,
-      "roe": 8.08,
-      "netMargin": 3.6,
+      "pe": 104.28,
+      "pb": 0.26,
+      "roe": 0.25,
+      "netMargin": 0.25,
       "dividendYield": 4.5
     },
     {
@@ -10247,8 +10247,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.73,
+      "netMargin": 4.96,
       "dividendYield": null
     },
     {
@@ -10264,7 +10264,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -0.66,
       "netMargin": null,
       "dividendYield": null
     },
@@ -10281,7 +10281,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
+      "roe": 18.52,
       "netMargin": null,
       "dividendYield": null
     },
@@ -10301,7 +10301,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 4.41,
       "dividendYield": null
     },
     {
@@ -10317,7 +10317,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -3.02,
       "netMargin": null,
       "dividendYield": null
     },
@@ -10336,7 +10336,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -3.11,
       "netMargin": null,
       "dividendYield": null
     },
@@ -10355,8 +10355,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 14.59,
+      "netMargin": 12.66,
       "dividendYield": null
     },
     {
@@ -10391,8 +10391,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -23.07,
+      "netMargin": -10.28,
       "dividendYield": null
     },
     {
@@ -10408,8 +10408,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.14,
+      "netMargin": 0.54,
       "dividendYield": null
     },
     {
@@ -10442,7 +10442,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": 1.85,
       "netMargin": null,
       "dividendYield": null
     },
@@ -10461,8 +10461,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.95,
+      "netMargin": -14.0,
       "dividendYield": null
     },
     {
@@ -10481,8 +10481,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
-      "netMargin": null,
+      "roe": 6.52,
+      "netMargin": 24.97,
       "dividendYield": null
     },
     {
@@ -10534,8 +10534,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -1.0,
+      "netMargin": -1.74,
       "dividendYield": null
     },
     {
@@ -10553,8 +10553,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -2.7,
+      "netMargin": -18.94,
       "dividendYield": null
     },
     {
@@ -10570,8 +10570,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 5.04,
+      "netMargin": 4.38,
       "dividendYield": null
     },
     {
@@ -10587,7 +10587,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": 18.5,
       "netMargin": null,
       "dividendYield": null
     },
@@ -10604,8 +10604,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 10.39,
+      "netMargin": 198.7,
       "dividendYield": null
     },
     {
@@ -10623,8 +10623,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.32,
+      "netMargin": 4.41,
       "dividendYield": null
     },
     {
@@ -10642,8 +10642,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.04,
+      "netMargin": 0.05,
       "dividendYield": null
     },
     {
@@ -10659,7 +10659,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -5.78,
       "netMargin": null,
       "dividendYield": null
     },
@@ -10678,8 +10678,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -4.73,
+      "netMargin": -27.17,
       "dividendYield": null
     },
     {
@@ -10695,8 +10695,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -11.88,
+      "netMargin": -10.33,
       "dividendYield": null
     },
     {
@@ -10714,7 +10714,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -0.95,
       "netMargin": null,
       "dividendYield": null
     },
@@ -10732,7 +10732,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 0.39,
       "dividendYield": null
     },
     {
@@ -10748,8 +10748,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -7.47,
+      "netMargin": -36.26,
       "dividendYield": null
     },
     {
@@ -10768,8 +10768,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.82,
+      "netMargin": 2.14,
       "dividendYield": null
     },
     {
@@ -10785,8 +10785,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 3.56,
+      "netMargin": 43.86,
       "dividendYield": null
     },
     {
@@ -10802,8 +10802,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -13.79,
+      "netMargin": -21.35,
       "dividendYield": null
     },
     {
@@ -10821,8 +10821,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 19.8,
+      "netMargin": 17.64,
       "dividendYield": null
     },
     {
@@ -10838,7 +10838,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
+      "roe": -11.28,
       "netMargin": null,
       "dividendYield": null
     },
@@ -10855,8 +10855,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 1.31,
+      "netMargin": 38.79,
       "dividendYield": null
     },
     {
@@ -10872,8 +10872,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.41,
+      "netMargin": 4.9,
       "dividendYield": null
     },
     {
@@ -10889,8 +10889,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -9.65,
+      "netMargin": -8.21,
       "dividendYield": null
     },
     {
@@ -10909,8 +10909,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": null,
-      "netMargin": null,
+      "roe": 5.7,
+      "netMargin": 27.99,
       "dividendYield": null
     },
     {
@@ -10926,8 +10926,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": -12.45,
+      "netMargin": -16.32,
       "dividendYield": null
     },
     {
@@ -10943,8 +10943,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 16.87,
+      "netMargin": 25.73,
       "dividendYield": null
     },
     {
@@ -10962,8 +10962,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.06,
+      "netMargin": 12.48,
       "dividendYield": null
     },
     {
@@ -10979,8 +10979,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 4.57,
+      "netMargin": 5973.68,
       "dividendYield": null
     },
     {
@@ -10996,8 +10996,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 8.21,
+      "netMargin": 12.35,
       "dividendYield": null
     },
     {
@@ -11015,8 +11015,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 2.63,
+      "netMargin": 62.28,
       "dividendYield": null
     },
     {
@@ -11035,7 +11035,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": -14.75,
       "dividendYield": null
     },
     {
@@ -11052,7 +11052,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "netMargin": null,
+      "netMargin": 38945.35,
       "dividendYield": null
     },
     {
@@ -11070,8 +11070,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 9.92,
+      "netMargin": 67.38,
       "dividendYield": null
     },
     {
@@ -11089,8 +11089,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 0.0,
-      "netMargin": null,
+      "roe": 0.24,
+      "netMargin": 32.79,
       "dividendYield": null
     }
   ]

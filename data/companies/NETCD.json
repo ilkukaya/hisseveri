@@ -17,7 +17,7 @@
     "low": 0,
     "volume": 2658708161,
     "marketCap": 0,
-    "updatedAt": "2026-03-28"
+    "updatedAt": "2026-03-29"
   },
   "ratios": {
     "pe": null,
@@ -25,8 +25,8 @@
     "ps": null,
     "roe": null,
     "roa": null,
-    "netMargin": null,
-    "grossMargin": null,
+    "netMargin": 46.37,
+    "grossMargin": 92.2,
     "currentRatio": null,
     "debtEquity": null,
     "revenueGrowthYoy": null,

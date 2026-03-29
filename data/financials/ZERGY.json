@@ -16,9 +16,9 @@
     ],
     "nonCurrentAssets": [
       0.0,
-      0.0,
-      0.0,
-      0.0
+      800262176.0,
+      817436524.0,
+      1597888312.0
     ],
     "totalAssets": [
       0.0,
@@ -39,10 +39,10 @@
       3051167342.0
     ],
     "totalLiabilities": [
-      0,
-      0,
-      0,
-      0
+      0.0,
+      5199677968.0,
+      6245753866.0,
+      7008294637.0
     ],
     "equity": [
       0.0,
@@ -53,10 +53,10 @@
   },
   "incomeStatement": {
     "revenue": [
-      0,
-      0,
-      0,
-      0
+      1549742795.0,
+      2539088180.0,
+      255926958.0,
+      332823494.0
     ],
     "costOfRevenue": [
       -1510203613.0,
@@ -71,42 +71,950 @@
       170879604.0
     ],
     "operatingIncome": [
-      0,
-      0,
-      0,
-      0
+      24897316.0,
+      36657068.0,
+      100270891.0,
+      78045676.0
     ],
     "netIncome": [
-      0,
-      0,
-      0,
-      0
+      -228601532.0,
+      -313791329.0,
+      78481258.0,
+      57690138.0
     ],
     "ebitda": [
-      0,
-      0,
-      0,
-      0
+      24897316.0,
+      36657068.0,
+      100658610.0,
+      78887004.0
     ]
   },
   "cashFlow": {
     "operating": [
-      0,
-      0,
-      0,
-      0
+      -896389951.0,
+      -796582767.0,
+      -267756559.0,
+      -698690708.0
     ],
     "investing": [
-      0,
-      0,
-      0,
-      0
+      1618750.0,
+      2453454.0,
+      -2387481.0,
+      -1025775073.0
     ],
     "financing": [
-      0,
-      0,
-      0,
-      0
+      836592776.0,
+      738939459.0,
+      368597643.0,
+      1732814595.0
+    ]
+  },
+  "detailed": {
+    "balanceSheet": [
+      {
+        "code": "1A",
+        "name": "Dönen Varlıklar",
+        "values": [
+          0.0,
+          5286688988.0,
+          6356097819.0,
+          7823643653.0
+        ]
+      },
+      {
+        "code": "1AA",
+        "name": "Nakit ve Nakit Benzerleri",
+        "values": [
+          0.0,
+          3612193.0,
+          101213270.0,
+          11108481.0
+        ]
+      },
+      {
+        "code": "1AB",
+        "name": "Finansal Yatırımlar",
+        "values": [
+          0.0,
+          15946.0,
+          12182.0,
+          903221417.0
+        ]
+      },
+      {
+        "code": "1AC",
+        "name": "Ticari Alacaklar",
+        "values": [
+          0.0,
+          551900653.0,
+          676629466.0,
+          551142504.0
+        ]
+      },
+      {
+        "code": "1AE",
+        "name": "Diğer Alacaklar",
+        "values": [
+          0.0,
+          207074967.0,
+          19961218.0,
+          19961218.0
+        ]
+      },
+      {
+        "code": "1AF",
+        "name": "Stoklar",
+        "values": [
+          0.0,
+          2765116779.0,
+          3057400447.0,
+          5182175094.0
+        ]
+      },
+      {
+        "code": "1AH",
+        "name": "Diğer Dönen Varlıklar",
+        "values": [
+          0.0,
+          1758968450.0,
+          2500881236.0,
+          1156034939.0
+        ]
+      },
+      {
+        "code": "1AI",
+        "name": "(Ara Toplam)",
+        "values": [
+          0.0,
+          5286688988.0,
+          6356097819.0,
+          7823643653.0
+        ]
+      },
+      {
+        "code": "1AK",
+        "name": "Duran Varlıklar",
+        "values": [
+          0.0,
+          800262176.0,
+          817436524.0,
+          1597888312.0
+        ]
+      },
+      {
+        "code": "1BB",
+        "name": "Diğer Alacaklar",
+        "values": [
+          0.0,
+          891201.0,
+          680866.0,
+          680866.0
+        ]
+      },
+      {
+        "code": "1BFA",
+        "name": "Stoklar",
+        "values": [
+          0.0,
+          799370975.0,
+          809388001.0,
+          1590776439.0
+        ]
+      },
+      {
+        "code": "1BG",
+        "name": "Maddi Duran Varlıklar",
+        "values": [
+          0.0,
+          0.0,
+          7367657.0,
+          6431007.0
+        ]
+      },
+      {
+        "code": "1BL",
+        "name": "TOPLAM VARLIKLAR",
+        "values": [
+          0.0,
+          6086951164.0,
+          7173534343.0,
+          9421531965.0
+        ]
+      },
+      {
+        "code": "2A",
+        "name": "Kısa Vadeli Yükümlülükler",
+        "values": [
+          0.0,
+          2916138174.0,
+          3252705116.0,
+          3957127295.0
+        ]
+      },
+      {
+        "code": "2AA",
+        "name": "Finansal Borçlar",
+        "values": [
+          0.0,
+          316493709.0,
+          338182267.0,
+          285497789.0
+        ]
+      },
+      {
+        "code": "2AAGAA",
+        "name": "Ticari Borçlar",
+        "values": [
+          0.0,
+          2991484.0,
+          15576480.0,
+          516189959.0
+        ]
+      },
+      {
+        "code": "2AAGAC",
+        "name": "Müşteri Söz. Doğan Yük.",
+        "values": [
+          0.0,
+          2416264999.0,
+          0.0,
+          2878772594.0
+        ]
+      },
+      {
+        "code": "2AAGCA",
+        "name": "Ertelenmiş Gelirler (Müşteri Söz. Doğan Yük. Dış.Kal.)",
+        "values": [
+          0.0,
+          0.0,
+          2841287968.0,
+          0.0
+        ]
+      },
+      {
+        "code": "2AAGD",
+        "name": "Dönem Karı Vergi Yükümlülüğü",
+        "values": [
+          0.0,
+          0.0,
+          11170555.0,
+          0.0
+        ]
+      },
+      {
+        "code": "2AAGE",
+        "name": "Borç Karşılıkları",
+        "values": [
+          0.0,
+          1110217.0,
+          7960500.0,
+          6768764.0
+        ]
+      },
+      {
+        "code": "2AAGF",
+        "name": "Diğer Kısa Vadeli Yükümlülükler",
+        "values": [
+          0.0,
+          179277765.0,
+          38527346.0,
+          269898189.0
+        ]
+      },
+      {
+        "code": "2AAGG",
+        "name": "(Ara Toplam)",
+        "values": [
+          0.0,
+          2916138174.0,
+          3252705116.0,
+          3957127295.0
+        ]
+      },
+      {
+        "code": "2B",
+        "name": "Uzun Vadeli Yükümlülükler",
+        "values": [
+          0.0,
+          2283539794.0,
+          2993048750.0,
+          3051167342.0
+        ]
+      },
+      {
+        "code": "2BA",
+        "name": "Finansal Borçlar",
+        "values": [
+          0.0,
+          65406484.0,
+          552171068.0,
+          648076574.0
+        ]
+      },
+      {
+        "code": "2BBBA",
+        "name": "Müşteri Söz.Doğan Yük.",
+        "values": [
+          0.0,
+          2098770118.0,
+          0.0,
+          2325167919.0
+        ]
+      },
+      {
+        "code": "2BDA",
+        "name": "Ertelenmiş Gelirler (Müşteri Söz.Doğan Yük. Dış.Kal.)",
+        "values": [
+          0.0,
+          0.0,
+          2263876239.0,
+          0.0
+        ]
+      },
+      {
+        "code": "2BE",
+        "name": "Uzun vadeli karşılıklar",
+        "values": [
+          0.0,
+          0.0,
+          1679248.0,
+          1527744.0
+        ]
+      },
+      {
+        "code": "2BG",
+        "name": "Ertelenmiş Vergi Yükümlülüğü",
+        "values": [
+          0.0,
+          119363192.0,
+          175322195.0,
+          76395105.0
+        ]
+      },
+      {
+        "code": "2N",
+        "name": "Özkaynaklar",
+        "values": [
+          0.0,
+          887273196.0,
+          927780477.0,
+          2413237328.0
+        ]
+      },
+      {
+        "code": "2O",
+        "name": "Ana Ortaklığa Ait Özkaynaklar",
+        "values": [
+          0.0,
+          887273196.0,
+          927780477.0,
+          2413237328.0
+        ]
+      },
+      {
+        "code": "2OA",
+        "name": "Ödenmiş Sermaye",
+        "values": [
+          0.0,
+          510000000.0,
+          510000000.0,
+          626000000.0
+        ]
+      },
+      {
+        "code": "2OCA",
+        "name": "Hisse Senedi İhraç Primleri",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          1353077475.0
+        ]
+      },
+      {
+        "code": "2OCE",
+        "name": "Geçmiş Yıllar Kar/Zararları",
+        "values": [
+          0.0,
+          243907182.0,
+          -66967559.0,
+          -69884147.0
+        ]
+      },
+      {
+        "code": "2OCF",
+        "name": "Dönem Net Kar/Zararı",
+        "values": [
+          0.0,
+          -313791329.0,
+          78481258.0,
+          57690138.0
+        ]
+      },
+      {
+        "code": "2OD",
+        "name": "Diğer Özsermaye Kalemleri",
+        "values": [
+          0.0,
+          447157343.0,
+          406266778.0,
+          446353862.0
+        ]
+      },
+      {
+        "code": "2ODB",
+        "name": "TOPLAM KAYNAKLAR",
+        "values": [
+          0.0,
+          6086951164.0,
+          7173534343.0,
+          9421531965.0
+        ]
+      }
+    ],
+    "incomeStatement": [
+      {
+        "code": "3C",
+        "name": "Satış Gelirleri",
+        "values": [
+          1549742795.0,
+          2539088180.0,
+          255926958.0,
+          332823494.0
+        ]
+      },
+      {
+        "code": "3CA",
+        "name": "Satışların Maliyeti (-)",
+        "values": [
+          -1510203613.0,
+          -2474866671.0,
+          -125150104.0,
+          -161943890.0
+        ]
+      },
+      {
+        "code": "3CAB",
+        "name": "Ticari Faaliyetlerden Brüt Kar (Zarar)",
+        "values": [
+          39539182.0,
+          64221509.0,
+          130776854.0,
+          170879604.0
+        ]
+      },
+      {
+        "code": "3D",
+        "name": "BRÜT KAR (ZARAR)",
+        "values": [
+          39539182.0,
+          64221509.0,
+          130776854.0,
+          170879604.0
+        ]
+      },
+      {
+        "code": "3DA",
+        "name": "Pazarlama, Satış ve Dağıtım Giderleri (-)",
+        "values": [
+          -39347.0,
+          -41060.0,
+          -2514614.0,
+          -5782478.0
+        ]
+      },
+      {
+        "code": "3DB",
+        "name": "Genel Yönetim Giderleri (-)",
+        "values": [
+          -12011187.0,
+          -26735191.0,
+          -31602885.0,
+          -93378704.0
+        ]
+      },
+      {
+        "code": "3DD",
+        "name": "Diğer Faaliyet Gelirleri",
+        "values": [
+          181803.0,
+          422369.0,
+          13145532.0,
+          13438746.0
+        ]
+      },
+      {
+        "code": "3DE",
+        "name": "Diğer Faaliyet Giderleri (-)",
+        "values": [
+          -2773135.0,
+          -1210559.0,
+          -9533996.0,
+          -7111492.0
+        ]
+      },
+      {
+        "code": "3DF",
+        "name": "FAALİYET KARI (ZARARI)",
+        "values": [
+          24897316.0,
+          36657068.0,
+          100270891.0,
+          78045676.0
+        ]
+      },
+      {
+        "code": "3H",
+        "name": "Net Faaliyet Kar/Zararı",
+        "values": [
+          27488648.0,
+          37445258.0,
+          96659355.0,
+          71718422.0
+        ]
+      },
+      {
+        "code": "3HA",
+        "name": "Yatırım Faaliyetlerinden Gelirler",
+        "values": [
+          0.0,
+          0.0,
+          4237839.0,
+          7237780.0
+        ]
+      },
+      {
+        "code": "3HAA",
+        "name": "Yatırım Faaliyetlerinden Giderler (-)",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          -128055795.0
+        ]
+      },
+      {
+        "code": "3HACA",
+        "name": "Finansman Gideri Öncesi Faaliyet Karı/Zararı",
+        "values": [
+          24897316.0,
+          36657068.0,
+          104508730.0,
+          -42772339.0
+        ]
+      },
+      {
+        "code": "3HB",
+        "name": "(Esas Faaliyet Dışı) Finansal Gelirler",
+        "values": [
+          1772256.0,
+          3103021.0,
+          1126959.0,
+          5928613.0
+        ]
+      },
+      {
+        "code": "3HC",
+        "name": "(Esas Faaliyet Dışı) Finansal Giderler (-)",
+        "values": [
+          -309848514.0,
+          -319113729.0,
+          46650267.0,
+          51910125.0
+        ]
+      },
+      {
+        "code": "3HCA",
+        "name": "Vergi Öncesi Diğer Gelir ve Giderler",
+        "values": [
+          0.0,
+          0.0,
+          4237839.0,
+          -120818015.0
+        ]
+      },
+      {
+        "code": "3I",
+        "name": "SÜRDÜRÜLEN FAALİYETLER VERGİ ÖNCESİ KARI (ZARARI)",
+        "values": [
+          -283178942.0,
+          -279353640.0,
+          152285956.0,
+          15066399.0
+        ]
+      },
+      {
+        "code": "3IA",
+        "name": "Sürdürülen Faaliyetler Vergi Geliri (Gideri)",
+        "values": [
+          54577410.0,
+          -34437689.0,
+          -73804698.0,
+          42623739.0
+        ]
+      },
+      {
+        "code": "3IB",
+        "name": "Dönem Vergi Geliri (Gideri)",
+        "values": [
+          0.0,
+          0.0,
+          -12459558.0,
+          0.0
+        ]
+      },
+      {
+        "code": "3IC",
+        "name": "Ertelenmiş Vergi Geliri (Gideri)",
+        "values": [
+          54577410.0,
+          -34437689.0,
+          -61345140.0,
+          42623739.0
+        ]
+      },
+      {
+        "code": "3J",
+        "name": "SÜRDÜRÜLEN FAALİYETLER DÖNEM KARI/ZARARI",
+        "values": [
+          -228601532.0,
+          -313791329.0,
+          78481258.0,
+          57690138.0
+        ]
+      },
+      {
+        "code": "3L",
+        "name": "DÖNEM KARI (ZARARI)",
+        "values": [
+          -228601532.0,
+          -313791329.0,
+          78481258.0,
+          57690138.0
+        ]
+      },
+      {
+        "code": "3Z",
+        "name": "Ana Ortaklık Payları",
+        "values": [
+          -228601532.0,
+          -313791329.0,
+          78481258.0,
+          57690138.0
+        ]
+      },
+      {
+        "code": "3ZD",
+        "name": "Hisse Başına Kazanç",
+        "values": [
+          -0.0,
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "code": "3ZE",
+        "name": "Seyreltilmiş Hisse Başına Kazanç",
+        "values": [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "code": "3ZF",
+        "name": "Sürdürülen Faaliyetlerden Hisse Başına Kazanç",
+        "values": [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "code": "3ZG",
+        "name": "Sürdürülen Faaliyetlerden Seyreltilmiş Hisse Başına Kazanç",
+        "values": [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "cashFlow": [
+      {
+        "code": "4B",
+        "name": "Amortisman Giderleri",
+        "values": [
+          0.0,
+          0.0,
+          387719.0,
+          841328.0
+        ]
+      },
+      {
+        "code": "4BA",
+        "name": "Kıdem Tazminatı",
+        "values": [
+          0.0,
+          0.0,
+          388164.0,
+          430708.0
+        ]
+      },
+      {
+        "code": "4BB",
+        "name": "Finansman Giderleri",
+        "values": [
+          -309848514.0,
+          -319113729.0,
+          46650267.0,
+          51910125.0
+        ]
+      },
+      {
+        "code": "4BC",
+        "name": "Yurtiçi Satışlar",
+        "values": [
+          1549742795.0,
+          2539088180.0,
+          255926958.0,
+          332823494.0
+        ]
+      },
+      {
+        "code": "4C",
+        "name": "İşletme Faaliyetlerinden Kaynaklanan Net Nakit",
+        "values": [
+          -896389951.0,
+          -796582767.0,
+          -267756559.0,
+          -698690708.0
+        ]
+      },
+      {
+        "code": "4CA",
+        "name": "Düzeltme Öncesi Kar",
+        "values": [
+          -228601532.0,
+          -313791329.0,
+          78481258.0,
+          57690138.0
+        ]
+      },
+      {
+        "code": "4CAA",
+        "name": "Düzeltmeler:",
+        "values": [
+          -55902600.0,
+          33728259.0,
+          65759925.0,
+          67249882.0
+        ]
+      },
+      {
+        "code": "4CAB",
+        "name": "Amortisman & İtfa Payları",
+        "values": [
+          0.0,
+          0.0,
+          387719.0,
+          841328.0
+        ]
+      },
+      {
+        "code": "4CAC",
+        "name": "Karşılıklardaki Değişim",
+        "values": [
+          276149.0,
+          1726752.0,
+          -4787576.0,
+          -6249027.0
+        ]
+      },
+      {
+        "code": "4CAD",
+        "name": "Diğer Gelir/ Gider",
+        "values": [
+          -56178749.0,
+          32001507.0,
+          70159782.0,
+          72657581.0
+        ]
+      },
+      {
+        "code": "4CAE",
+        "name": "İşletme Sermayesinde Değişikler Öncesi Faaliyet Karı (+)",
+        "values": [
+          -284504132.0,
+          -280063070.0,
+          144241183.0,
+          124940020.0
+        ]
+      },
+      {
+        "code": "4CAF",
+        "name": "İşletme Sermayesindeki Değişiklikler",
+        "values": [
+          -611919193.0,
+          -475304598.0,
+          -411802948.0,
+          -731598215.0
+        ]
+      },
+      {
+        "code": "4CAG",
+        "name": "Esas Faaliyet ile İlgili Oluşan Nakit (+)",
+        "values": [
+          -896423325.0,
+          -755367668.0,
+          -267561765.0,
+          -606658195.0
+        ]
+      },
+      {
+        "code": "4CAH",
+        "name": "Diğer İşletme Faaliyetlerinden Nakit",
+        "values": [
+          33374.0,
+          140524.0,
+          -194794.0,
+          -203278.0
+        ]
+      },
+      {
+        "code": "4CAI",
+        "name": "Sabit Sermaye Yatırımları",
+        "values": [
+          0.0,
+          0.0,
+          -3517537.0,
+          -6704309.0
+        ]
+      },
+      {
+        "code": "4CAJ",
+        "name": "Diğer Yatırım Faaliyetlerinden Nakit",
+        "values": [
+          1618750.0,
+          2453454.0,
+          1130056.0,
+          -1019070764.0
+        ]
+      },
+      {
+        "code": "4CAK",
+        "name": "Yatırım Faaliyetlerinden Kaynaklanan Nakit",
+        "values": [
+          1618750.0,
+          2453454.0,
+          -2387481.0,
+          -1025775073.0
+        ]
+      },
+      {
+        "code": "4CB",
+        "name": "Serbest Nakit Akım",
+        "values": [
+          -894771201.0,
+          -794129313.0,
+          -270144040.0,
+          -1724465781.0
+        ]
+      },
+      {
+        "code": "4CBA",
+        "name": "Finansal Borçlardaki Değişim",
+        "values": [
+          395328474.0,
+          449176632.0,
+          653618698.0,
+          643440454.0
+        ]
+      },
+      {
+        "code": "4CBC",
+        "name": "Sermaye Artırımı",
+        "values": [
+          441264302.0,
+          0.0,
+          0.0,
+          1353077475.0
+        ]
+      },
+      {
+        "code": "4CBD",
+        "name": "Diğer Finansman Faaliyetlerinden Nakit",
+        "values": [
+          0.0,
+          289762827.0,
+          -285021055.0,
+          -263703334.0
+        ]
+      },
+      {
+        "code": "4CBE",
+        "name": "Finansman Faaliyetlerden Kaynaklanan Nakit",
+        "values": [
+          836592776.0,
+          738939459.0,
+          368597643.0,
+          1732814595.0
+        ]
+      },
+      {
+        "code": "4CBF",
+        "name": "Yab. Para Çev. Fark. Etk. Önc.Nak.Ve Nak. Benz. Net Artış/Azalış",
+        "values": [
+          -58178425.0,
+          -81285478.0,
+          98453603.0,
+          7496288.0
+        ]
+      },
+      {
+        "code": "4CBH",
+        "name": "Diğer Nakit Girişi/Çıkışı",
+        "values": [
+          -21473523.0,
+          0.0,
+          -701772.0,
+          0.0
+        ]
+      },
+      {
+        "code": "4CBI",
+        "name": "Nakit ve Benzerlerindeki Değişim",
+        "values": [
+          -79651948.0,
+          -81285478.0,
+          97751831.0,
+          7496288.0
+        ]
+      },
+      {
+        "code": "4CBK",
+        "name": "Dönem Başı Nakit Değerler",
+        "values": [
+          81354499.0,
+          84897671.0,
+          3461439.0,
+          3612193.0
+        ]
+      },
+      {
+        "code": "4CBL",
+        "name": "Dönem Sonu Nakit",
+        "values": [
+          1702551.0,
+          3612193.0,
+          101213270.0,
+          11108481.0
+        ]
+      }
     ]
   }
 }
