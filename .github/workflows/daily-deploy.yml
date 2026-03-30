@@ -1,16 +1,15 @@
-name: Update Financial Data
+name: Daily Price Update & Deploy
 
 on:
-  # Mali tablo yayın dönemlerinde haftada bir çalışır (Pazar 18:00 UTC / 21:00 İstanbul)
-  # Q1 sonuçları: Nisan-Mayıs, Q2: Temmuz-Ağustos, Q3: Ekim-Kasım, Q4: Şubat-Mart
   schedule:
-    - cron: '0 18 * 2-5,7-8,10-11 0'  # Bildirim aylarında haftada bir (Pazar)
-  workflow_dispatch: {}  # Manuel tetikleme (yeni bilanço yayınlandığında)
+    # Hafta içi 15:30 UTC (18:30 İstanbul) - BIST kapanışından ~30dk sonra
+    - cron: '30 15 * * 1-5'
+  workflow_dispatch: {}  # Manuel tetikleme (test için)
 
 jobs:
-  update:
+  update-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 60      # 613 hisse için yeterli süre
+    timeout-minutes: 30
     permissions:
       contents: write
 
@@ -26,17 +25,15 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Fetch all BIST stock data
-        run: python scripts/build_all_data.py
-        env:
-          DEBUG_FINANCIALS: "1"
+      - name: Update closing prices
+        run: python scripts/update_prices_only.py
 
-      - name: Commit and push changes
+      - name: Commit and push data changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ public/data/
-          git diff --staged --quiet || git commit -m "chore: update financial data $(date +%Y-%m-%d) [skip netlify]"
+          git diff --staged --quiet || git commit -m "chore: update daily prices $(date +%Y-%m-%d) [skip netlify]"
           git push
 
       - name: Setup Node.js
@@ -52,7 +49,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to Netlify
-        run: npx netlify-cli deploy --prod --dir=dist --message "Weekly full data deploy $(date +%Y-%m-%d)"
+        run: npx netlify-cli deploy --prod --dir=dist --message "Daily deploy $(date +%Y-%m-%d)"
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

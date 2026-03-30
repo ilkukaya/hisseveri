@@ -1,5 +1,7 @@
 [build]
-  command = "npm run build"
+  # Build GitHub Actions'ta yapılıyor, Netlify'a sadece statik dosya deploy ediliyor.
+  # Bu sayede Netlify build dakikası tüketimi = 0.
+  command = "echo 'Build handled by GitHub Actions'"
   publish = "dist"
 
 [build.environment]
