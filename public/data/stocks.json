@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-30T16:35:37.256225",
+  "updatedAt": "2026-03-30T19:37:04.610804",
   "count": 613,
   "stocks": [
     {
@@ -17,7 +17,9 @@
       "pb": null,
       "roe": 4.77,
       "netMargin": 0.86,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.31
     },
     {
       "ticker": "A1YEN",
@@ -34,7 +36,9 @@
       "pb": null,
       "roe": 5.92,
       "netMargin": 217.66,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.04
     },
     {
       "ticker": "ACSEL",
@@ -53,7 +57,9 @@
       "pb": null,
       "roe": 2.94,
       "netMargin": 5.79,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.19
     },
     {
       "ticker": "ADEL",
@@ -70,7 +76,9 @@
       "pb": null,
       "roe": 8.75,
       "netMargin": 13.18,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.96
     },
     {
       "ticker": "ADESE",
@@ -87,7 +95,9 @@
       "pb": null,
       "roe": -0.56,
       "netMargin": -26.7,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.78
     },
     {
       "ticker": "ADGYO",
@@ -104,7 +114,9 @@
       "pb": null,
       "roe": 7.58,
       "netMargin": 503.57,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 9.86
     },
     {
       "ticker": "AEFES",
@@ -114,16 +126,18 @@
       "indexes": [
         "BIST100"
       ],
-      "price": 16.73,
-      "change": -0.46,
-      "changePercent": -2.68,
-      "volume": 538852309,
+      "price": 16.17,
+      "change": -0.56,
+      "changePercent": -3.35,
+      "volume": 492045244,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 4.85,
       "netMargin": 11.81,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.03
     },
     {
       "ticker": "AFYON",
@@ -140,7 +154,9 @@
       "pb": null,
       "roe": 0.2,
       "netMargin": 1.19,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.36
     },
     {
       "ticker": "AGESA",
@@ -159,7 +175,9 @@
       "pb": null,
       "roe": 18.53,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "AGHOL",
@@ -169,16 +187,18 @@
       "indexes": [
         "BIST100"
       ],
-      "price": 27.2,
-      "change": -0.22,
-      "changePercent": -0.8,
-      "volume": 92710054,
+      "price": 26.96,
+      "change": -0.24,
+      "changePercent": -0.88,
+      "volume": 82261575,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 4.39,
       "netMargin": 6.18,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.94
     },
     {
       "ticker": "AGROT",
@@ -195,7 +215,9 @@
       "pb": null,
       "roe": 25.19,
       "netMargin": 109.52,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.63
     },
     {
       "ticker": "AGYO",
@@ -212,7 +234,9 @@
       "pb": null,
       "roe": 0.23,
       "netMargin": 11.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 6.58
     },
     {
       "ticker": "AHGAZ",
@@ -229,7 +253,9 @@
       "pb": null,
       "roe": 7.11,
       "netMargin": 20.4,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.99
     },
     {
       "ticker": "AHSGY",
@@ -248,7 +274,9 @@
       "pb": null,
       "roe": 1.51,
       "netMargin": 538.3,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 37.61
     },
     {
       "ticker": "AKBNK",
@@ -268,7 +296,9 @@
       "pb": 1.73,
       "roe": 6.19,
       "netMargin": 36.2,
-      "dividendYield": 2.8
+      "dividendYield": 2.8,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "AKCNS",
@@ -287,7 +317,9 @@
       "pb": null,
       "roe": 0.01,
       "netMargin": 0.04,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.49
     },
     {
       "ticker": "AKENR",
@@ -304,7 +336,9 @@
       "pb": null,
       "roe": 1.48,
       "netMargin": 3.39,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.15
     },
     {
       "ticker": "AKFGY",
@@ -321,7 +355,9 @@
       "pb": null,
       "roe": 1.97,
       "netMargin": 142.77,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.22
     },
     {
       "ticker": "AKFIS",
@@ -338,7 +374,9 @@
       "pb": null,
       "roe": null,
       "netMargin": -42.18,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.48
     },
     {
       "ticker": "AKFYE",
@@ -357,7 +395,9 @@
       "pb": null,
       "roe": 6.51,
       "netMargin": 101.1,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.65
     },
     {
       "ticker": "AKGRT",
@@ -376,7 +416,9 @@
       "pb": null,
       "roe": 7.56,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "AKHAN",
@@ -395,7 +437,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 2.28,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.39
     },
     {
       "ticker": "AKMGY",
@@ -412,7 +456,9 @@
       "pb": null,
       "roe": 2.04,
       "netMargin": 61.63,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.32
     },
     {
       "ticker": "AKSA",
@@ -432,7 +478,9 @@
       "pb": null,
       "roe": 5.11,
       "netMargin": 10.17,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.85
     },
     {
       "ticker": "AKSEN",
@@ -452,7 +500,9 @@
       "pb": null,
       "roe": 3.52,
       "netMargin": 17.08,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.76
     },
     {
       "ticker": "AKSGY",
@@ -469,7 +519,9 @@
       "pb": null,
       "roe": 2.95,
       "netMargin": 81.84,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.15
     },
     {
       "ticker": "AKSUE",
@@ -486,7 +538,9 @@
       "pb": null,
       "roe": -2.88,
       "netMargin": -78.5,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.46
     },
     {
       "ticker": "AKYHO",
@@ -505,7 +559,9 @@
       "pb": null,
       "roe": -8.94,
       "netMargin": -136.32,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.03
     },
     {
       "ticker": "ALARK",
@@ -515,16 +571,18 @@
       "indexes": [
         "BIST100"
       ],
-      "price": 86.95,
-      "change": -0.9,
-      "changePercent": -1.02,
-      "volume": 351455901,
+      "price": 87.75,
+      "change": 0.8,
+      "changePercent": 0.92,
+      "volume": 344007707,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": -3.55,
       "netMargin": -77.51,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.82
     },
     {
       "ticker": "ALBRK",
@@ -543,7 +601,9 @@
       "pb": null,
       "roe": 4.4,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "ALCAR",
@@ -560,7 +620,9 @@
       "pb": null,
       "roe": -9.23,
       "netMargin": -8.19,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.64
     },
     {
       "ticker": "ALCTL",
@@ -579,7 +641,9 @@
       "pb": null,
       "roe": 2.84,
       "netMargin": 6.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.78
     },
     {
       "ticker": "ALFAS",
@@ -596,7 +660,9 @@
       "pb": null,
       "roe": -19.94,
       "netMargin": -26.28,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.2
     },
     {
       "ticker": "ALGYO",
@@ -613,7 +679,9 @@
       "pb": null,
       "roe": 0.04,
       "netMargin": 10.77,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.33
     },
     {
       "ticker": "ALKA",
@@ -632,7 +700,9 @@
       "pb": null,
       "roe": -7.04,
       "netMargin": -11.73,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.06
     },
     {
       "ticker": "ALKIM",
@@ -651,7 +721,9 @@
       "pb": null,
       "roe": -6.21,
       "netMargin": -12.89,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.74
     },
     {
       "ticker": "ALKLC",
@@ -670,7 +742,9 @@
       "pb": null,
       "roe": 1.79,
       "netMargin": 1.3,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.1
     },
     {
       "ticker": "ALTNY",
@@ -689,7 +763,9 @@
       "pb": null,
       "roe": -9.72,
       "netMargin": -36.8,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.31
     },
     {
       "ticker": "ALVES",
@@ -708,7 +784,9 @@
       "pb": null,
       "roe": 11.44,
       "netMargin": 10.88,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.16
     },
     {
       "ticker": "ANELE",
@@ -725,7 +803,9 @@
       "pb": null,
       "roe": -18.74,
       "netMargin": -33.03,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.95
     },
     {
       "ticker": "ANGEN",
@@ -744,7 +824,9 @@
       "pb": null,
       "roe": -6.32,
       "netMargin": -63.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.82
     },
     {
       "ticker": "ANHYT",
@@ -763,7 +845,9 @@
       "pb": null,
       "roe": 15.47,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "ANSGR",
@@ -782,7 +866,9 @@
       "pb": null,
       "roe": 16.62,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "ARASE",
@@ -801,7 +887,9 @@
       "pb": null,
       "roe": -2.1,
       "netMargin": -2.19,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.74
     },
     {
       "ticker": "ARCLK",
@@ -821,7 +909,9 @@
       "pb": null,
       "roe": 3.94,
       "netMargin": 2.63,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.97
     },
     {
       "ticker": "ARDYZ",
@@ -840,7 +930,9 @@
       "pb": null,
       "roe": -1.69,
       "netMargin": -6.73,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.04
     },
     {
       "ticker": "ARENA",
@@ -857,7 +949,9 @@
       "pb": null,
       "roe": -13.97,
       "netMargin": -3.09,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.14
     },
     {
       "ticker": "ARFYE",
@@ -876,7 +970,9 @@
       "pb": null,
       "roe": null,
       "netMargin": -11.37,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.9
     },
     {
       "ticker": "ARMGD",
@@ -893,7 +989,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 4.05,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.45
     },
     {
       "ticker": "ARSAN",
@@ -910,7 +1008,9 @@
       "pb": null,
       "roe": 2.45,
       "netMargin": 537.7,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 21.34
     },
     {
       "ticker": "ARTMS",
@@ -927,7 +1027,9 @@
       "pb": null,
       "roe": 0.14,
       "netMargin": 0.79,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.75
     },
     {
       "ticker": "ARZUM",
@@ -944,7 +1046,9 @@
       "pb": null,
       "roe": -15.45,
       "netMargin": -5.29,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.64
     },
     {
       "ticker": "ASELS",
@@ -965,7 +1069,9 @@
       "pb": 9.71,
       "roe": 1.66,
       "netMargin": 8.18,
-      "dividendYield": 0.42
+      "dividendYield": 0.42,
+      "evEbitda": 18.53,
+      "currentRatio": 1.39
     },
     {
       "ticker": "ASGYO",
@@ -982,7 +1088,9 @@
       "pb": null,
       "roe": -0.93,
       "netMargin": -1562.44,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 488.95
     },
     {
       "ticker": "ASTOR",
@@ -1001,7 +1109,9 @@
       "pb": null,
       "roe": 5.38,
       "netMargin": 9.85,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.07
     },
     {
       "ticker": "ASUZU",
@@ -1020,7 +1130,9 @@
       "pb": null,
       "roe": 5.55,
       "netMargin": 8.83,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.2
     },
     {
       "ticker": "ATAGY",
@@ -1037,7 +1149,9 @@
       "pb": null,
       "roe": -0.83,
       "netMargin": -59.19,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 9.01
     },
     {
       "ticker": "ATAKP",
@@ -1056,7 +1170,9 @@
       "pb": null,
       "roe": 0.21,
       "netMargin": 0.64,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.93
     },
     {
       "ticker": "ATATP",
@@ -1075,7 +1191,9 @@
       "pb": null,
       "roe": 15.43,
       "netMargin": 31.62,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.22
     },
     {
       "ticker": "ATATR",
@@ -1092,7 +1210,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 25.58,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.99
     },
     {
       "ticker": "ATEKS",
@@ -1109,7 +1229,9 @@
       "pb": null,
       "roe": 0.67,
       "netMargin": 3.27,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.32
     },
     {
       "ticker": "ATLAS",
@@ -1126,7 +1248,9 @@
       "pb": null,
       "roe": 1.8,
       "netMargin": 0.55,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 372.26
     },
     {
       "ticker": "ATSYH",
@@ -1143,7 +1267,9 @@
       "pb": null,
       "roe": 20.81,
       "netMargin": 105.02,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.53
     },
     {
       "ticker": "AVGYO",
@@ -1160,7 +1286,9 @@
       "pb": null,
       "roe": 1.92,
       "netMargin": 12.59,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.4
     },
     {
       "ticker": "AVHOL",
@@ -1177,7 +1305,9 @@
       "pb": null,
       "roe": 14.23,
       "netMargin": 50.03,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.75
     },
     {
       "ticker": "AVOD",
@@ -1194,7 +1324,9 @@
       "pb": null,
       "roe": -10.68,
       "netMargin": -27.12,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.25
     },
     {
       "ticker": "AVPGY",
@@ -1213,7 +1345,9 @@
       "pb": null,
       "roe": 17.22,
       "netMargin": 96.88,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.2
     },
     {
       "ticker": "AVTUR",
@@ -1230,7 +1364,9 @@
       "pb": null,
       "roe": -3.21,
       "netMargin": -553.53,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.01
     },
     {
       "ticker": "AYCES",
@@ -1247,7 +1383,9 @@
       "pb": null,
       "roe": -6.04,
       "netMargin": -460.44,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.56
     },
     {
       "ticker": "AYDEM",
@@ -1266,7 +1404,9 @@
       "pb": null,
       "roe": 2.69,
       "netMargin": 37.9,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.24
     },
     {
       "ticker": "AYEN",
@@ -1285,7 +1425,9 @@
       "pb": null,
       "roe": 2.78,
       "netMargin": 27.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.61
     },
     {
       "ticker": "AYES",
@@ -1302,7 +1444,9 @@
       "pb": null,
       "roe": -0.69,
       "netMargin": -0.21,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.36
     },
     {
       "ticker": "AYGAZ",
@@ -1321,7 +1465,9 @@
       "pb": null,
       "roe": -0.44,
       "netMargin": -0.85,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.64
     },
     {
       "ticker": "AZTEK",
@@ -1338,7 +1484,9 @@
       "pb": null,
       "roe": 2.37,
       "netMargin": 1.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.41
     },
     {
       "ticker": "BAGFS",
@@ -1355,7 +1503,9 @@
       "pb": null,
       "roe": -28.91,
       "netMargin": -141.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.45
     },
     {
       "ticker": "BAHKM",
@@ -1374,7 +1524,9 @@
       "pb": null,
       "roe": 4.39,
       "netMargin": 16.31,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 8.16
     },
     {
       "ticker": "BAKAB",
@@ -1393,7 +1545,9 @@
       "pb": null,
       "roe": 1.66,
       "netMargin": 2.73,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.19
     },
     {
       "ticker": "BALAT",
@@ -1410,7 +1564,9 @@
       "pb": null,
       "roe": 22.05,
       "netMargin": 386.27,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.71
     },
     {
       "ticker": "BALSU",
@@ -1420,16 +1576,18 @@
       "indexes": [
         "BIST100"
       ],
-      "price": 14.02,
-      "change": -0.11,
-      "changePercent": -0.78,
-      "volume": 76227362,
+      "price": 14.07,
+      "change": 0.05,
+      "changePercent": 0.36,
+      "volume": 62493959,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": null,
       "netMargin": 8.19,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.09
     },
     {
       "ticker": "BANVT",
@@ -1448,7 +1606,9 @@
       "pb": null,
       "roe": 16.14,
       "netMargin": 10.56,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.31
     },
     {
       "ticker": "BARMA",
@@ -1465,7 +1625,9 @@
       "pb": null,
       "roe": 2.16,
       "netMargin": 5.85,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.42
     },
     {
       "ticker": "BASCM",
@@ -1482,7 +1644,9 @@
       "pb": null,
       "roe": -12.62,
       "netMargin": -13.2,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.16
     },
     {
       "ticker": "BASGZ",
@@ -1501,7 +1665,9 @@
       "pb": null,
       "roe": 8.2,
       "netMargin": 9.28,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.41
     },
     {
       "ticker": "BAYRK",
@@ -1518,7 +1684,9 @@
       "pb": null,
       "roe": -9.72,
       "netMargin": -22.13,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.73
     },
     {
       "ticker": "BEGYO",
@@ -1537,7 +1705,9 @@
       "pb": null,
       "roe": 5.97,
       "netMargin": 695.22,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 10.0
     },
     {
       "ticker": "BERA",
@@ -1557,7 +1727,9 @@
       "pb": null,
       "roe": 6.54,
       "netMargin": 24.61,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.88
     },
     {
       "ticker": "BESLR",
@@ -1574,7 +1746,9 @@
       "pb": null,
       "roe": 5.74,
       "netMargin": 6.07,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.34
     },
     {
       "ticker": "BESTE",
@@ -1593,7 +1767,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 30.42,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.46
     },
     {
       "ticker": "BEYAZ",
@@ -1610,7 +1786,9 @@
       "pb": null,
       "roe": -18.18,
       "netMargin": -3.1,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.08
     },
     {
       "ticker": "BFREN",
@@ -1627,7 +1805,9 @@
       "pb": null,
       "roe": 17.62,
       "netMargin": 4.87,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.58
     },
     {
       "ticker": "BIENY",
@@ -1646,7 +1826,9 @@
       "pb": null,
       "roe": -11.51,
       "netMargin": -39.03,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.07
     },
     {
       "ticker": "BIGCH",
@@ -1663,7 +1845,9 @@
       "pb": null,
       "roe": 4.5,
       "netMargin": 4.98,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.67
     },
     {
       "ticker": "BIGEN",
@@ -1680,7 +1864,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 15.61,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.48
     },
     {
       "ticker": "BIGTK",
@@ -1697,7 +1883,9 @@
       "pb": null,
       "roe": -239.0,
       "netMargin": -26.36,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.14
     },
     {
       "ticker": "BIMAS",
@@ -1709,16 +1897,18 @@
         "BIST30",
         "KATILIM"
       ],
-      "price": 670.5,
-      "change": -2.5,
-      "changePercent": -0.37,
-      "volume": 2443998823,
+      "price": 677.0,
+      "change": 6.5,
+      "changePercent": 0.97,
+      "volume": 1911835794,
       "marketCap": 423300000000,
       "pe": 79.03,
       "pb": 5.03,
       "roe": 6.36,
       "netMargin": 3.74,
-      "dividendYield": 1.8
+      "dividendYield": 1.8,
+      "evEbitda": 11.1,
+      "currentRatio": 1.03
     },
     {
       "ticker": "BINBN",
@@ -1737,7 +1927,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 0.24,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 12.22
     },
     {
       "ticker": "BINHO",
@@ -1756,7 +1948,9 @@
       "pb": null,
       "roe": 0.01,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.91
     },
     {
       "ticker": "BIOEN",
@@ -1773,7 +1967,9 @@
       "pb": null,
       "roe": 20.7,
       "netMargin": 92.62,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.31
     },
     {
       "ticker": "BIZIM",
@@ -1790,7 +1986,9 @@
       "pb": null,
       "roe": -15.33,
       "netMargin": -2.85,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.54
     },
     {
       "ticker": "BJKAS",
@@ -1807,7 +2005,9 @@
       "pb": null,
       "roe": null,
       "netMargin": -13.49,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.54
     },
     {
       "ticker": "BLCYT",
@@ -1824,7 +2024,9 @@
       "pb": null,
       "roe": -7.95,
       "netMargin": -131.26,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 13.56
     },
     {
       "ticker": "BLUME",
@@ -1841,7 +2043,9 @@
       "pb": null,
       "roe": 0.51,
       "netMargin": 2.24,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 6.45
     },
     {
       "ticker": "BMSCH",
@@ -1858,7 +2062,9 @@
       "pb": null,
       "roe": -6.11,
       "netMargin": -6.59,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.79
     },
     {
       "ticker": "BMSTL",
@@ -1877,7 +2083,9 @@
       "pb": null,
       "roe": 0.76,
       "netMargin": 1.65,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.34
     },
     {
       "ticker": "BNTAS",
@@ -1896,7 +2104,9 @@
       "pb": null,
       "roe": 8.18,
       "netMargin": 17.61,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 6.75
     },
     {
       "ticker": "BOBET",
@@ -1913,7 +2123,9 @@
       "pb": null,
       "roe": 2.61,
       "netMargin": 4.54,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.08
     },
     {
       "ticker": "BORLS",
@@ -1930,7 +2142,9 @@
       "pb": null,
       "roe": -16.4,
       "netMargin": -38.28,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.46
     },
     {
       "ticker": "BORSK",
@@ -1949,7 +2163,9 @@
       "pb": null,
       "roe": 1.65,
       "netMargin": 9.7,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.71
     },
     {
       "ticker": "BOSSA",
@@ -1968,7 +2184,9 @@
       "pb": null,
       "roe": 6.33,
       "netMargin": 20.16,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.95
     },
     {
       "ticker": "BRISA",
@@ -1988,7 +2206,9 @@
       "pb": null,
       "roe": 4.96,
       "netMargin": 7.84,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.05
     },
     {
       "ticker": "BRKO",
@@ -2005,7 +2225,9 @@
       "pb": null,
       "roe": 5.01,
       "netMargin": 89175.08,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.45
     },
     {
       "ticker": "BRKSN",
@@ -2024,7 +2246,9 @@
       "pb": null,
       "roe": 6.13,
       "netMargin": 15.12,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.16
     },
     {
       "ticker": "BRKVY",
@@ -2041,7 +2265,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "BRLSM",
@@ -2060,7 +2286,9 @@
       "pb": null,
       "roe": 2.02,
       "netMargin": 1.28,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.25
     },
     {
       "ticker": "BRMEN",
@@ -2077,7 +2305,9 @@
       "pb": null,
       "roe": -37.15,
       "netMargin": -29.52,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.72
     },
     {
       "ticker": "BRSAN",
@@ -2096,7 +2326,9 @@
       "pb": null,
       "roe": 1.32,
       "netMargin": 2.24,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.18
     },
     {
       "ticker": "BRYAT",
@@ -2113,7 +2345,9 @@
       "pb": null,
       "roe": 0.95,
       "netMargin": 331.99,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.97
     },
     {
       "ticker": "BSOKE",
@@ -2132,7 +2366,9 @@
       "pb": null,
       "roe": 2.38,
       "netMargin": 9.21,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.16
     },
     {
       "ticker": "BTCIM",
@@ -2149,7 +2385,9 @@
       "pb": null,
       "roe": 1.82,
       "netMargin": 6.36,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.02
     },
     {
       "ticker": "BUCIM",
@@ -2166,7 +2404,9 @@
       "pb": null,
       "roe": 3.91,
       "netMargin": 13.25,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.95
     },
     {
       "ticker": "BULGS",
@@ -2183,7 +2423,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 162.13,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 123.95
     },
     {
       "ticker": "BURCE",
@@ -2202,7 +2444,9 @@
       "pb": null,
       "roe": -2.04,
       "netMargin": -7.46,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.01
     },
     {
       "ticker": "BURVA",
@@ -2221,7 +2465,9 @@
       "pb": null,
       "roe": 2.1,
       "netMargin": 2.47,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.46
     },
     {
       "ticker": "BVSAN",
@@ -2238,7 +2484,9 @@
       "pb": null,
       "roe": 2.94,
       "netMargin": 6.08,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.82
     },
     {
       "ticker": "BYDNR",
@@ -2255,7 +2503,9 @@
       "pb": null,
       "roe": 8.25,
       "netMargin": 12.15,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.69
     },
     {
       "ticker": "CANTE",
@@ -2274,7 +2524,9 @@
       "pb": null,
       "roe": -3.89,
       "netMargin": -42.42,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.22
     },
     {
       "ticker": "CASA",
@@ -2291,7 +2543,9 @@
       "pb": null,
       "roe": 2.45,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 9.28
     },
     {
       "ticker": "CATES",
@@ -2310,7 +2564,9 @@
       "pb": null,
       "roe": 1.36,
       "netMargin": 8.97,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.49
     },
     {
       "ticker": "CCOLA",
@@ -2330,7 +2586,9 @@
       "pb": null,
       "roe": 7.33,
       "netMargin": 9.95,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.15
     },
     {
       "ticker": "CELHA",
@@ -2349,7 +2607,9 @@
       "pb": null,
       "roe": -5.93,
       "netMargin": -5.23,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.38
     },
     {
       "ticker": "CEMAS",
@@ -2366,7 +2626,9 @@
       "pb": null,
       "roe": -10.36,
       "netMargin": -45.79,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.33
     },
     {
       "ticker": "CEMTS",
@@ -2385,7 +2647,9 @@
       "pb": null,
       "roe": 2.11,
       "netMargin": 4.4,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 5.27
     },
     {
       "ticker": "CEMZY",
@@ -2404,7 +2668,9 @@
       "pb": null,
       "roe": 3.97,
       "netMargin": 6.85,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.78
     },
     {
       "ticker": "CEOEM",
@@ -2421,7 +2687,9 @@
       "pb": null,
       "roe": -6.59,
       "netMargin": -87.64,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.43
     },
     {
       "ticker": "CGCAM",
@@ -2438,7 +2706,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 3.98,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.3
     },
     {
       "ticker": "CIMSA",
@@ -2458,7 +2728,9 @@
       "pb": null,
       "roe": 2.1,
       "netMargin": 7.44,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.1
     },
     {
       "ticker": "CLEBI",
@@ -2475,7 +2747,9 @@
       "pb": null,
       "roe": 9.25,
       "netMargin": 16.1,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.37
     },
     {
       "ticker": "CMBTN",
@@ -2494,7 +2768,9 @@
       "pb": null,
       "roe": -3.52,
       "netMargin": -1.12,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.73
     },
     {
       "ticker": "CMENT",
@@ -2511,7 +2787,9 @@
       "pb": null,
       "roe": -0.85,
       "netMargin": -2.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.98
     },
     {
       "ticker": "CONSE",
@@ -2528,7 +2806,9 @@
       "pb": null,
       "roe": 1.25,
       "netMargin": 4.14,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.04
     },
     {
       "ticker": "COSMO",
@@ -2547,7 +2827,9 @@
       "pb": null,
       "roe": -4.5,
       "netMargin": -3.32,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.54
     },
     {
       "ticker": "CRDFA",
@@ -2564,7 +2846,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "CRFSA",
@@ -2581,7 +2865,9 @@
       "pb": null,
       "roe": -4.19,
       "netMargin": -1.43,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.48
     },
     {
       "ticker": "CUSAN",
@@ -2598,7 +2884,9 @@
       "pb": null,
       "roe": -17.09,
       "netMargin": -16.63,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.63
     },
     {
       "ticker": "CVKMD",
@@ -2617,7 +2905,9 @@
       "pb": null,
       "roe": 1.82,
       "netMargin": 9.89,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.36
     },
     {
       "ticker": "CWENE",
@@ -2629,15 +2919,17 @@
         "KATILIM"
       ],
       "price": 29.6,
-      "change": 1.08,
-      "changePercent": 3.79,
-      "volume": 715753657,
+      "change": 0.0,
+      "changePercent": 0.0,
+      "volume": 1066941531,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 2.44,
       "netMargin": 4.91,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.15
     },
     {
       "ticker": "DAGI",
@@ -2654,7 +2946,9 @@
       "pb": null,
       "roe": -6.5,
       "netMargin": -16.51,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.05
     },
     {
       "ticker": "DAPGM",
@@ -2673,7 +2967,9 @@
       "pb": null,
       "roe": 1.8,
       "netMargin": 7.36,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.27
     },
     {
       "ticker": "DARDL",
@@ -2692,7 +2988,9 @@
       "pb": null,
       "roe": -4.34,
       "netMargin": -5.94,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.98
     },
     {
       "ticker": "DCTTR",
@@ -2711,7 +3009,9 @@
       "pb": null,
       "roe": 2.38,
       "netMargin": 0.65,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.71
     },
     {
       "ticker": "DENGE",
@@ -2730,7 +3030,9 @@
       "pb": null,
       "roe": -20.65,
       "netMargin": -145.91,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.42
     },
     {
       "ticker": "DERHL",
@@ -2747,7 +3049,9 @@
       "pb": null,
       "roe": 2.56,
       "netMargin": 4.2,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.36
     },
     {
       "ticker": "DERIM",
@@ -2764,7 +3068,9 @@
       "pb": null,
       "roe": 2.87,
       "netMargin": 0.71,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.61
     },
     {
       "ticker": "DESA",
@@ -2781,7 +3087,9 @@
       "pb": null,
       "roe": 1.29,
       "netMargin": 3.24,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.89
     },
     {
       "ticker": "DESPC",
@@ -2800,7 +3108,9 @@
       "pb": null,
       "roe": -9.89,
       "netMargin": -1.6,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.28
     },
     {
       "ticker": "DEVA",
@@ -2819,7 +3129,9 @@
       "pb": null,
       "roe": -3.17,
       "netMargin": -10.59,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.65
     },
     {
       "ticker": "DGATE",
@@ -2838,7 +3150,9 @@
       "pb": null,
       "roe": -15.39,
       "netMargin": -2.77,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.03
     },
     {
       "ticker": "DGGYO",
@@ -2855,7 +3169,9 @@
       "pb": null,
       "roe": 4.65,
       "netMargin": 185.29,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.05
     },
     {
       "ticker": "DGNMO",
@@ -2874,7 +3190,9 @@
       "pb": null,
       "roe": -0.01,
       "netMargin": -0.01,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.33
     },
     {
       "ticker": "DIRIT",
@@ -2891,7 +3209,9 @@
       "pb": null,
       "roe": -0.6,
       "netMargin": -1649.96,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.75
     },
     {
       "ticker": "DITAS",
@@ -2908,7 +3228,9 @@
       "pb": null,
       "roe": -13.34,
       "netMargin": -9.98,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.55
     },
     {
       "ticker": "DMRGD",
@@ -2925,7 +3247,9 @@
       "pb": null,
       "roe": 1.43,
       "netMargin": 10.89,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.23
     },
     {
       "ticker": "DMSAS",
@@ -2944,7 +3268,9 @@
       "pb": null,
       "roe": 5.33,
       "netMargin": 4.99,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.75
     },
     {
       "ticker": "DNISI",
@@ -2961,7 +3287,9 @@
       "pb": null,
       "roe": -3.36,
       "netMargin": -22.08,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.0
     },
     {
       "ticker": "DOAS",
@@ -2980,7 +3308,9 @@
       "pb": null,
       "roe": 7.89,
       "netMargin": 8.78,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.43
     },
     {
       "ticker": "DOCO",
@@ -2999,7 +3329,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "DOFER",
@@ -3018,7 +3350,9 @@
       "pb": null,
       "roe": 6.04,
       "netMargin": 5.78,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.32
     },
     {
       "ticker": "DOFRB",
@@ -3037,7 +3371,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 0.12,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.88
     },
     {
       "ticker": "DOGUB",
@@ -3056,7 +3392,9 @@
       "pb": null,
       "roe": -13.82,
       "netMargin": -73.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.46
     },
     {
       "ticker": "DOHOL",
@@ -3075,7 +3413,9 @@
       "pb": null,
       "roe": 2.11,
       "netMargin": 6.63,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.57
     },
     {
       "ticker": "DOKTA",
@@ -3092,7 +3432,9 @@
       "pb": null,
       "roe": -0.17,
       "netMargin": -0.25,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.48
     },
     {
       "ticker": "DSTKF",
@@ -3103,16 +3445,18 @@
         "BIST30",
         "BIST100"
       ],
-      "price": 1850.0,
-      "change": 27.0,
-      "changePercent": 1.48,
-      "volume": 866975291,
+      "price": 1852.0,
+      "change": 2.0,
+      "changePercent": 0.11,
+      "volume": 780792422,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "DUNYH",
@@ -3129,7 +3473,9 @@
       "pb": null,
       "roe": -6.28,
       "netMargin": -41.78,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 73.46
     },
     {
       "ticker": "DURDO",
@@ -3146,7 +3492,9 @@
       "pb": null,
       "roe": -7.49,
       "netMargin": -14.75,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.08
     },
     {
       "ticker": "DURKN",
@@ -3163,7 +3511,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 7.28,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.34
     },
     {
       "ticker": "DYOBY",
@@ -3182,7 +3532,9 @@
       "pb": null,
       "roe": -1.56,
       "netMargin": -1.95,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.64
     },
     {
       "ticker": "DZGYO",
@@ -3199,7 +3551,9 @@
       "pb": null,
       "roe": 2.6,
       "netMargin": 39.7,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 30.13
     },
     {
       "ticker": "EBEBK",
@@ -3218,7 +3572,9 @@
       "pb": null,
       "roe": 2.48,
       "netMargin": 1.5,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.09
     },
     {
       "ticker": "ECILC",
@@ -3237,7 +3593,9 @@
       "pb": null,
       "roe": 1.53,
       "netMargin": 21.72,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.01
     },
     {
       "ticker": "ECOGR",
@@ -3254,7 +3612,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 47.55,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.62
     },
     {
       "ticker": "ECZYT",
@@ -3273,7 +3633,9 @@
       "pb": null,
       "roe": 0.69,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 70.88
     },
     {
       "ticker": "EDATA",
@@ -3292,7 +3654,9 @@
       "pb": null,
       "roe": -6.11,
       "netMargin": -12.33,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.45
     },
     {
       "ticker": "EDIP",
@@ -3311,7 +3675,9 @@
       "pb": null,
       "roe": 7.61,
       "netMargin": 167.86,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.72
     },
     {
       "ticker": "EFOR",
@@ -3330,7 +3696,9 @@
       "pb": null,
       "roe": 4.19,
       "netMargin": 6.52,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.15
     },
     {
       "ticker": "EGEEN",
@@ -3349,7 +3717,9 @@
       "pb": null,
       "roe": 6.26,
       "netMargin": 21.37,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.29
     },
     {
       "ticker": "EGEGY",
@@ -3366,7 +3736,9 @@
       "pb": null,
       "roe": null,
       "netMargin": -576.64,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.84
     },
     {
       "ticker": "EGEPO",
@@ -3385,7 +3757,9 @@
       "pb": null,
       "roe": -2.69,
       "netMargin": -10.37,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.8
     },
     {
       "ticker": "EGGUB",
@@ -3404,7 +3778,9 @@
       "pb": null,
       "roe": -3.81,
       "netMargin": -22.75,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.33
     },
     {
       "ticker": "EGPRO",
@@ -3423,7 +3799,9 @@
       "pb": null,
       "roe": 5.62,
       "netMargin": 8.0,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.4
     },
     {
       "ticker": "EGSER",
@@ -3440,7 +3818,9 @@
       "pb": null,
       "roe": -16.01,
       "netMargin": -42.56,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.88
     },
     {
       "ticker": "EKGYO",
@@ -3461,7 +3841,9 @@
       "pb": null,
       "roe": 0.52,
       "netMargin": 12.18,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.0
     },
     {
       "ticker": "EKIZ",
@@ -3478,7 +3860,9 @@
       "pb": null,
       "roe": 69.4,
       "netMargin": 206.86,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.3
     },
     {
       "ticker": "EKOS",
@@ -3495,7 +3879,9 @@
       "pb": null,
       "roe": -5.52,
       "netMargin": -44.46,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.14
     },
     {
       "ticker": "EKSUN",
@@ -3514,7 +3900,9 @@
       "pb": null,
       "roe": -8.68,
       "netMargin": -5.52,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.19
     },
     {
       "ticker": "ELITE",
@@ -3533,7 +3921,9 @@
       "pb": null,
       "roe": 8.24,
       "netMargin": 18.58,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.81
     },
     {
       "ticker": "EMKEL",
@@ -3550,7 +3940,9 @@
       "pb": null,
       "roe": -5.2,
       "netMargin": -37.0,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.35
     },
     {
       "ticker": "EMNIS",
@@ -3567,7 +3959,9 @@
       "pb": null,
       "roe": 9.54,
       "netMargin": 10.53,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.79
     },
     {
       "ticker": "EMPAE",
@@ -3586,7 +3980,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 3.25,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.11
     },
     {
       "ticker": "ENDAE",
@@ -3603,7 +3999,9 @@
       "pb": null,
       "roe": null,
       "netMargin": -11.67,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.5
     },
     {
       "ticker": "ENERY",
@@ -3620,7 +4018,9 @@
       "pb": null,
       "roe": 9.31,
       "netMargin": 22.1,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.5
     },
     {
       "ticker": "ENJSA",
@@ -3632,16 +4032,18 @@
         "BIST30",
         "KATILIM"
       ],
-      "price": 117.8,
-      "change": 2.6,
-      "changePercent": 2.26,
-      "volume": 323627232,
+      "price": 116.2,
+      "change": -1.6,
+      "changePercent": -1.36,
+      "volume": 532145303,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": -5.98,
       "netMargin": -7.99,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.79
     },
     {
       "ticker": "ENKAI",
@@ -3661,7 +4063,9 @@
       "pb": null,
       "roe": 2.01,
       "netMargin": 26.58,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.79
     },
     {
       "ticker": "ENSRI",
@@ -3678,7 +4082,9 @@
       "pb": null,
       "roe": -7.61,
       "netMargin": -80.02,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.79
     },
     {
       "ticker": "ENTRA",
@@ -3695,7 +4101,9 @@
       "pb": null,
       "roe": 2.24,
       "netMargin": 47.2,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.25
     },
     {
       "ticker": "EPLAS",
@@ -3712,7 +4120,9 @@
       "pb": null,
       "roe": -4.6,
       "netMargin": -18.93,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.51
     },
     {
       "ticker": "ERBOS",
@@ -3729,7 +4139,9 @@
       "pb": null,
       "roe": -4.22,
       "netMargin": -6.93,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.72
     },
     {
       "ticker": "ERCB",
@@ -3746,7 +4158,9 @@
       "pb": null,
       "roe": 0.92,
       "netMargin": 1.76,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.65
     },
     {
       "ticker": "EREGL",
@@ -3767,7 +4181,9 @@
       "pb": 0.91,
       "roe": 2.73,
       "netMargin": 11.75,
-      "dividendYield": 0.0
+      "dividendYield": 0.0,
+      "evEbitda": 11.21,
+      "currentRatio": 2.14
     },
     {
       "ticker": "ERSU",
@@ -3784,7 +4200,9 @@
       "pb": null,
       "roe": -4.89,
       "netMargin": -37.8,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 12.24
     },
     {
       "ticker": "ESCAR",
@@ -3801,7 +4219,9 @@
       "pb": null,
       "roe": 8.13,
       "netMargin": 64.91,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.62
     },
     {
       "ticker": "ESCOM",
@@ -3820,7 +4240,9 @@
       "pb": null,
       "roe": 3.85,
       "netMargin": 12971.32,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.38
     },
     {
       "ticker": "ESEN",
@@ -3837,7 +4259,9 @@
       "pb": null,
       "roe": 12.24,
       "netMargin": 620.9,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.39
     },
     {
       "ticker": "ETILR",
@@ -3854,7 +4278,9 @@
       "pb": null,
       "roe": -7.75,
       "netMargin": -5.77,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.31
     },
     {
       "ticker": "ETYAT",
@@ -3871,7 +4297,9 @@
       "pb": null,
       "roe": -6.74,
       "netMargin": -21.9,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 17.94
     },
     {
       "ticker": "EUHOL",
@@ -3888,7 +4316,9 @@
       "pb": null,
       "roe": -22.09,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.15
     },
     {
       "ticker": "EUKYO",
@@ -3905,7 +4335,9 @@
       "pb": null,
       "roe": -6.56,
       "netMargin": -23.41,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 23.19
     },
     {
       "ticker": "EUPWR",
@@ -3915,16 +4347,18 @@
       "indexes": [
         "KATILIM"
       ],
-      "price": 37.6,
-      "change": -0.12,
-      "changePercent": -0.32,
-      "volume": 402626549,
+      "price": 40.5,
+      "change": 2.9,
+      "changePercent": 7.71,
+      "volume": 902872201,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 1.63,
       "netMargin": 4.39,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.61
     },
     {
       "ticker": "EUREN",
@@ -3941,7 +4375,9 @@
       "pb": null,
       "roe": 7.54,
       "netMargin": 27.54,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.55
     },
     {
       "ticker": "EUYO",
@@ -3958,7 +4394,9 @@
       "pb": null,
       "roe": -5.37,
       "netMargin": -18.22,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 27.12
     },
     {
       "ticker": "EYGYO",
@@ -3977,7 +4415,9 @@
       "pb": null,
       "roe": 1.31,
       "netMargin": 17.3,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.53
     },
     {
       "ticker": "FADE",
@@ -3996,7 +4436,9 @@
       "pb": null,
       "roe": 1.44,
       "netMargin": 18.63,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.72
     },
     {
       "ticker": "FENER",
@@ -4004,16 +4446,18 @@
       "sector": "Spor",
       "subsector": "Spor",
       "indexes": [],
-      "price": 2.61,
-      "change": -0.12,
-      "changePercent": -4.4,
-      "volume": 334520893,
+      "price": 2.56,
+      "change": -0.05,
+      "changePercent": -1.92,
+      "volume": 255905102,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": null,
       "netMargin": 47.48,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.6
     },
     {
       "ticker": "FLAP",
@@ -4030,7 +4474,9 @@
       "pb": null,
       "roe": -10.85,
       "netMargin": -200.98,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.69
     },
     {
       "ticker": "FMIZP",
@@ -4047,7 +4493,9 @@
       "pb": null,
       "roe": 10.93,
       "netMargin": 19.52,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 9.15
     },
     {
       "ticker": "FONET",
@@ -4066,7 +4514,9 @@
       "pb": null,
       "roe": 1.23,
       "netMargin": 6.93,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.34
     },
     {
       "ticker": "FORMT",
@@ -4085,7 +4535,9 @@
       "pb": null,
       "roe": -13.66,
       "netMargin": -59.98,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.8
     },
     {
       "ticker": "FORTE",
@@ -4104,7 +4556,9 @@
       "pb": null,
       "roe": -7.52,
       "netMargin": -18.22,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.35
     },
     {
       "ticker": "FRIGO",
@@ -4121,7 +4575,9 @@
       "pb": null,
       "roe": -2.43,
       "netMargin": -5.81,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.4
     },
     {
       "ticker": "FRMPL",
@@ -4140,7 +4596,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 3.4,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.55
     },
     {
       "ticker": "FROTO",
@@ -4160,7 +4618,9 @@
       "pb": 4.07,
       "roe": 13.78,
       "netMargin": 7.23,
-      "dividendYield": 2.5
+      "dividendYield": 2.5,
+      "evEbitda": 7.77,
+      "currentRatio": 1.24
     },
     {
       "ticker": "FZLGY",
@@ -4179,7 +4639,9 @@
       "pb": null,
       "roe": 2.02,
       "netMargin": 25.03,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 5.73
     },
     {
       "ticker": "GARAN",
@@ -4199,7 +4661,9 @@
       "pb": 2.46,
       "roe": 8.74,
       "netMargin": 40.13,
-      "dividendYield": 3.2
+      "dividendYield": 3.2,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "GARFA",
@@ -4216,7 +4680,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "GEDIK",
@@ -4233,7 +4699,9 @@
       "pb": null,
       "roe": 5.91,
       "netMargin": 0.5,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.17
     },
     {
       "ticker": "GEDZA",
@@ -4252,7 +4720,9 @@
       "pb": null,
       "roe": 0.42,
       "netMargin": 1.19,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.88
     },
     {
       "ticker": "GENIL",
@@ -4262,16 +4732,18 @@
       "indexes": [
         "KATILIM"
       ],
-      "price": 9.66,
-      "change": 0.24,
-      "changePercent": 2.55,
-      "volume": 399062584,
+      "price": 10.07,
+      "change": 0.41,
+      "changePercent": 4.24,
+      "volume": 810464762,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 3.69,
       "netMargin": 4.92,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.27
     },
     {
       "ticker": "GENKM",
@@ -4290,7 +4762,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 1.81,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.9
     },
     {
       "ticker": "GENTS",
@@ -4309,7 +4783,9 @@
       "pb": null,
       "roe": 0.32,
       "netMargin": 0.62,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.88
     },
     {
       "ticker": "GEREL",
@@ -4328,7 +4804,9 @@
       "pb": null,
       "roe": 43.22,
       "netMargin": 36.15,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.95
     },
     {
       "ticker": "GESAN",
@@ -4347,7 +4825,9 @@
       "pb": null,
       "roe": 0.92,
       "netMargin": 2.48,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.63
     },
     {
       "ticker": "GIPTA",
@@ -4364,7 +4844,9 @@
       "pb": null,
       "roe": -5.33,
       "netMargin": -31.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 9.27
     },
     {
       "ticker": "GLBMD",
@@ -4381,7 +4863,9 @@
       "pb": null,
       "roe": -1.46,
       "netMargin": -0.08,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.16
     },
     {
       "ticker": "GLCVY",
@@ -4398,7 +4882,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "GLRMK",
@@ -4408,16 +4894,18 @@
       "indexes": [
         "KATILIM"
       ],
-      "price": 175.0,
-      "change": -6.0,
-      "changePercent": -3.31,
-      "volume": 603704492,
+      "price": 172.9,
+      "change": -2.1,
+      "changePercent": -1.2,
+      "volume": 323389716,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": null,
       "netMargin": 17.88,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.19
     },
     {
       "ticker": "GLRYH",
@@ -4434,7 +4922,9 @@
       "pb": null,
       "roe": 5.52,
       "netMargin": 222.95,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.29
     },
     {
       "ticker": "GLYHO",
@@ -4451,7 +4941,9 @@
       "pb": null,
       "roe": 3.97,
       "netMargin": 10.81,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.32
     },
     {
       "ticker": "GMTAS",
@@ -4468,7 +4960,9 @@
       "pb": null,
       "roe": 8.06,
       "netMargin": 18.96,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.0
     },
     {
       "ticker": "GOKNR",
@@ -4487,7 +4981,9 @@
       "pb": null,
       "roe": 6.71,
       "netMargin": 9.66,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.8
     },
     {
       "ticker": "GOLTS",
@@ -4506,7 +5002,9 @@
       "pb": null,
       "roe": 6.61,
       "netMargin": 25.67,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.07
     },
     {
       "ticker": "GOODY",
@@ -4525,7 +5023,9 @@
       "pb": null,
       "roe": -2.22,
       "netMargin": -1.03,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.81
     },
     {
       "ticker": "GOZDE",
@@ -4544,7 +5044,9 @@
       "pb": null,
       "roe": -2.95,
       "netMargin": -49.65,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.07
     },
     {
       "ticker": "GRNYO",
@@ -4561,7 +5063,9 @@
       "pb": null,
       "roe": -8.55,
       "netMargin": -4.45,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 33.1
     },
     {
       "ticker": "GRSEL",
@@ -4580,7 +5084,9 @@
       "pb": null,
       "roe": 15.15,
       "netMargin": 26.62,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.63
     },
     {
       "ticker": "GRTHO",
@@ -4590,16 +5096,18 @@
       "indexes": [
         "KATILIM"
       ],
-      "price": 232.7,
-      "change": -7.4,
-      "changePercent": -3.08,
-      "volume": 190703888,
+      "price": 226.5,
+      "change": -6.2,
+      "changePercent": -2.66,
+      "volume": 71651522,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 2.82,
       "netMargin": 15.56,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.04
     },
     {
       "ticker": "GSDDE",
@@ -4616,7 +5124,9 @@
       "pb": null,
       "roe": -2.77,
       "netMargin": -30.6,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.33
     },
     {
       "ticker": "GSDHO",
@@ -4633,7 +5143,9 @@
       "pb": null,
       "roe": -5.2,
       "netMargin": -85.91,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.94
     },
     {
       "ticker": "GSRAY",
@@ -4650,7 +5162,9 @@
       "pb": null,
       "roe": 23.78,
       "netMargin": 6.52,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.34
     },
     {
       "ticker": "GUBRF",
@@ -4661,16 +5175,18 @@
         "BIST100",
         "KATILIM"
       ],
-      "price": 462.75,
-      "change": -10.75,
-      "changePercent": -2.27,
-      "volume": 499156448,
+      "price": 465.0,
+      "change": 2.25,
+      "changePercent": 0.49,
+      "volume": 676129130,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": -11.94,
       "netMargin": -14.14,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.46
     },
     {
       "ticker": "GUNDG",
@@ -4689,7 +5205,9 @@
       "pb": null,
       "roe": 9.54,
       "netMargin": 3.94,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.16
     },
     {
       "ticker": "GWIND",
@@ -4708,7 +5226,9 @@
       "pb": null,
       "roe": 3.47,
       "netMargin": 43.02,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.47
     },
     {
       "ticker": "GZNMI",
@@ -4725,7 +5245,9 @@
       "pb": null,
       "roe": -11.15,
       "netMargin": -30.83,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.98
     },
     {
       "ticker": "HALKB",
@@ -4745,7 +5267,9 @@
       "pb": null,
       "roe": 3.62,
       "netMargin": 31.96,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "HATEK",
@@ -4762,7 +5286,9 @@
       "pb": null,
       "roe": -9.95,
       "netMargin": -54.24,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.12
     },
     {
       "ticker": "HATSN",
@@ -4781,7 +5307,9 @@
       "pb": null,
       "roe": -8.18,
       "netMargin": -32.81,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.26
     },
     {
       "ticker": "HDFGS",
@@ -4798,7 +5326,9 @@
       "pb": null,
       "roe": -11.2,
       "netMargin": -119.48,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.79
     },
     {
       "ticker": "HEDEF",
@@ -4815,7 +5345,9 @@
       "pb": null,
       "roe": -12.61,
       "netMargin": -209.45,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.07
     },
     {
       "ticker": "HEKTS",
@@ -4826,15 +5358,17 @@
         "BIST100"
       ],
       "price": 2.8,
-      "change": -0.04,
-      "changePercent": -1.41,
-      "volume": 201753697,
+      "change": 0.0,
+      "changePercent": 0.0,
+      "volume": 217761676,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": -4.66,
       "netMargin": -21.22,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.53
     },
     {
       "ticker": "HKTM",
@@ -4853,7 +5387,9 @@
       "pb": null,
       "roe": -4.31,
       "netMargin": -15.38,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.22
     },
     {
       "ticker": "HLGYO",
@@ -4870,7 +5406,9 @@
       "pb": null,
       "roe": -1.9,
       "netMargin": -225.85,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.52
     },
     {
       "ticker": "HOROZ",
@@ -4889,7 +5427,9 @@
       "pb": null,
       "roe": 5.05,
       "netMargin": 2.06,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.16
     },
     {
       "ticker": "HRKET",
@@ -4908,7 +5448,9 @@
       "pb": null,
       "roe": -5.94,
       "netMargin": -25.73,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.04
     },
     {
       "ticker": "HTTBT",
@@ -4925,7 +5467,9 @@
       "pb": null,
       "roe": 2.66,
       "netMargin": 20.8,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.17
     },
     {
       "ticker": "HUBVC",
@@ -4944,7 +5488,9 @@
       "pb": null,
       "roe": -18.65,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.99
     },
     {
       "ticker": "HUNER",
@@ -4961,7 +5507,9 @@
       "pb": null,
       "roe": -1.85,
       "netMargin": -57.05,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.32
     },
     {
       "ticker": "HURGZ",
@@ -4978,7 +5526,9 @@
       "pb": null,
       "roe": -9.12,
       "netMargin": -79.41,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.21
     },
     {
       "ticker": "ICBCT",
@@ -4995,7 +5545,9 @@
       "pb": null,
       "roe": 2.37,
       "netMargin": 16.25,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "ICUGS",
@@ -5012,7 +5564,9 @@
       "pb": null,
       "roe": -3.49,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.38
     },
     {
       "ticker": "IDGYO",
@@ -5031,7 +5585,9 @@
       "pb": null,
       "roe": -69.0,
       "netMargin": -121.94,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.21
     },
     {
       "ticker": "IEYHO",
@@ -5048,7 +5604,9 @@
       "pb": null,
       "roe": -9.37,
       "netMargin": -26.66,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.2
     },
     {
       "ticker": "IHAAS",
@@ -5065,7 +5623,9 @@
       "pb": null,
       "roe": -19.16,
       "netMargin": -42.3,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.81
     },
     {
       "ticker": "IHEVA",
@@ -5084,7 +5644,9 @@
       "pb": null,
       "roe": -2.74,
       "netMargin": -3.62,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.27
     },
     {
       "ticker": "IHGZT",
@@ -5101,7 +5663,9 @@
       "pb": null,
       "roe": -5.09,
       "netMargin": -21.85,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 5.02
     },
     {
       "ticker": "IHLAS",
@@ -5120,7 +5684,9 @@
       "pb": null,
       "roe": -7.81,
       "netMargin": -23.9,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.67
     },
     {
       "ticker": "IHLGM",
@@ -5139,7 +5705,9 @@
       "pb": null,
       "roe": 19.7,
       "netMargin": 226.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.09
     },
     {
       "ticker": "IHYAY",
@@ -5158,7 +5726,9 @@
       "pb": null,
       "roe": -8.04,
       "netMargin": -26.62,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.12
     },
     {
       "ticker": "IMASM",
@@ -5177,7 +5747,9 @@
       "pb": null,
       "roe": 2.33,
       "netMargin": 6.99,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.34
     },
     {
       "ticker": "INDES",
@@ -5194,7 +5766,9 @@
       "pb": null,
       "roe": 3.05,
       "netMargin": 0.6,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.12
     },
     {
       "ticker": "INFO",
@@ -5211,7 +5785,9 @@
       "pb": null,
       "roe": -2.31,
       "netMargin": -0.96,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.09
     },
     {
       "ticker": "INGRM",
@@ -5228,7 +5804,9 @@
       "pb": null,
       "roe": 4.15,
       "netMargin": 1.36,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.35
     },
     {
       "ticker": "INTEK",
@@ -5245,7 +5823,9 @@
       "pb": null,
       "roe": 46.63,
       "netMargin": 172.58,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.35
     },
     {
       "ticker": "INTEM",
@@ -5264,7 +5844,9 @@
       "pb": null,
       "roe": 7.54,
       "netMargin": 9.36,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.46
     },
     {
       "ticker": "INVEO",
@@ -5283,7 +5865,9 @@
       "pb": null,
       "roe": -19.81,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.05
     },
     {
       "ticker": "INVES",
@@ -5300,7 +5884,9 @@
       "pb": null,
       "roe": 22.58,
       "netMargin": 89.03,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 45.76
     },
     {
       "ticker": "IPEKE",
@@ -5319,7 +5905,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "ISATR",
@@ -5336,7 +5924,9 @@
       "pb": null,
       "roe": 5.11,
       "netMargin": 39.0,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "ISBIR",
@@ -5353,7 +5943,9 @@
       "pb": null,
       "roe": 6.99,
       "netMargin": 9.91,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.4
     },
     {
       "ticker": "ISBTR",
@@ -5370,7 +5962,9 @@
       "pb": null,
       "roe": 5.11,
       "netMargin": 38.98,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "ISCTR",
@@ -5381,16 +5975,18 @@
         "BIST100",
         "BIST30"
       ],
-      "price": 13.18,
-      "change": 0.0,
-      "changePercent": 0.0,
-      "volume": 6278005470,
+      "price": 12.94,
+      "change": -0.24,
+      "changePercent": -1.82,
+      "volume": 5285081366,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 5.11,
       "netMargin": 38.98,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "ISDMR",
@@ -5409,7 +6005,9 @@
       "pb": null,
       "roe": 4.44,
       "netMargin": 16.84,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.25
     },
     {
       "ticker": "ISFIN",
@@ -5426,7 +6024,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "ISGSY",
@@ -5443,7 +6043,9 @@
       "pb": null,
       "roe": 0.0,
       "netMargin": 0.2,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.02
     },
     {
       "ticker": "ISGYO",
@@ -5462,7 +6064,9 @@
       "pb": null,
       "roe": -0.46,
       "netMargin": -32.79,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.65
     },
     {
       "ticker": "ISKPL",
@@ -5479,7 +6083,9 @@
       "pb": null,
       "roe": 3.05,
       "netMargin": 6.83,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.08
     },
     {
       "ticker": "ISKUR",
@@ -5496,7 +6102,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "ISMEN",
@@ -5504,16 +6112,18 @@
       "sector": "Finansal Kiralama",
       "subsector": "Finansal Kiralama",
       "indexes": [],
-      "price": 43.2,
-      "change": 0.32,
-      "changePercent": 0.75,
-      "volume": 355127963,
+      "price": 42.64,
+      "change": -0.56,
+      "changePercent": -1.3,
+      "volume": 295770740,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 1.28,
       "netMargin": 0.08,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.39
     },
     {
       "ticker": "ISSEN",
@@ -5532,7 +6142,9 @@
       "pb": null,
       "roe": 2.21,
       "netMargin": 7.45,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.32
     },
     {
       "ticker": "ISYAT",
@@ -5549,7 +6161,9 @@
       "pb": null,
       "roe": -5.7,
       "netMargin": -8.91,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 225.06
     },
     {
       "ticker": "IZENR",
@@ -5557,16 +6171,18 @@
       "sector": "Enerji",
       "subsector": "Enerji",
       "indexes": [],
-      "price": 9.7,
-      "change": -0.37,
-      "changePercent": -3.67,
-      "volume": 325435876,
+      "price": 9.8,
+      "change": 0.1,
+      "changePercent": 1.03,
+      "volume": 359869582,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": -4.85,
       "netMargin": -26.43,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.81
     },
     {
       "ticker": "IZFAS",
@@ -5585,7 +6201,9 @@
       "pb": null,
       "roe": -8.73,
       "netMargin": -10.56,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.45
     },
     {
       "ticker": "IZINV",
@@ -5604,7 +6222,9 @@
       "pb": null,
       "roe": -2.79,
       "netMargin": -47.37,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.33
     },
     {
       "ticker": "IZMDC",
@@ -5621,7 +6241,9 @@
       "pb": null,
       "roe": -7.93,
       "netMargin": -12.95,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.65
     },
     {
       "ticker": "JANTS",
@@ -5640,7 +6262,9 @@
       "pb": null,
       "roe": 0.57,
       "netMargin": 1.32,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.75
     },
     {
       "ticker": "KAPLM",
@@ -5657,7 +6281,9 @@
       "pb": null,
       "roe": -5.53,
       "netMargin": -8.92,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.02
     },
     {
       "ticker": "KAREL",
@@ -5676,7 +6302,9 @@
       "pb": null,
       "roe": -4.36,
       "netMargin": -2.88,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.8
     },
     {
       "ticker": "KARSN",
@@ -5696,7 +6324,9 @@
       "pb": null,
       "roe": 0.25,
       "netMargin": 0.62,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.0
     },
     {
       "ticker": "KARTN",
@@ -5713,7 +6343,9 @@
       "pb": null,
       "roe": -17.75,
       "netMargin": -32.44,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.05
     },
     {
       "ticker": "KATMR",
@@ -5732,7 +6364,9 @@
       "pb": null,
       "roe": 5.77,
       "netMargin": 45.39,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.76
     },
     {
       "ticker": "KAYSE",
@@ -5749,7 +6383,9 @@
       "pb": null,
       "roe": -4.71,
       "netMargin": -23.49,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.3
     },
     {
       "ticker": "KBORU",
@@ -5768,7 +6404,9 @@
       "pb": null,
       "roe": 10.66,
       "netMargin": 16.68,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.82
     },
     {
       "ticker": "KCAER",
@@ -5778,16 +6416,18 @@
       "indexes": [
         "KATILIM"
       ],
-      "price": 11.0,
-      "change": 0.01,
-      "changePercent": 0.09,
-      "volume": 123563837,
+      "price": 10.8,
+      "change": -0.2,
+      "changePercent": -1.82,
+      "volume": 85662256,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 1.6,
       "netMargin": 2.48,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.26
     },
     {
       "ticker": "KCHOL",
@@ -5798,16 +6438,18 @@
         "BIST100",
         "BIST30"
       ],
-      "price": 192.6,
-      "change": 3.3,
-      "changePercent": 1.74,
-      "volume": 5420994968,
+      "price": 194.0,
+      "change": 1.4,
+      "changePercent": 0.73,
+      "volume": 4747888278,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 0.05,
       "netMargin": 0.08,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.87
     },
     {
       "ticker": "KENT",
@@ -5824,7 +6466,9 @@
       "pb": null,
       "roe": 1.52,
       "netMargin": 1.62,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.21
     },
     {
       "ticker": "KERVN",
@@ -5841,7 +6485,9 @@
       "pb": null,
       "roe": 32.59,
       "netMargin": 21158.43,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.04
     },
     {
       "ticker": "KFEIN",
@@ -5858,7 +6504,9 @@
       "pb": null,
       "roe": 5.04,
       "netMargin": 9.61,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.65
     },
     {
       "ticker": "KGYO",
@@ -5875,7 +6523,9 @@
       "pb": null,
       "roe": -13.92,
       "netMargin": -146.9,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.96
     },
     {
       "ticker": "KIMMR",
@@ -5894,7 +6544,9 @@
       "pb": null,
       "roe": 1.98,
       "netMargin": 1.55,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.09
     },
     {
       "ticker": "KLGYO",
@@ -5911,7 +6563,9 @@
       "pb": null,
       "roe": 2.59,
       "netMargin": 12.79,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.75
     },
     {
       "ticker": "KLKIM",
@@ -5928,7 +6582,9 @@
       "pb": null,
       "roe": 5.76,
       "netMargin": 8.78,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.15
     },
     {
       "ticker": "KLMSN",
@@ -5945,7 +6601,9 @@
       "pb": null,
       "roe": -2.0,
       "netMargin": -5.54,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.22
     },
     {
       "ticker": "KLNMA",
@@ -5964,7 +6622,9 @@
       "pb": null,
       "roe": 8.68,
       "netMargin": 47.38,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "KLRHO",
@@ -5972,16 +6632,18 @@
       "sector": "Holding",
       "subsector": "Holding",
       "indexes": [],
-      "price": 107.0,
-      "change": 4.6,
-      "changePercent": 4.49,
-      "volume": 629074224,
+      "price": 117.7,
+      "change": 10.7,
+      "changePercent": 10.0,
+      "volume": 902787329,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 3.34,
       "netMargin": 22.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.28
     },
     {
       "ticker": "KLSER",
@@ -5998,7 +6660,9 @@
       "pb": null,
       "roe": -8.66,
       "netMargin": -22.29,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.86
     },
     {
       "ticker": "KLSYN",
@@ -6008,16 +6672,18 @@
       "indexes": [
         "KATILIM"
       ],
-      "price": 9.9,
-      "change": -1.09,
-      "changePercent": -9.92,
-      "volume": 97238241,
+      "price": 8.91,
+      "change": -0.99,
+      "changePercent": -10.0,
+      "volume": 128092276,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 7.35,
       "netMargin": 32.11,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.41
     },
     {
       "ticker": "KLYPV",
@@ -6034,7 +6700,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 34.49,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.2
     },
     {
       "ticker": "KMPUR",
@@ -6051,7 +6719,9 @@
       "pb": null,
       "roe": 4.43,
       "netMargin": 4.19,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.16
     },
     {
       "ticker": "KNFRT",
@@ -6070,7 +6740,9 @@
       "pb": null,
       "roe": -5.15,
       "netMargin": -20.44,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.52
     },
     {
       "ticker": "KOCMT",
@@ -6089,7 +6761,9 @@
       "pb": null,
       "roe": 1.59,
       "netMargin": 3.21,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.45
     },
     {
       "ticker": "KONKA",
@@ -6108,7 +6782,9 @@
       "pb": null,
       "roe": 0.84,
       "netMargin": 4.36,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 5.8
     },
     {
       "ticker": "KONTR",
@@ -6128,7 +6804,9 @@
       "pb": null,
       "roe": 10.45,
       "netMargin": 34.12,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.96
     },
     {
       "ticker": "KONYA",
@@ -6148,7 +6826,9 @@
       "pb": null,
       "roe": -9.52,
       "netMargin": -19.94,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.41
     },
     {
       "ticker": "KOPOL",
@@ -6167,7 +6847,9 @@
       "pb": null,
       "roe": 4.53,
       "netMargin": 11.45,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.49
     },
     {
       "ticker": "KORDS",
@@ -6186,7 +6868,9 @@
       "pb": null,
       "roe": 0.56,
       "netMargin": 1.36,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.35
     },
     {
       "ticker": "KOTON",
@@ -6205,7 +6889,9 @@
       "pb": null,
       "roe": 0.07,
       "netMargin": 0.05,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.03
     },
     {
       "ticker": "KOZAA",
@@ -6225,7 +6911,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "KOZAL",
@@ -6245,7 +6933,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "KRDMA",
@@ -6264,7 +6954,9 @@
       "pb": null,
       "roe": -2.73,
       "netMargin": -6.81,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.42
     },
     {
       "ticker": "KRDMB",
@@ -6283,7 +6975,9 @@
       "pb": null,
       "roe": -2.73,
       "netMargin": -6.81,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.42
     },
     {
       "ticker": "KRDMD",
@@ -6294,16 +6988,18 @@
         "BIST100",
         "KATILIM"
       ],
-      "price": 29.4,
-      "change": 0.48,
-      "changePercent": 1.66,
-      "volume": 1250788027,
+      "price": 29.12,
+      "change": -0.28,
+      "changePercent": -0.95,
+      "volume": 942418234,
       "marketCap": 23640847849,
       "pe": null,
       "pb": 0.82,
       "roe": -2.73,
       "netMargin": -6.81,
-      "dividendYield": 0.0
+      "dividendYield": 0.0,
+      "evEbitda": 9.34,
+      "currentRatio": 1.42
     },
     {
       "ticker": "KRGYO",
@@ -6322,7 +7018,9 @@
       "pb": null,
       "roe": -1.77,
       "netMargin": -44.2,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 9.54
     },
     {
       "ticker": "KRONT",
@@ -6341,7 +7039,9 @@
       "pb": null,
       "roe": -8.53,
       "netMargin": -30.99,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.23
     },
     {
       "ticker": "KRPLS",
@@ -6360,7 +7060,9 @@
       "pb": null,
       "roe": -7.6,
       "netMargin": -15.35,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.04
     },
     {
       "ticker": "KRSTL",
@@ -6379,7 +7081,9 @@
       "pb": null,
       "roe": 0.52,
       "netMargin": 0.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.01
     },
     {
       "ticker": "KRTEK",
@@ -6396,7 +7100,9 @@
       "pb": null,
       "roe": -10.11,
       "netMargin": -19.86,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.48
     },
     {
       "ticker": "KRVGD",
@@ -6415,7 +7121,9 @@
       "pb": null,
       "roe": 1.45,
       "netMargin": 2.06,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.29
     },
     {
       "ticker": "KSTUR",
@@ -6432,7 +7140,9 @@
       "pb": null,
       "roe": -4.59,
       "netMargin": -21.1,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.25
     },
     {
       "ticker": "KTLEV",
@@ -6451,7 +7161,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "KTSKR",
@@ -6468,7 +7180,9 @@
       "pb": null,
       "roe": 2.11,
       "netMargin": 10.09,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.98
     },
     {
       "ticker": "KUTPO",
@@ -6487,7 +7201,9 @@
       "pb": null,
       "roe": 3.35,
       "netMargin": 8.06,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.87
     },
     {
       "ticker": "KUVVA",
@@ -6504,7 +7220,9 @@
       "pb": null,
       "roe": 5.71,
       "netMargin": 278.65,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.88
     },
     {
       "ticker": "KUYAS",
@@ -6523,7 +7241,9 @@
       "pb": null,
       "roe": 1.39,
       "netMargin": 4.19,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.02
     },
     {
       "ticker": "KZBGY",
@@ -6542,7 +7262,9 @@
       "pb": null,
       "roe": 6.4,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.99
     },
     {
       "ticker": "KZGYO",
@@ -6559,7 +7281,9 @@
       "pb": null,
       "roe": 0.26,
       "netMargin": 14.2,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.21
     },
     {
       "ticker": "LIDER",
@@ -6576,7 +7300,9 @@
       "pb": null,
       "roe": 4.43,
       "netMargin": 33.14,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 6.17
     },
     {
       "ticker": "LIDFA",
@@ -6593,7 +7319,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "LILAK",
@@ -6610,7 +7338,9 @@
       "pb": null,
       "roe": 2.8,
       "netMargin": 4.66,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 5.89
     },
     {
       "ticker": "LINK",
@@ -6627,7 +7357,9 @@
       "pb": null,
       "roe": -4.26,
       "netMargin": -28.66,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.5
     },
     {
       "ticker": "LKMNH",
@@ -6646,7 +7378,9 @@
       "pb": null,
       "roe": 7.08,
       "netMargin": 13.28,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.77
     },
     {
       "ticker": "LMKDC",
@@ -6665,7 +7399,9 @@
       "pb": null,
       "roe": 34.24,
       "netMargin": 63.41,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.07
     },
     {
       "ticker": "LOGO",
@@ -6685,7 +7421,9 @@
       "pb": null,
       "roe": -1.97,
       "netMargin": -5.38,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.8
     },
     {
       "ticker": "LRSHO",
@@ -6702,7 +7440,9 @@
       "pb": null,
       "roe": 2.23,
       "netMargin": 39.0,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.36
     },
     {
       "ticker": "LUKSK",
@@ -6719,7 +7459,9 @@
       "pb": null,
       "roe": 4.74,
       "netMargin": 35.52,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.21
     },
     {
       "ticker": "LXGYO",
@@ -6738,7 +7480,9 @@
       "pb": null,
       "roe": null,
       "netMargin": -12.37,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.64
     },
     {
       "ticker": "LYDHO",
@@ -6755,7 +7499,9 @@
       "pb": null,
       "roe": -1.8,
       "netMargin": -346.14,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 28.57
     },
     {
       "ticker": "LYDYE",
@@ -6772,7 +7518,9 @@
       "pb": null,
       "roe": 45.25,
       "netMargin": 3102.4,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 9.72
     },
     {
       "ticker": "MAALT",
@@ -6789,7 +7537,9 @@
       "pb": null,
       "roe": -1.35,
       "netMargin": -276.43,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.35
     },
     {
       "ticker": "MACKO",
@@ -6806,7 +7556,9 @@
       "pb": null,
       "roe": 12.37,
       "netMargin": 26.83,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.84
     },
     {
       "ticker": "MAGEN",
@@ -6816,16 +7568,18 @@
       "indexes": [
         "KATILIM"
       ],
-      "price": 51.1,
-      "change": -0.85,
-      "changePercent": -1.64,
-      "volume": 176313960,
+      "price": 51.2,
+      "change": 0.1,
+      "changePercent": 0.2,
+      "volume": 331781390,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 14.65,
       "netMargin": 737.32,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.44
     },
     {
       "ticker": "MAKIM",
@@ -6844,7 +7598,9 @@
       "pb": null,
       "roe": 5.06,
       "netMargin": 9.88,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.82
     },
     {
       "ticker": "MAKTK",
@@ -6861,7 +7617,9 @@
       "pb": null,
       "roe": 11.65,
       "netMargin": 37.44,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.71
     },
     {
       "ticker": "MANAS",
@@ -6878,7 +7636,9 @@
       "pb": null,
       "roe": -1.25,
       "netMargin": -7.0,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.72
     },
     {
       "ticker": "MARBL",
@@ -6897,7 +7657,9 @@
       "pb": null,
       "roe": 2.07,
       "netMargin": 6.03,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.54
     },
     {
       "ticker": "MARKA",
@@ -6914,7 +7676,9 @@
       "pb": null,
       "roe": -1.54,
       "netMargin": -6.28,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.99
     },
     {
       "ticker": "MARMR",
@@ -6931,7 +7695,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "MARTI",
@@ -6948,7 +7714,9 @@
       "pb": null,
       "roe": 0.87,
       "netMargin": 38.98,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.18
     },
     {
       "ticker": "MAVI",
@@ -6968,7 +7736,9 @@
       "pb": null,
       "roe": 16.24,
       "netMargin": 11.72,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.63
     },
     {
       "ticker": "MCARD",
@@ -6987,7 +7757,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 36.83,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.07
     },
     {
       "ticker": "MEDTR",
@@ -7006,7 +7778,9 @@
       "pb": null,
       "roe": 0.85,
       "netMargin": 2.43,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.36
     },
     {
       "ticker": "MEGAP",
@@ -7023,7 +7797,9 @@
       "pb": null,
       "roe": -2.26,
       "netMargin": -1.56,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.31
     },
     {
       "ticker": "MEGMT",
@@ -7040,7 +7816,9 @@
       "pb": null,
       "roe": 4.35,
       "netMargin": 3.13,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.02
     },
     {
       "ticker": "MEKAG",
@@ -7059,7 +7837,9 @@
       "pb": null,
       "roe": -1.39,
       "netMargin": -1.88,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.74
     },
     {
       "ticker": "MEPET",
@@ -7076,7 +7856,9 @@
       "pb": null,
       "roe": -8.24,
       "netMargin": -11.88,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.65
     },
     {
       "ticker": "MERCN",
@@ -7095,7 +7877,9 @@
       "pb": null,
       "roe": 2.78,
       "netMargin": 4.81,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.03
     },
     {
       "ticker": "MERIT",
@@ -7112,7 +7896,9 @@
       "pb": null,
       "roe": 1.47,
       "netMargin": 490.3,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.14
     },
     {
       "ticker": "MERKO",
@@ -7129,7 +7915,9 @@
       "pb": null,
       "roe": 0.59,
       "netMargin": 2.93,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.88
     },
     {
       "ticker": "METRO",
@@ -7146,7 +7934,9 @@
       "pb": null,
       "roe": 5.43,
       "netMargin": 25852.18,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.24
     },
     {
       "ticker": "MEYSU",
@@ -7165,7 +7955,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 3.88,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.55
     },
     {
       "ticker": "MGROS",
@@ -7185,7 +7977,9 @@
       "pb": null,
       "roe": 4.08,
       "netMargin": 2.42,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.79
     },
     {
       "ticker": "MHRGY",
@@ -7202,7 +7996,9 @@
       "pb": null,
       "roe": 0.03,
       "netMargin": 2.57,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 28.2
     },
     {
       "ticker": "MIATK",
@@ -7210,16 +8006,18 @@
       "sector": "Teknoloji",
       "subsector": "Teknoloji",
       "indexes": [],
-      "price": 37.6,
-      "change": 0.68,
-      "changePercent": 1.84,
-      "volume": 513129958,
+      "price": 41.36,
+      "change": 3.76,
+      "changePercent": 10.0,
+      "volume": 1721465860,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 34.24,
       "netMargin": 70.85,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.85
     },
     {
       "ticker": "MMCAS",
@@ -7236,7 +8034,9 @@
       "pb": null,
       "roe": 40.24,
       "netMargin": 43.56,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.71
     },
     {
       "ticker": "MNDRS",
@@ -7255,7 +8055,9 @@
       "pb": null,
       "roe": -10.29,
       "netMargin": -38.44,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.18
     },
     {
       "ticker": "MNDTR",
@@ -7274,7 +8076,9 @@
       "pb": null,
       "roe": -11.31,
       "netMargin": -13.17,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.37
     },
     {
       "ticker": "MOBTL",
@@ -7293,7 +8097,9 @@
       "pb": null,
       "roe": 0.2,
       "netMargin": 0.4,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.25
     },
     {
       "ticker": "MOGAN",
@@ -7310,7 +8116,9 @@
       "pb": null,
       "roe": -4.81,
       "netMargin": -59.87,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.3
     },
     {
       "ticker": "MOPAS",
@@ -7327,7 +8135,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 3.89,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.87
     },
     {
       "ticker": "MPARK",
@@ -7338,16 +8148,18 @@
         "BIST100",
         "KATILIM"
       ],
-      "price": 420.0,
-      "change": -3.0,
-      "changePercent": -0.71,
-      "volume": 231735775,
+      "price": 422.5,
+      "change": 2.5,
+      "changePercent": 0.6,
+      "volume": 198875097,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 6.85,
       "netMargin": 9.45,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.29
     },
     {
       "ticker": "MRGYO",
@@ -7364,7 +8176,9 @@
       "pb": null,
       "roe": 0.01,
       "netMargin": 2.2,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.62
     },
     {
       "ticker": "MRSHL",
@@ -7381,7 +8195,9 @@
       "pb": null,
       "roe": -2.47,
       "netMargin": -1.27,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.91
     },
     {
       "ticker": "MSGYO",
@@ -7398,7 +8214,9 @@
       "pb": null,
       "roe": -0.07,
       "netMargin": -12.98,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.64
     },
     {
       "ticker": "MTRKS",
@@ -7415,7 +8233,9 @@
       "pb": null,
       "roe": 11.86,
       "netMargin": 13.57,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.21
     },
     {
       "ticker": "MTRYO",
@@ -7432,7 +8252,9 @@
       "pb": null,
       "roe": 1.9,
       "netMargin": 0.59,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 387.84
     },
     {
       "ticker": "MZHLD",
@@ -7449,7 +8271,9 @@
       "pb": null,
       "roe": -4.78,
       "netMargin": -20.85,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.6
     },
     {
       "ticker": "NATEN",
@@ -7466,7 +8290,9 @@
       "pb": null,
       "roe": 13.28,
       "netMargin": 105.84,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.39
     },
     {
       "ticker": "NETAS",
@@ -7485,7 +8311,9 @@
       "pb": null,
       "roe": -47.89,
       "netMargin": -4.87,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.79
     },
     {
       "ticker": "NETCD",
@@ -7502,7 +8330,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 46.37,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 6.13
     },
     {
       "ticker": "NIBAS",
@@ -7519,7 +8349,9 @@
       "pb": null,
       "roe": -1.05,
       "netMargin": -25.66,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.72
     },
     {
       "ticker": "NTGAZ",
@@ -7539,7 +8371,9 @@
       "pb": null,
       "roe": 3.09,
       "netMargin": 4.5,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.53
     },
     {
       "ticker": "NTHOL",
@@ -7556,7 +8390,9 @@
       "pb": null,
       "roe": 1.33,
       "netMargin": 12.62,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.85
     },
     {
       "ticker": "NUGYO",
@@ -7573,7 +8409,9 @@
       "pb": null,
       "roe": 3.11,
       "netMargin": 19.78,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.32
     },
     {
       "ticker": "NUHCM",
@@ -7592,7 +8430,9 @@
       "pb": null,
       "roe": 1.03,
       "netMargin": 3.04,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.45
     },
     {
       "ticker": "OBAMS",
@@ -7611,7 +8451,9 @@
       "pb": null,
       "roe": 5.25,
       "netMargin": 7.77,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.99
     },
     {
       "ticker": "OBASE",
@@ -7630,7 +8472,9 @@
       "pb": null,
       "roe": -2.21,
       "netMargin": -4.02,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.95
     },
     {
       "ticker": "ODAS",
@@ -7649,7 +8493,9 @@
       "pb": null,
       "roe": 0.86,
       "netMargin": 8.24,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.94
     },
     {
       "ticker": "ODINE",
@@ -7666,7 +8512,9 @@
       "pb": null,
       "roe": -7.93,
       "netMargin": -82.61,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.87
     },
     {
       "ticker": "OFSYM",
@@ -7685,7 +8533,9 @@
       "pb": null,
       "roe": 0.99,
       "netMargin": 0.45,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.54
     },
     {
       "ticker": "ONCSM",
@@ -7704,7 +8554,9 @@
       "pb": null,
       "roe": -21.77,
       "netMargin": -51.31,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.61
     },
     {
       "ticker": "ONRYT",
@@ -7721,7 +8573,9 @@
       "pb": null,
       "roe": 0.31,
       "netMargin": 1.45,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 6.1
     },
     {
       "ticker": "ORCAY",
@@ -7738,7 +8592,9 @@
       "pb": null,
       "roe": -6.47,
       "netMargin": -9.67,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.92
     },
     {
       "ticker": "ORGE",
@@ -7757,7 +8613,9 @@
       "pb": null,
       "roe": 8.61,
       "netMargin": 16.97,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 6.08
     },
     {
       "ticker": "ORMA",
@@ -7774,7 +8632,9 @@
       "pb": null,
       "roe": 13.83,
       "netMargin": 35.67,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.42
     },
     {
       "ticker": "OSMEN",
@@ -7791,7 +8651,9 @@
       "pb": null,
       "roe": 6.64,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.73
     },
     {
       "ticker": "OSTIM",
@@ -7810,7 +8672,9 @@
       "pb": null,
       "roe": -4.43,
       "netMargin": -28.64,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.4
     },
     {
       "ticker": "OTKAR",
@@ -7820,16 +8684,18 @@
       "indexes": [
         "BIST100"
       ],
-      "price": 364.25,
-      "change": -3.75,
-      "changePercent": -1.02,
-      "volume": 126802566,
+      "price": 368.25,
+      "change": 4.0,
+      "changePercent": 1.1,
+      "volume": 273432267,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": -6.8,
       "netMargin": -8.52,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.04
     },
     {
       "ticker": "OTTO",
@@ -7846,7 +8712,9 @@
       "pb": null,
       "roe": 8.33,
       "netMargin": 20.92,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.03
     },
     {
       "ticker": "OYAKC",
@@ -7865,7 +8733,9 @@
       "pb": null,
       "roe": 3.54,
       "netMargin": 9.88,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.25
     },
     {
       "ticker": "OYAYO",
@@ -7882,7 +8752,9 @@
       "pb": null,
       "roe": -4.17,
       "netMargin": -2.69,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 17.11
     },
     {
       "ticker": "OYLUM",
@@ -7899,7 +8771,9 @@
       "pb": null,
       "roe": -4.95,
       "netMargin": -14.26,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.36
     },
     {
       "ticker": "OYYAT",
@@ -7916,7 +8790,9 @@
       "pb": null,
       "roe": -7.02,
       "netMargin": -7.75,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.42
     },
     {
       "ticker": "OZATD",
@@ -7933,7 +8809,9 @@
       "pb": null,
       "roe": 8.05,
       "netMargin": 27.46,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.66
     },
     {
       "ticker": "OZGYO",
@@ -7950,7 +8828,9 @@
       "pb": null,
       "roe": -0.23,
       "netMargin": -60.62,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.34
     },
     {
       "ticker": "OZKGY",
@@ -7969,7 +8849,9 @@
       "pb": null,
       "roe": 5.91,
       "netMargin": 269.96,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.22
     },
     {
       "ticker": "OZRDN",
@@ -7988,7 +8870,9 @@
       "pb": null,
       "roe": -5.1,
       "netMargin": -9.66,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.16
     },
     {
       "ticker": "OZSUB",
@@ -8005,7 +8889,9 @@
       "pb": null,
       "roe": 1.92,
       "netMargin": 1.41,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.04
     },
     {
       "ticker": "OZYSR",
@@ -8024,7 +8910,9 @@
       "pb": null,
       "roe": 2.34,
       "netMargin": 2.4,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.06
     },
     {
       "ticker": "PAGYO",
@@ -8043,7 +8931,9 @@
       "pb": null,
       "roe": 2.37,
       "netMargin": 107.12,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.05
     },
     {
       "ticker": "PAHOL",
@@ -8060,7 +8950,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 52.19,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.74
     },
     {
       "ticker": "PAMEL",
@@ -8077,7 +8969,9 @@
       "pb": null,
       "roe": 1.94,
       "netMargin": 163.17,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.76
     },
     {
       "ticker": "PAPIL",
@@ -8094,7 +8988,9 @@
       "pb": null,
       "roe": 9.42,
       "netMargin": 66.33,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.54
     },
     {
       "ticker": "PARSN",
@@ -8113,7 +9009,9 @@
       "pb": null,
       "roe": 1.08,
       "netMargin": 7.7,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.33
     },
     {
       "ticker": "PASEU",
@@ -8132,7 +9030,9 @@
       "pb": null,
       "roe": 0.62,
       "netMargin": 3.57,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.76
     },
     {
       "ticker": "PATEK",
@@ -8149,7 +9049,9 @@
       "pb": null,
       "roe": 1.14,
       "netMargin": 5.59,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.88
     },
     {
       "ticker": "PCILT",
@@ -8166,7 +9068,9 @@
       "pb": null,
       "roe": 10.24,
       "netMargin": 6.03,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.31
     },
     {
       "ticker": "PEKGY",
@@ -8183,7 +9087,9 @@
       "pb": null,
       "roe": -4.99,
       "netMargin": -426.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.82
     },
     {
       "ticker": "PENGD",
@@ -8202,7 +9108,9 @@
       "pb": null,
       "roe": -2.27,
       "netMargin": -10.3,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.99
     },
     {
       "ticker": "PENTA",
@@ -8221,7 +9129,9 @@
       "pb": null,
       "roe": 2.2,
       "netMargin": 1.04,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.41
     },
     {
       "ticker": "PETKM",
@@ -8242,7 +9152,9 @@
       "pb": null,
       "roe": 2.0,
       "netMargin": 5.03,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.56
     },
     {
       "ticker": "PETUN",
@@ -8261,7 +9173,9 @@
       "pb": null,
       "roe": 0.14,
       "netMargin": 0.35,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.32
     },
     {
       "ticker": "PGSUS",
@@ -8281,7 +9195,9 @@
       "pb": null,
       "roe": -6.34,
       "netMargin": -20.13,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.03
     },
     {
       "ticker": "PINSU",
@@ -8298,7 +9214,9 @@
       "pb": null,
       "roe": -3.68,
       "netMargin": -11.39,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.68
     },
     {
       "ticker": "PKART",
@@ -8317,7 +9235,9 @@
       "pb": null,
       "roe": 12.19,
       "netMargin": 5.2,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.76
     },
     {
       "ticker": "PKENT",
@@ -8334,7 +9254,9 @@
       "pb": null,
       "roe": -11.64,
       "netMargin": -704.28,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.9
     },
     {
       "ticker": "PLTUR",
@@ -8353,7 +9275,9 @@
       "pb": null,
       "roe": -1.71,
       "netMargin": -7.02,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.5
     },
     {
       "ticker": "PNLSN",
@@ -8372,7 +9296,9 @@
       "pb": null,
       "roe": 1.95,
       "netMargin": 4.02,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.34
     },
     {
       "ticker": "PNSUT",
@@ -8391,7 +9317,9 @@
       "pb": null,
       "roe": 0.03,
       "netMargin": 0.06,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.89
     },
     {
       "ticker": "POLHO",
@@ -8411,7 +9339,9 @@
       "pb": null,
       "roe": 1.97,
       "netMargin": 15.1,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.93
     },
     {
       "ticker": "POLTK",
@@ -8428,7 +9358,9 @@
       "pb": null,
       "roe": -12.58,
       "netMargin": -13.86,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.49
     },
     {
       "ticker": "PRDGS",
@@ -8445,7 +9377,9 @@
       "pb": null,
       "roe": 6.68,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.37
     },
     {
       "ticker": "PRKAB",
@@ -8462,7 +9396,9 @@
       "pb": null,
       "roe": -10.45,
       "netMargin": -2.71,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.45
     },
     {
       "ticker": "PRKME",
@@ -8479,7 +9415,9 @@
       "pb": null,
       "roe": 0.57,
       "netMargin": 11.77,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.11
     },
     {
       "ticker": "PRZMA",
@@ -8496,7 +9434,9 @@
       "pb": null,
       "roe": -7.54,
       "netMargin": -726.58,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.63
     },
     {
       "ticker": "PSDTC",
@@ -8513,7 +9453,9 @@
       "pb": null,
       "roe": -1.15,
       "netMargin": -9.82,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.05
     },
     {
       "ticker": "PSGYO",
@@ -8530,7 +9472,9 @@
       "pb": null,
       "roe": -2.33,
       "netMargin": -141.18,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.74
     },
     {
       "ticker": "QNBFK",
@@ -8547,7 +9491,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "QNBTR",
@@ -8564,7 +9510,9 @@
       "pb": null,
       "roe": 10.62,
       "netMargin": 55.31,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "QUAGR",
@@ -8583,7 +9531,9 @@
       "pb": null,
       "roe": -10.83,
       "netMargin": -35.94,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.01
     },
     {
       "ticker": "RALYH",
@@ -8600,7 +9550,9 @@
       "pb": null,
       "roe": 17.34,
       "netMargin": 58.87,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.83
     },
     {
       "ticker": "RAYSG",
@@ -8619,7 +9571,9 @@
       "pb": null,
       "roe": 31.47,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "REEDR",
@@ -8636,7 +9590,9 @@
       "pb": null,
       "roe": -5.59,
       "netMargin": -44.47,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.04
     },
     {
       "ticker": "RGYAS",
@@ -8655,7 +9611,9 @@
       "pb": null,
       "roe": 6.64,
       "netMargin": 216.41,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.73
     },
     {
       "ticker": "RNPOL",
@@ -8674,7 +9632,9 @@
       "pb": null,
       "roe": 0.62,
       "netMargin": 1.52,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.48
     },
     {
       "ticker": "RODRG",
@@ -8693,7 +9653,9 @@
       "pb": null,
       "roe": 16.79,
       "netMargin": 54.82,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.36
     },
     {
       "ticker": "ROYAL",
@@ -8708,9 +9670,11 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": -131.06,
-      "netMargin": -74.0,
-      "dividendYield": null
+      "roe": null,
+      "netMargin": null,
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.84
     },
     {
       "ticker": "RTALB",
@@ -8727,7 +9691,9 @@
       "pb": null,
       "roe": 12.31,
       "netMargin": 413.54,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.38
     },
     {
       "ticker": "RUBNS",
@@ -8746,7 +9712,9 @@
       "pb": null,
       "roe": 3.26,
       "netMargin": 20.46,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.22
     },
     {
       "ticker": "RUZYE",
@@ -8763,7 +9731,9 @@
       "pb": null,
       "roe": -3.77,
       "netMargin": -51.22,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 13.39
     },
     {
       "ticker": "RYGYO",
@@ -8780,7 +9750,9 @@
       "pb": null,
       "roe": 2.37,
       "netMargin": 121.92,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.86
     },
     {
       "ticker": "RYSAS",
@@ -8797,7 +9769,9 @@
       "pb": null,
       "roe": 46.29,
       "netMargin": 58.49,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.36
     },
     {
       "ticker": "SAFKR",
@@ -8816,7 +9790,9 @@
       "pb": null,
       "roe": 3.26,
       "netMargin": 5.12,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.23
     },
     {
       "ticker": "SAHOL",
@@ -8836,7 +9812,9 @@
       "pb": null,
       "roe": -3.53,
       "netMargin": -27.35,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.79
     },
     {
       "ticker": "SAMAT",
@@ -8855,7 +9833,9 @@
       "pb": null,
       "roe": 2.11,
       "netMargin": 21.78,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.57
     },
     {
       "ticker": "SANEL",
@@ -8874,7 +9854,9 @@
       "pb": null,
       "roe": 50.23,
       "netMargin": 16.35,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.87
     },
     {
       "ticker": "SANFM",
@@ -8891,7 +9873,9 @@
       "pb": null,
       "roe": 7.35,
       "netMargin": 8.43,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.86
     },
     {
       "ticker": "SANKO",
@@ -8910,7 +9894,9 @@
       "pb": null,
       "roe": -4.09,
       "netMargin": -2.49,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.53
     },
     {
       "ticker": "SARKY",
@@ -8930,7 +9916,9 @@
       "pb": null,
       "roe": 3.81,
       "netMargin": 1.73,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.45
     },
     {
       "ticker": "SASA",
@@ -8950,7 +9938,9 @@
       "pb": 1.19,
       "roe": 17.11,
       "netMargin": 100.55,
-      "dividendYield": 0.0
+      "dividendYield": 0.0,
+      "evEbitda": 29.61,
+      "currentRatio": 0.44
     },
     {
       "ticker": "SAYAS",
@@ -8969,7 +9959,9 @@
       "pb": null,
       "roe": 7.35,
       "netMargin": 8.97,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.58
     },
     {
       "ticker": "SDTTR",
@@ -8986,7 +9978,9 @@
       "pb": null,
       "roe": -9.23,
       "netMargin": -40.03,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.78
     },
     {
       "ticker": "SEGMN",
@@ -9003,7 +9997,9 @@
       "pb": null,
       "roe": 1.06,
       "netMargin": 2.89,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.79
     },
     {
       "ticker": "SEGYO",
@@ -9020,7 +10016,9 @@
       "pb": null,
       "roe": 4.07,
       "netMargin": 84.82,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.29
     },
     {
       "ticker": "SEKFK",
@@ -9037,7 +10035,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "SEKUR",
@@ -9056,7 +10056,9 @@
       "pb": null,
       "roe": -10.56,
       "netMargin": -12.15,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.89
     },
     {
       "ticker": "SELEC",
@@ -9076,7 +10078,9 @@
       "pb": null,
       "roe": 1.95,
       "netMargin": 0.89,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.38
     },
     {
       "ticker": "SELVA",
@@ -9095,7 +10099,9 @@
       "pb": null,
       "roe": -4.28,
       "netMargin": -16.48,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.6
     },
     {
       "ticker": "SERNT",
@@ -9112,7 +10118,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 69.69,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.44
     },
     {
       "ticker": "SEYKM",
@@ -9129,7 +10137,9 @@
       "pb": null,
       "roe": -16.24,
       "netMargin": -67.37,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.76
     },
     {
       "ticker": "SILVR",
@@ -9148,7 +10158,9 @@
       "pb": null,
       "roe": 9.34,
       "netMargin": 7.11,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.85
     },
     {
       "ticker": "SISE",
@@ -9159,16 +10171,18 @@
         "BIST100",
         "BIST30"
       ],
-      "price": 44.88,
-      "change": -0.44,
-      "changePercent": -0.97,
-      "volume": 1757969139,
+      "price": 43.1,
+      "change": -1.78,
+      "changePercent": -3.97,
+      "volume": 2256919963,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 1.79,
       "netMargin": 5.86,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.26
     },
     {
       "ticker": "SKBNK",
@@ -9178,16 +10192,18 @@
       "indexes": [
         "BIST100"
       ],
-      "price": 10.13,
-      "change": -0.01,
-      "changePercent": -0.1,
-      "volume": 230856953,
+      "price": 10.4,
+      "change": 0.27,
+      "changePercent": 2.67,
+      "volume": 370126124,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 6.16,
       "netMargin": 22.4,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "SKTAS",
@@ -9204,7 +10220,9 @@
       "pb": null,
       "roe": -3.83,
       "netMargin": -13.39,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.76
     },
     {
       "ticker": "SKYLP",
@@ -9221,7 +10239,9 @@
       "pb": null,
       "roe": -6.44,
       "netMargin": -20.41,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.43
     },
     {
       "ticker": "SKYMD",
@@ -9238,7 +10258,9 @@
       "pb": null,
       "roe": -6.62,
       "netMargin": -0.38,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.31
     },
     {
       "ticker": "SMART",
@@ -9257,7 +10279,9 @@
       "pb": null,
       "roe": 4.67,
       "netMargin": 24.64,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.4
     },
     {
       "ticker": "SMRTG",
@@ -9276,7 +10300,9 @@
       "pb": null,
       "roe": 14.75,
       "netMargin": 12.88,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.78
     },
     {
       "ticker": "SMRVA",
@@ -9293,7 +10319,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "SNGYO",
@@ -9312,7 +10340,9 @@
       "pb": null,
       "roe": 2.28,
       "netMargin": 36.18,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.6
     },
     {
       "ticker": "SNICA",
@@ -9331,7 +10361,9 @@
       "pb": null,
       "roe": 7.0,
       "netMargin": 26.07,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.41
     },
     {
       "ticker": "SNKRN",
@@ -9348,7 +10380,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "SNPAM",
@@ -9365,7 +10399,9 @@
       "pb": null,
       "roe": -8.0,
       "netMargin": -48.34,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.1
     },
     {
       "ticker": "SODSN",
@@ -9382,7 +10418,9 @@
       "pb": null,
       "roe": 0.73,
       "netMargin": 0.78,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.8
     },
     {
       "ticker": "SOKE",
@@ -9401,7 +10439,9 @@
       "pb": null,
       "roe": -5.55,
       "netMargin": -8.34,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.42
     },
     {
       "ticker": "SOKM",
@@ -9421,7 +10461,9 @@
       "pb": null,
       "roe": -0.06,
       "netMargin": -0.03,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.86
     },
     {
       "ticker": "SONME",
@@ -9438,7 +10480,9 @@
       "pb": null,
       "roe": 8.89,
       "netMargin": 759.99,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 13.09
     },
     {
       "ticker": "SRVGY",
@@ -9457,7 +10501,9 @@
       "pb": null,
       "roe": 0.54,
       "netMargin": 32.1,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.63
     },
     {
       "ticker": "SUMAS",
@@ -9474,7 +10520,9 @@
       "pb": null,
       "roe": 2.8,
       "netMargin": 3.51,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.78
     },
     {
       "ticker": "SUNTK",
@@ -9493,7 +10541,9 @@
       "pb": null,
       "roe": -1.66,
       "netMargin": -1.76,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.48
     },
     {
       "ticker": "SURGY",
@@ -9512,7 +10562,9 @@
       "pb": null,
       "roe": -5.18,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 21.09
     },
     {
       "ticker": "SUWEN",
@@ -9531,7 +10583,9 @@
       "pb": null,
       "roe": 2.4,
       "netMargin": 2.71,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.28
     },
     {
       "ticker": "SVGYO",
@@ -9548,7 +10602,9 @@
       "pb": null,
       "roe": null,
       "netMargin": -155.59,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.24
     },
     {
       "ticker": "TABGD",
@@ -9567,7 +10623,9 @@
       "pb": null,
       "roe": 1.64,
       "netMargin": 2.35,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.55
     },
     {
       "ticker": "TARKM",
@@ -9586,7 +10644,9 @@
       "pb": null,
       "roe": 19.32,
       "netMargin": 70.04,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.25
     },
     {
       "ticker": "TATEN",
@@ -9603,7 +10663,9 @@
       "pb": null,
       "roe": 2.64,
       "netMargin": 29.69,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.26
     },
     {
       "ticker": "TATGD",
@@ -9620,7 +10682,9 @@
       "pb": null,
       "roe": -6.28,
       "netMargin": -7.86,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.41
     },
     {
       "ticker": "TAVHL",
@@ -9640,7 +10704,9 @@
       "pb": null,
       "roe": 0.72,
       "netMargin": 3.38,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.78
     },
     {
       "ticker": "TBORG",
@@ -9657,7 +10723,9 @@
       "pb": null,
       "roe": -8.19,
       "netMargin": -19.5,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.33
     },
     {
       "ticker": "TCELL",
@@ -9668,16 +10736,18 @@
         "BIST100",
         "BIST30"
       ],
-      "price": 106.4,
-      "change": 0.4,
-      "changePercent": 0.38,
-      "volume": 1377052811,
+      "price": 104.6,
+      "change": -1.8,
+      "changePercent": -1.69,
+      "volume": 1287381265,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 2.53,
       "netMargin": 8.92,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.7
     },
     {
       "ticker": "TCKRC",
@@ -9694,7 +10764,9 @@
       "pb": null,
       "roe": 13.99,
       "netMargin": 20.65,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.54
     },
     {
       "ticker": "TDGYO",
@@ -9713,7 +10785,9 @@
       "pb": null,
       "roe": 2.78,
       "netMargin": 30.46,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 315.34
     },
     {
       "ticker": "TEHOL",
@@ -9730,7 +10804,9 @@
       "pb": null,
       "roe": 1.39,
       "netMargin": 421.6,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.63
     },
     {
       "ticker": "TEKTU",
@@ -9747,7 +10823,9 @@
       "pb": null,
       "roe": -1.99,
       "netMargin": -5343.39,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.81
     },
     {
       "ticker": "TERA",
@@ -9764,7 +10842,9 @@
       "pb": null,
       "roe": 2.33,
       "netMargin": 1.35,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.4
     },
     {
       "ticker": "TEZOL",
@@ -9783,7 +10863,9 @@
       "pb": null,
       "roe": 1.45,
       "netMargin": 4.06,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.26
     },
     {
       "ticker": "TGSAS",
@@ -9800,7 +10882,9 @@
       "pb": null,
       "roe": 7.32,
       "netMargin": 37.82,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.02
     },
     {
       "ticker": "THYAO",
@@ -9820,7 +10904,9 @@
       "pb": 0.79,
       "roe": 1.34,
       "netMargin": 4.7,
-      "dividendYield": 2.34
+      "dividendYield": 2.34,
+      "evEbitda": 5.87,
+      "currentRatio": 0.99
     },
     {
       "ticker": "TKFEN",
@@ -9839,7 +10925,9 @@
       "pb": null,
       "roe": -2.93,
       "netMargin": -3.32,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.75
     },
     {
       "ticker": "TKNSA",
@@ -9858,7 +10946,9 @@
       "pb": null,
       "roe": -4.59,
       "netMargin": -0.65,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.83
     },
     {
       "ticker": "TLMAN",
@@ -9875,7 +10965,9 @@
       "pb": null,
       "roe": 4.72,
       "netMargin": 26.83,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.05
     },
     {
       "ticker": "TMPOL",
@@ -9892,7 +10984,9 @@
       "pb": null,
       "roe": 3.31,
       "netMargin": 7.37,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.04
     },
     {
       "ticker": "TMSN",
@@ -9911,7 +11005,9 @@
       "pb": null,
       "roe": 2.57,
       "netMargin": 7.93,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.14
     },
     {
       "ticker": "TNZTP",
@@ -9930,7 +11026,9 @@
       "pb": null,
       "roe": 2.78,
       "netMargin": 16.49,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.56
     },
     {
       "ticker": "TOASO",
@@ -9950,7 +11048,9 @@
       "pb": null,
       "roe": 10.84,
       "netMargin": 8.34,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.7
     },
     {
       "ticker": "TRALT",
@@ -9970,7 +11070,9 @@
       "pb": null,
       "roe": -1.09,
       "netMargin": -6.24,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 5.47
     },
     {
       "ticker": "TRCAS",
@@ -9987,7 +11089,9 @@
       "pb": null,
       "roe": -0.33,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 25.14
     },
     {
       "ticker": "TRENJ",
@@ -10006,7 +11110,9 @@
       "pb": null,
       "roe": -2.34,
       "netMargin": -15.0,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.86
     },
     {
       "ticker": "TRGYO",
@@ -10025,7 +11131,9 @@
       "pb": null,
       "roe": 1.7,
       "netMargin": 75.38,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 6.84
     },
     {
       "ticker": "TRHOL",
@@ -10042,7 +11150,9 @@
       "pb": null,
       "roe": -12.06,
       "netMargin": -2.57,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.06
     },
     {
       "ticker": "TRILC",
@@ -10059,7 +11169,9 @@
       "pb": null,
       "roe": -2.73,
       "netMargin": -7.9,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.04
     },
     {
       "ticker": "TRMET",
@@ -10078,7 +11190,9 @@
       "pb": null,
       "roe": -2.18,
       "netMargin": -14.07,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 5.06
     },
     {
       "ticker": "TSGYO",
@@ -10095,7 +11209,9 @@
       "pb": null,
       "roe": 0.29,
       "netMargin": 25.32,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.74
     },
     {
       "ticker": "TSKB",
@@ -10105,16 +11221,18 @@
       "indexes": [
         "BIST100"
       ],
-      "price": 11.1,
-      "change": -0.0242,
-      "changePercent": -0.22,
-      "volume": 227958831,
+      "price": 11.08,
+      "change": -0.02,
+      "changePercent": -0.18,
+      "volume": 201169488,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 8.32,
       "netMargin": 60.05,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "TSPOR",
@@ -10131,7 +11249,9 @@
       "pb": null,
       "roe": -256.17,
       "netMargin": -51.81,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.45
     },
     {
       "ticker": "TTKOM",
@@ -10151,7 +11271,9 @@
       "pb": null,
       "roe": 3.11,
       "netMargin": 9.17,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.52
     },
     {
       "ticker": "TTRAK",
@@ -10170,7 +11292,9 @@
       "pb": null,
       "roe": 18.35,
       "netMargin": 10.53,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.22
     },
     {
       "ticker": "TUCLK",
@@ -10189,7 +11313,9 @@
       "pb": null,
       "roe": 5.95,
       "netMargin": 21.27,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.4
     },
     {
       "ticker": "TUKAS",
@@ -10200,16 +11326,18 @@
         "BIST100",
         "KATILIM"
       ],
-      "price": 2.28,
+      "price": 2.24,
       "change": -0.04,
-      "changePercent": -1.72,
-      "volume": 226585759,
+      "changePercent": -1.75,
+      "volume": 256077867,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": -1.28,
       "netMargin": -4.86,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.94
     },
     {
       "ticker": "TUPRS",
@@ -10230,7 +11358,9 @@
       "pb": 0.26,
       "roe": 0.25,
       "netMargin": 0.25,
-      "dividendYield": 4.5
+      "dividendYield": 4.5,
+      "evEbitda": 0.05,
+      "currentRatio": 1.4
     },
     {
       "ticker": "TUREX",
@@ -10249,7 +11379,9 @@
       "pb": null,
       "roe": 1.73,
       "netMargin": 4.96,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.49
     },
     {
       "ticker": "TURGG",
@@ -10266,7 +11398,9 @@
       "pb": null,
       "roe": -0.66,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 31.04
     },
     {
       "ticker": "TURSG",
@@ -10283,7 +11417,9 @@
       "pb": null,
       "roe": 18.52,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "UCAYM",
@@ -10302,7 +11438,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 4.41,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.9
     },
     {
       "ticker": "UFUK",
@@ -10319,7 +11457,9 @@
       "pb": null,
       "roe": -3.02,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 102.46
     },
     {
       "ticker": "ULAS",
@@ -10338,7 +11478,9 @@
       "pb": null,
       "roe": -3.11,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.14
     },
     {
       "ticker": "ULKER",
@@ -10357,7 +11499,9 @@
       "pb": null,
       "roe": 14.59,
       "netMargin": 12.66,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.41
     },
     {
       "ticker": "ULUFA",
@@ -10374,7 +11518,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "ULUSE",
@@ -10393,7 +11539,9 @@
       "pb": null,
       "roe": -23.07,
       "netMargin": -10.28,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.88
     },
     {
       "ticker": "ULUUN",
@@ -10410,7 +11558,9 @@
       "pb": null,
       "roe": 1.14,
       "netMargin": 0.54,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.07
     },
     {
       "ticker": "UMPAS",
@@ -10427,7 +11577,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "UNLU",
@@ -10444,7 +11596,9 @@
       "pb": null,
       "roe": 1.85,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.38
     },
     {
       "ticker": "USAK",
@@ -10463,7 +11617,9 @@
       "pb": null,
       "roe": -4.95,
       "netMargin": -14.0,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.9
     },
     {
       "ticker": "VAKBN",
@@ -10483,7 +11639,9 @@
       "pb": null,
       "roe": 6.52,
       "netMargin": 24.97,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "VAKFA",
@@ -10500,7 +11658,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "VAKFN",
@@ -10517,7 +11677,9 @@
       "pb": null,
       "roe": null,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "VAKKO",
@@ -10536,7 +11698,9 @@
       "pb": null,
       "roe": -1.0,
       "netMargin": -1.74,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.38
     },
     {
       "ticker": "VANGD",
@@ -10555,7 +11719,9 @@
       "pb": null,
       "roe": -2.7,
       "netMargin": -18.94,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.83
     },
     {
       "ticker": "VBTYZ",
@@ -10572,7 +11738,9 @@
       "pb": null,
       "roe": 5.04,
       "netMargin": 4.38,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.37
     },
     {
       "ticker": "VERTU",
@@ -10589,7 +11757,9 @@
       "pb": null,
       "roe": 18.5,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 136.63
     },
     {
       "ticker": "VERUS",
@@ -10606,7 +11776,9 @@
       "pb": null,
       "roe": 10.39,
       "netMargin": 198.7,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.06
     },
     {
       "ticker": "VESBE",
@@ -10625,7 +11797,9 @@
       "pb": null,
       "roe": 3.32,
       "netMargin": 4.41,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.82
     },
     {
       "ticker": "VESTL",
@@ -10644,7 +11818,9 @@
       "pb": null,
       "roe": 0.04,
       "netMargin": 0.05,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.46
     },
     {
       "ticker": "VKFYO",
@@ -10661,7 +11837,9 @@
       "pb": null,
       "roe": -5.78,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 3.17
     },
     {
       "ticker": "VKGYO",
@@ -10680,7 +11858,9 @@
       "pb": null,
       "roe": -4.73,
       "netMargin": -27.17,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.03
     },
     {
       "ticker": "VKING",
@@ -10697,7 +11877,9 @@
       "pb": null,
       "roe": -11.88,
       "netMargin": -10.33,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.12
     },
     {
       "ticker": "VRGYO",
@@ -10716,7 +11898,9 @@
       "pb": null,
       "roe": -0.95,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 5.35
     },
     {
       "ticker": "VSNMD",
@@ -10733,7 +11917,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 0.39,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 5.44
     },
     {
       "ticker": "YAPRK",
@@ -10750,7 +11936,9 @@
       "pb": null,
       "roe": -7.47,
       "netMargin": -36.26,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.36
     },
     {
       "ticker": "YATAS",
@@ -10770,7 +11958,9 @@
       "pb": null,
       "roe": 1.82,
       "netMargin": 2.14,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.29
     },
     {
       "ticker": "YAYLA",
@@ -10787,7 +11977,9 @@
       "pb": null,
       "roe": 3.56,
       "netMargin": 43.86,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.67
     },
     {
       "ticker": "YBTAS",
@@ -10804,7 +11996,9 @@
       "pb": null,
       "roe": -13.79,
       "netMargin": -21.35,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.04
     },
     {
       "ticker": "YEOTK",
@@ -10823,7 +12017,9 @@
       "pb": null,
       "roe": 19.8,
       "netMargin": 17.64,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.08
     },
     {
       "ticker": "YESIL",
@@ -10840,7 +12036,9 @@
       "pb": null,
       "roe": -11.28,
       "netMargin": null,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 106.3
     },
     {
       "ticker": "YGGYO",
@@ -10857,7 +12055,9 @@
       "pb": null,
       "roe": 1.31,
       "netMargin": 38.79,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 7.48
     },
     {
       "ticker": "YGYO",
@@ -10874,7 +12074,9 @@
       "pb": null,
       "roe": 0.41,
       "netMargin": 4.9,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 5.14
     },
     {
       "ticker": "YIGIT",
@@ -10891,7 +12093,9 @@
       "pb": null,
       "roe": -9.65,
       "netMargin": -8.21,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.95
     },
     {
       "ticker": "YKBNK",
@@ -10902,16 +12106,18 @@
         "BIST100",
         "BIST30"
       ],
-      "price": 33.18,
-      "change": 0.0,
-      "changePercent": 0.0,
-      "volume": 3189573236,
+      "price": 32.72,
+      "change": -0.46,
+      "changePercent": -1.39,
+      "volume": 3321621766,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 5.7,
       "netMargin": 27.99,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": null
     },
     {
       "ticker": "YKSLN",
@@ -10928,7 +12134,9 @@
       "pb": null,
       "roe": -12.45,
       "netMargin": -16.32,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.37
     },
     {
       "ticker": "YONGA",
@@ -10945,7 +12153,9 @@
       "pb": null,
       "roe": 16.87,
       "netMargin": 25.73,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.15
     },
     {
       "ticker": "YUNSA",
@@ -10964,7 +12174,9 @@
       "pb": null,
       "roe": 2.06,
       "netMargin": 12.48,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 2.37
     },
     {
       "ticker": "YYAPI",
@@ -10981,7 +12193,9 @@
       "pb": null,
       "roe": 4.57,
       "netMargin": 5973.68,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 4.95
     },
     {
       "ticker": "YYLGD",
@@ -10998,7 +12212,9 @@
       "pb": null,
       "roe": 8.21,
       "netMargin": 12.35,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.01
     },
     {
       "ticker": "ZEDUR",
@@ -11017,7 +12233,9 @@
       "pb": null,
       "roe": 2.63,
       "netMargin": 62.28,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.27
     },
     {
       "ticker": "ZERGY",
@@ -11036,7 +12254,9 @@
       "pb": null,
       "roe": null,
       "netMargin": -14.75,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 1.98
     },
     {
       "ticker": "ZGYO",
@@ -11053,7 +12273,9 @@
       "pb": null,
       "roe": null,
       "netMargin": 38945.35,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.38
     },
     {
       "ticker": "ZOREN",
@@ -11072,7 +12294,9 @@
       "pb": null,
       "roe": 9.92,
       "netMargin": 67.38,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.97
     },
     {
       "ticker": "ZRGYO",
@@ -11082,16 +12306,18 @@
       "indexes": [
         "BIST100"
       ],
-      "price": 22.86,
-      "change": 0.2,
-      "changePercent": 0.88,
-      "volume": 26042479,
+      "price": 22.94,
+      "change": 0.08,
+      "changePercent": 0.35,
+      "volume": 22750142,
       "marketCap": 0,
       "pe": null,
       "pb": null,
       "roe": 0.24,
       "netMargin": 32.79,
-      "dividendYield": null
+      "dividendYield": null,
+      "evEbitda": null,
+      "currentRatio": 0.7
     }
   ]
 }
