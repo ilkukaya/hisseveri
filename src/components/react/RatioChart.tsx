@@ -21,18 +21,19 @@ interface RatioSeries {
 interface Props {
   periods: string[];
   series: RatioSeries[];
+  alreadyChronological?: boolean;
 }
 
 const COLORS = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6', '#EC4899'];
 
-export default function RatioChart({ periods, series }: Props) {
-  const displayPeriods = [...periods].reverse();
+export default function RatioChart({ periods, series, alreadyChronological = false }: Props) {
+  const displayPeriods = alreadyChronological ? periods : [...periods].reverse();
 
   const data = {
     labels: displayPeriods,
     datasets: series.map((s, i) => ({
       label: s.label,
-      data: [...s.values].reverse(),
+      data: alreadyChronological ? s.values : [...s.values].reverse(),
       borderColor: s.color || COLORS[i % COLORS.length],
       backgroundColor: 'transparent',
       borderWidth: 2,

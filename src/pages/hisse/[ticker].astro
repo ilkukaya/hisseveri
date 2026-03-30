@@ -34,6 +34,8 @@ const pricesPath = path.join(process.cwd(), `data/prices/${ticker}.json`);
 const prices = JSON.parse(fs.readFileSync(pricesPath, 'utf-8'));
 
 const ratios = company.ratios;
+const quarterlyRatios = company.quarterlyRatios || [];
+const karne = company.karne || null;
 const changeColor = getChangeColorClasses(company.price.changePercent);
 const arrow = getChangeArrow(company.price.changePercent);
 
@@ -112,18 +114,26 @@ const jsonLd = {
       <div class="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">
         <RatioCard label="F/K" value={ratios.pe} />
         <RatioCard label="PD/DD" value={ratios.pb} />
+        <RatioCard label="FD/FAVÖK" value={ratios.evEbitda} />
+        <RatioCard label="F/S" value={ratios.ps} />
         <RatioCard label="ROE" value={ratios.roe} isPercent />
         <RatioCard label="ROA" value={ratios.roa} isPercent />
-        <RatioCard label="Cari Oran" value={ratios.currentRatio} />
         <RatioCard label="Net Marj" value={ratios.netMargin} isPercent />
-        <RatioCard label="Brüt Marj" value={ratios.grossMargin} isPercent />
-        <RatioCard label="Borç/Öz" value={ratios.debtEquity} />
+        <RatioCard label="Cari Oran" value={ratios.currentRatio} />
       </div>
     </div>
 
     <!-- Financial Tables + Charts -->
     <div class="mb-8 rounded-xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900">
-      <StockDetailTabs client:visible financials={financials} />
+      <StockDetailTabs
+        client:visible
+        financials={financials}
+        quarterlyRatios={quarterlyRatios}
+        karne={karne}
+        ratios={ratios}
+        marketCap={company.price.marketCap}
+        ticker={ticker}
+      />
     </div>
 
     <AdPlaceholder slot={`${ticker}-bottom`} format="leaderboard" />
