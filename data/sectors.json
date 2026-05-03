@@ -5,7 +5,7 @@
     "stockCount": 79,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -4.52,
+    "avgROE": -4.06,
     "performance": 2.04
   },
   {
@@ -14,7 +14,7 @@
     "stockCount": 49,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 0.33,
+    "avgROE": 1.71,
     "performance": 0.82
   },
   {
@@ -23,7 +23,7 @@
     "stockCount": 46,
     "avgPE": 104.28,
     "avgPB": 0.26,
-    "avgROE": 2.66,
+    "avgROE": 2.79,
     "performance": 0.97
   },
   {
@@ -32,7 +32,7 @@
     "stockCount": 41,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 0.31,
+    "avgROE": 1.66,
     "performance": 1.12
   },
   {
@@ -41,7 +41,7 @@
     "stockCount": 33,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 0.07,
+    "avgROE": 0.95,
     "performance": 1.0
   },
   {
@@ -50,7 +50,7 @@
     "stockCount": 33,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -0.78,
+    "avgROE": 0.87,
     "performance": 0.67
   },
   {
@@ -59,7 +59,7 @@
     "stockCount": 28,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -3.89,
+    "avgROE": -4.49,
     "performance": 0.46
   },
   {
@@ -68,16 +68,16 @@
     "stockCount": 23,
     "avgPE": 6.98,
     "avgPB": 1.19,
-    "avgROE": 2.37,
+    "avgROE": 3.09,
     "performance": -0.16
   },
   {
     "slug": "metal-ana",
     "name": "Metal Ana",
     "stockCount": 17,
-    "avgPE": 33.4,
-    "avgPB": 0.86,
-    "avgROE": -0.87,
+    "avgPE": 18.8,
+    "avgPB": 0.85,
+    "avgROE": -1.01,
     "performance": 2.13
   },
   {
@@ -86,7 +86,7 @@
     "stockCount": 17,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -1.93,
+    "avgROE": -0.52,
     "performance": -1.2
   },
   {
@@ -95,7 +95,7 @@
     "stockCount": 15,
     "avgPE": 29.51,
     "avgPB": 4.07,
-    "avgROE": 5.61,
+    "avgROE": 5.86,
     "performance": 0.84
   },
   {
@@ -104,7 +104,7 @@
     "stockCount": 13,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 0.25,
+    "avgROE": 0.05,
     "performance": 1.05
   },
   {
@@ -113,16 +113,16 @@
     "stockCount": 12,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 0.29,
+    "avgROE": 1.58,
     "performance": 0.76
   },
   {
     "slug": "bankacilik",
     "name": "Bankacılık",
     "stockCount": 11,
-    "avgPE": 28.08,
-    "avgPB": 2.09,
-    "avgROE": 5.98,
+    "avgPE": 14.66,
+    "avgPB": 1.96,
+    "avgROE": 8.08,
     "performance": 0.72
   },
   {
@@ -131,7 +131,7 @@
     "stockCount": 11,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 1.44,
+    "avgROE": 2.23,
     "performance": 1.66
   },
   {
@@ -140,8 +140,8 @@
     "stockCount": 11,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 0.76,
-    "performance": -0.39
+    "avgROE": 2.94,
+    "performance": -0.46
   },
   {
     "slug": "metal-urunleri",
@@ -149,16 +149,16 @@
     "stockCount": 11,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -1.74,
+    "avgROE": -0.76,
     "performance": 1.32
   },
   {
     "slug": "ulastirma",
     "name": "Ulaştırma",
     "stockCount": 9,
-    "avgPE": 58.75,
-    "avgPB": 0.79,
-    "avgROE": 3.62,
+    "avgPE": 10.89,
+    "avgPB": 0.73,
+    "avgROE": 4.95,
     "performance": 0.09
   },
   {
@@ -167,7 +167,7 @@
     "stockCount": 8,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -3.91,
+    "avgROE": -3.39,
     "performance": 0.95
   },
   {
@@ -176,7 +176,7 @@
     "stockCount": 8,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -0.33,
+    "avgROE": 2.27,
     "performance": -0.27
   },
   {
@@ -185,7 +185,7 @@
     "stockCount": 8,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -0.52,
+    "avgROE": -10.84,
     "performance": -0.13
   },
   {
@@ -194,7 +194,7 @@
     "stockCount": 8,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 1.91,
+    "avgROE": 4.01,
     "performance": 2.33
   },
   {
@@ -203,7 +203,7 @@
     "stockCount": 7,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 2.13,
+    "avgROE": 2.65,
     "performance": 0.04
   },
   {
@@ -212,7 +212,7 @@
     "stockCount": 7,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -2.4,
+    "avgROE": -2.37,
     "performance": -0.36
   },
   {
@@ -221,7 +221,7 @@
     "stockCount": 6,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 0.71,
+    "avgROE": 1.35,
     "performance": -0.28
   },
   {
@@ -230,7 +230,7 @@
     "stockCount": 6,
     "avgPE": 79.03,
     "avgPB": 5.03,
-    "avgROE": -1.68,
+    "avgROE": -6.81,
     "performance": 0.93
   },
   {
@@ -239,7 +239,7 @@
     "stockCount": 6,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 18.03,
+    "avgROE": 26.91,
     "performance": 1.43
   },
   {
@@ -257,7 +257,7 @@
     "stockCount": 6,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -5.37,
+    "avgROE": -2.28,
     "performance": 2.3
   },
   {
@@ -275,7 +275,7 @@
     "stockCount": 6,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 2.85,
+    "avgROE": 3.05,
     "performance": 0.35
   },
   {
@@ -284,16 +284,16 @@
     "stockCount": 5,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -1.54,
+    "avgROE": -3.13,
     "performance": 0.34
   },
   {
     "slug": "savunma",
     "name": "Savunma",
     "stockCount": 5,
-    "avgPE": 584.19,
-    "avgPB": 9.71,
-    "avgROE": 0.2,
+    "avgPE": 203.0,
+    "avgPB": 8.83,
+    "avgROE": 3.61,
     "performance": -0.74
   },
   {
@@ -302,7 +302,7 @@
     "stockCount": 5,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -6.11,
+    "avgROE": -8.5,
     "performance": 0.29
   },
   {
@@ -311,7 +311,7 @@
     "stockCount": 5,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -7.42,
+    "avgROE": -6.87,
     "performance": 2.73
   },
   {
@@ -329,7 +329,7 @@
     "stockCount": 4,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -1.51,
+    "avgROE": 10.87,
     "performance": 4.63
   },
   {
@@ -338,7 +338,7 @@
     "stockCount": 4,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -3.6,
+    "avgROE": -4.29,
     "performance": 1.67
   },
   {
@@ -347,7 +347,7 @@
     "stockCount": 4,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 1.62,
+    "avgROE": 1.2,
     "performance": 1.67
   },
   {
@@ -365,7 +365,7 @@
     "stockCount": 3,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 13.43,
+    "avgROE": 16.71,
     "performance": -0.16
   },
   {
@@ -374,7 +374,7 @@
     "stockCount": 3,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 2.84,
+    "avgROE": -3.85,
     "performance": 2.42
   },
   {
@@ -392,7 +392,7 @@
     "stockCount": 2,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -3.08,
+    "avgROE": 2.61,
     "performance": 0.2
   },
   {
@@ -401,7 +401,7 @@
     "stockCount": 2,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 2.16,
+    "avgROE": 7.77,
     "performance": 2.37
   },
   {
@@ -419,7 +419,7 @@
     "stockCount": 1,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 8.75,
+    "avgROE": 14.48,
     "performance": 5.89
   },
   {
@@ -446,7 +446,7 @@
     "stockCount": 1,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 6.04,
+    "avgROE": -4.58,
     "performance": 0.18
   },
   {
@@ -455,7 +455,7 @@
     "stockCount": 1,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 8.06,
+    "avgROE": 15.97,
     "performance": 2.85
   },
   {
@@ -482,7 +482,7 @@
     "stockCount": 1,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 0.84,
+    "avgROE": 1.4,
     "performance": -0.24
   },
   {
