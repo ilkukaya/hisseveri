@@ -6,7 +6,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -3.52,
-    "performance": 0.93
+    "performance": 1.33
   },
   {
     "slug": "gyo",
@@ -15,7 +15,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 2.76,
-    "performance": 0.96
+    "performance": 0.74
   },
   {
     "slug": "enerji",
@@ -33,7 +33,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 2.02,
-    "performance": 0.42
+    "performance": 0.61
   },
   {
     "slug": "gida-ve-i̇cecek",
@@ -42,7 +42,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 1.23,
-    "performance": 1.09
+    "performance": 1.12
   },
   {
     "slug": "teknoloji",
@@ -51,7 +51,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -4.62,
-    "performance": 0.58
+    "performance": 0.78
   },
   {
     "slug": "tekstil",
@@ -69,7 +69,7 @@
     "avgPE": 5.58,
     "avgPB": 1.03,
     "avgROE": 3.08,
-    "performance": -0.48
+    "performance": -0.54
   },
   {
     "slug": "metal-ana",
@@ -78,7 +78,7 @@
     "avgPE": 18.8,
     "avgPB": 0.85,
     "avgROE": -0.92,
-    "performance": 1.79
+    "performance": 2.1
   },
   {
     "slug": "yatirim",
@@ -87,7 +87,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 0.01,
-    "performance": 0.94
+    "performance": 0.88
   },
   {
     "slug": "otomotiv",
@@ -96,7 +96,7 @@
     "avgPE": 17.24,
     "avgPB": 4.19,
     "avgROE": 5.87,
-    "performance": 0.8
+    "performance": 0.68
   },
   {
     "slug": "gida",
@@ -105,7 +105,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 0.05,
-    "performance": -0.1
+    "performance": -0.38
   },
   {
     "slug": "cimento",
@@ -132,7 +132,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 1.51,
-    "performance": 0.97
+    "performance": 0.36
   },
   {
     "slug": "turizm",
@@ -150,7 +150,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -0.76,
-    "performance": 0.68
+    "performance": 1.24
   },
   {
     "slug": "ulastirma",
@@ -159,7 +159,7 @@
     "avgPE": 10.89,
     "avgPB": 0.73,
     "avgROE": 4.95,
-    "performance": -1.2
+    "performance": -1.31
   },
   {
     "slug": "kagit-ve-kagit-urunleri",
@@ -177,7 +177,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 2.27,
-    "performance": 0.3
+    "performance": -0.04
   },
   {
     "slug": "ambalaj",
@@ -186,7 +186,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -10.84,
-    "performance": 1.19
+    "performance": 0.24
   },
   {
     "slug": "madencilik",
@@ -213,7 +213,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -2.37,
-    "performance": -0.2
+    "performance": -0.62
   },
   {
     "slug": "araci-kurumlar",
@@ -222,7 +222,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 1.35,
-    "performance": 2.02
+    "performance": 2.72
   },
   {
     "slug": "perakende-ticaret",
@@ -231,7 +231,7 @@
     "avgPE": 79.03,
     "avgPB": 5.03,
     "avgROE": -11.49,
-    "performance": 0.32
+    "performance": 0.47
   },
   {
     "slug": "sigorta",
@@ -258,7 +258,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -2.28,
-    "performance": -2.22
+    "performance": -1.68
   },
   {
     "slug": "mobilya",
@@ -303,7 +303,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -8.5,
-    "performance": 0.14
+    "performance": -1.96
   },
   {
     "slug": "tas-ve-topraga-dayali",
@@ -474,7 +474,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -8.73,
-    "performance": 1.73
+    "performance": 0.4
   },
   {
     "slug": "elektrik",
