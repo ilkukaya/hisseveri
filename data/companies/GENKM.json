@@ -11,15 +11,15 @@
   "freeFloat": 0,
   "ipoDate": "",
   "price": {
-    "last": 14.31,
-    "change": 0.3,
-    "changePercent": 2.14,
+    "last": 14.37,
+    "change": 0.06,
+    "changePercent": 0.42,
     "open": 0,
     "high": 0,
     "low": 0,
-    "volume": 317327908,
+    "volume": 294119963,
     "marketCap": 0,
-    "updatedAt": "2026-05-15"
+    "updatedAt": "2026-05-17"
   },
   "ratios": {
     "pe": null,
@@ -31,8 +31,8 @@
     "grossMargin": 20.96,
     "currentRatio": null,
     "debtEquity": null,
-    "revenueGrowthYoy": null,
-    "netIncomeGrowthYoy": null,
+    "revenueGrowthYoy": -29.69,
+    "netIncomeGrowthYoy": -76.03,
     "evEbitda": null,
     "ebitdaMargin": null,
     "quickRatio": null,
