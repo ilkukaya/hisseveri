@@ -14,7 +14,7 @@
     "stockCount": 49,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 2.91,
+    "avgROE": 2.89,
     "performance": 0.56
   },
   {
@@ -32,7 +32,7 @@
     "stockCount": 41,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 3.18,
+    "avgROE": 3.03,
     "performance": -0.11
   },
   {
@@ -86,7 +86,7 @@
     "stockCount": 17,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": -1.58,
+    "avgROE": -1.61,
     "performance": 0.45
   },
   {
@@ -347,7 +347,7 @@
     "stockCount": 4,
     "avgPE": null,
     "avgPB": null,
-    "avgROE": 2.73,
+    "avgROE": 6.15,
     "performance": 0.16
   },
   {

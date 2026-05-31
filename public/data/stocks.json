@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T18:29:13.659376",
+  "updatedAt": "2026-05-31T19:55:45.994591",
   "count": 613,
   "stocks": [
     {
@@ -2289,7 +2289,7 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 2.45,
+      "roe": 1.92,
       "netMargin": null,
       "dividendYield": null
     },
@@ -5909,8 +5909,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 2.59,
-      "netMargin": 12.79,
+      "roe": 1.51,
+      "netMargin": 7.48,
       "dividendYield": null
     },
     {
@@ -7844,8 +7844,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 8.33,
-      "netMargin": 20.92,
+      "roe": 2.37,
+      "netMargin": 4.78,
       "dividendYield": null
     },
     {
@@ -9798,8 +9798,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": 7.32,
-      "netMargin": 37.82,
+      "roe": 21.01,
+      "netMargin": 50.4,
       "dividendYield": null
     },
     {
@@ -10004,8 +10004,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": -2.34,
-      "netMargin": -15.0,
+      "roe": -2.3,
+      "netMargin": -9.02,
       "dividendYield": null
     },
     {
@@ -10076,8 +10076,8 @@
       "marketCap": 0,
       "pe": null,
       "pb": null,
-      "roe": -2.18,
-      "netMargin": -14.07,
+      "roe": -2.42,
+      "netMargin": -9.57,
       "dividendYield": null
     },
     {
