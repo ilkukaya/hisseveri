@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-11T18:39:52.980915",
+  "updatedAt": "2026-06-15T19:20:10.904036",
   "bist100": {
-    "value": 13743.5,
-    "change": -1.14,
-    "changePercent": -0.01
+    "value": 14446.42,
+    "change": 507.94,
+    "changePercent": 3.64
   },
   "usdTry": {
     "value": 0,
