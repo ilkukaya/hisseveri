@@ -12,15 +12,15 @@
   "freeFloat": 48.9,
   "ipoDate": "1991-02-18",
   "price": {
-    "last": 239.8,
-    "change": 3.5,
-    "changePercent": 1.48,
+    "last": 248.2,
+    "change": 8.4,
+    "changePercent": 3.5,
     "open": 240.0,
     "high": 241.5,
     "low": 238.0,
-    "volume": 5846291177,
+    "volume": 6397787246,
     "marketCap": 59800000000,
-    "updatedAt": "2026-07-03"
+    "updatedAt": "2026-07-05"
   },
   "ratios": {
     "pe": 8.02,
