@@ -6,7 +6,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 3.1,
-    "performance": 0.76
+    "performance": 0.3
   },
   {
     "slug": "gyo",
@@ -24,7 +24,7 @@
     "avgPE": 8.02,
     "avgPB": 0.25,
     "avgROE": 4.0,
-    "performance": 1.24
+    "performance": 1.23
   },
   {
     "slug": "holding",
@@ -33,7 +33,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 4.58,
-    "performance": 1.56
+    "performance": 1.28
   },
   {
     "slug": "gida-ve-i̇cecek",
@@ -69,7 +69,7 @@
     "avgPE": 5.58,
     "avgPB": 1.03,
     "avgROE": 3.65,
-    "performance": 1.41
+    "performance": 1.09
   },
   {
     "slug": "metal-ana",
@@ -96,7 +96,7 @@
     "avgPE": 17.24,
     "avgPB": 4.19,
     "avgROE": 6.37,
-    "performance": 0.78
+    "performance": 0.44
   },
   {
     "slug": "gida",
@@ -105,7 +105,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -0.02,
-    "performance": 2.39
+    "performance": 1.88
   },
   {
     "slug": "cimento",
@@ -132,7 +132,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 3.43,
-    "performance": 1.7
+    "performance": 0.8
   },
   {
     "slug": "turizm",
@@ -141,7 +141,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -2.35,
-    "performance": 0.87
+    "performance": 0.62
   },
   {
     "slug": "metal-urunleri",
@@ -159,7 +159,7 @@
     "avgPE": 10.89,
     "avgPB": 0.73,
     "avgROE": 6.81,
-    "performance": 2.49
+    "performance": 1.99
   },
   {
     "slug": "kagit-ve-kagit-urunleri",
@@ -168,7 +168,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -4.13,
-    "performance": 2.21
+    "performance": 2.05
   },
   {
     "slug": "dayanikli-tuketim",
@@ -222,7 +222,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 6.51,
-    "performance": -0.57
+    "performance": -0.89
   },
   {
     "slug": "perakende-ticaret",
@@ -285,7 +285,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": -4.03,
-    "performance": -0.25
+    "performance": -1.28
   },
   {
     "slug": "savunma",
@@ -465,7 +465,7 @@
     "avgPE": null,
     "avgPB": null,
     "avgROE": 10.21,
-    "performance": -3.96
+    "performance": -3.34
   },
   {
     "slug": "hizmetler",
