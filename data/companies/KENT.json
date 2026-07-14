@@ -9,15 +9,15 @@
   "freeFloat": 0,
   "ipoDate": "",
   "price": {
-    "last": 361.0,
-    "change": -3.5,
-    "changePercent": -0.96,
+    "last": 355.5,
+    "change": -5.5,
+    "changePercent": -1.52,
     "open": 0,
     "high": 0,
     "low": 0,
-    "volume": 1592823,
+    "volume": 1088982,
     "marketCap": 0,
-    "updatedAt": "2026-07-13"
+    "updatedAt": "2026-07-14"
   },
   "ratios": {
     "pe": null,
